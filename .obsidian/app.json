@@ -1,0 +1,30 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "de",
+    "en-US"
+  ],
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./_Figures",
+  "readableLineLength": true,
+  "fileSortOrder": "alphabetical",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "newLinkFormat": "relative",
+  "vimMode": true,
+  "userIgnoreFilters": [
+    "_Templates/",
+    "_Figures/",
+    "Daily/"
+  ],
+  "communityPluginSortOrder": "download"
+}

@@ -1,0 +1,156 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:abstraction",
+      "color": {
+        "a": 1,
+        "rgb": 12718096
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 16777198
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 10408646
+      }
+    },
+    {
+      "query": "tag:#maths",
+      "color": {
+        "a": 1,
+        "rgb": 5552825
+      }
+    },
+    {
+      "query": "tag:#pse",
+      "color": {
+        "a": 1,
+        "rgb": 16760017
+      }
+    },
+    {
+      "query": "tag:#dsa",
+      "color": {
+        "a": 1,
+        "rgb": 13532080
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 10643372
+      }
+    },
+    {
+      "query": "tag:#practical-cs",
+      "color": {
+        "a": 1,
+        "rgb": 6842284
+      }
+    },
+    {
+      "query": "tag:#theo-1",
+      "color": {
+        "a": 1,
+        "rgb": 16765055
+      }
+    },
+    {
+      "query": "tag:#theo-2",
+      "color": {
+        "a": 1,
+        "rgb": 16623197
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 16745027
+      }
+    },
+    {
+      "query": "tag:#theoretical-cs",
+      "color": {
+        "a": 1,
+        "rgb": 14838316
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 15659750
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 13817759
+      }
+    },
+    {
+      "query": "tag:#ro-1",
+      "color": {
+        "a": 1,
+        "rgb": 4031329
+      }
+    },
+    {
+      "query": "tag:#techical-cs",
+      "color": {
+        "a": 1,
+        "rgb": 1861464
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 10975609
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 7360335
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5585209
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.2352138497062165,
+  "close": false
+}
