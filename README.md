@@ -1,13 +1,3 @@
----
-tags: introduction
-cards-deck: 
-status: unfinsihed
-aliases: UNIversus
-linter-yaml-title-alias: UNIversus
-date: 2022-08-04
-mod-date: 2022-09-09
----
-
 # UNIversus
 An universitary knowledge collection of a ambitious CS students using the great [Obsidian](https://obsidian.md/) Markdown tool with it's extending syntax and graph-view. This project is aiming to sum up all (essential) parts of teached subjects in a cross-(Wiki-)linking approach.
 However, keep in mind that the summaries were initially created by me for myself, and therefore are directed to *my personal* way of thinking and understanding.
