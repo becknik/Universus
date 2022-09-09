@@ -1,16 +1,11 @@
-#.obsidian/appearance.json
-#.obsidian/command-palette.json
-#.obsidian/community-plugins.json
-#.obsidian/hotkeys.json
-#.obsidian/plugins/*
-#.obsidian/templates.json
-#.obsidian/themes/*
-#.obsidian/workspace/*
-#.obsidian/workspaces.json
+# Settings for the Obsidian config folder:
 /.obsidian/*
 !/.obsidian/app.json
 !/.obsidian/backlink.json
-!/.obsidian/command-palette.json
 !/.obsidian/core-plugins.json
 !/.obsidian/graph.json
 !/.obsidian/switcher.json
+!/.obsidian/plugins/
+/.obsidian/plugins/*
+!/.obsidian/themes/
+/.obsidian/themes/*
