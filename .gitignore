@@ -7,5 +7,6 @@
 !/.obsidian/switcher.json
 !/.obsidian/plugins/
 /.obsidian/plugins/*
-!/.obsidian/themes/
-/.obsidian/themes/*
+!/.obsidian/plugins/obsidian-linter/
+/.obsidian/plugins/obsidian-linter/*
+!/.obsidian/plugins/obsidian-linter/data.json
