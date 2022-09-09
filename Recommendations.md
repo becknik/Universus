@@ -1,3 +1,7 @@
+---
+tags: explainatory
+---
+
 # Recommendations
 
 ## Markdown / Obsidian Syntax
@@ -9,7 +13,7 @@ Obsidian supports the TeX-like [MathJax](https://www.mathjax.org/) Syntax out of
 -> A topic where MathJax shines is the $\mathbfcal{O}$-notation, for example in the [[Uni/DSA/Landau-Notationen|Landau-Notationen]] or [[Uni/DSA/Bäume/AVL-Baum|AVL-Baum]] file
 
 ## General Structure/ Philosophy
-Because Obsidian aims to *cross-link* everything, it is recommended to split large topics into many *atomic* files, which then reference a #summarizing file for the sub-topic.
+Because Obsidian aims to *cross-link* everything, it is recommended to split large topics into many *atomic* files, which then reference a #abstraction  file for the sub-topic.
 -> For example I made a [[Uni/DSA/Graphen/Ungerichteter Graph|Ungerichteter Graph]], [[Uni/DSA/Graphen/Gerichtete Graphen|Gerichteter Graph]] and [[Uni/DSA/Graphen/Gewichteter Graph|Gewichteter Graph]] file, just to link them all in the [[Uni/DSA/Graphen|Graphen]] file.
 Because this sometimes can cause more harm than help you out, especially when quickly browsing tough files or creating flashcards, I sometimes *merged minor definitions* and explanations into the sub-topics file and added the therm as a [YAML](https://en.wikipedia.org/wiki/YAML)/ front-header alias*, to still make backlinks possible.
 -> Examples for this behavior is especially the file for [[Uni/DSA/Graphen|Graphen]] or the [[Uni/DSA/Bäume|Bäume]] file
@@ -23,7 +27,7 @@ All of the following plugins were used to creating and editing all of the publis
 - Takes care of the text and [YAML](https://en.wikipedia.org/wiki/YAML)/ front-header *formatting* by removing *empty spacing* and adding this '…' satisfying character, *sorting items* and tags, setting the (modification) *timestamps*, adding or removing *blank lines*, etc.
 - Helps to *maintain a clear structuring* across the whole vault
 - Sadly, the set-up may be really time consuming, so I added an example configuration I use
-	-> It's based on some contents which might not be available on this git and should not be copy-pasted without adjustments
+	-> For further information read the "Document Structure" section of the [[Style-Guide]]
 
 ### [Advanced Tables](https://github.com/tgrosinger/advanced-tables-obsidian)
 - Helps to dynamically *adjust and format tabular* width and structure when adding new elements

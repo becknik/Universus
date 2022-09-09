@@ -1,3 +1,7 @@
+---
+tags: explainatory
+---
+
 # UNIversus
 An **universitary knowledge collection** of a ambitious CS students using the great [Obsidian](https://obsidian.md/) Markdown tool with it's extending syntax and graph-view. This project is aiming to **sum up** all (essential) parts of teached subjects in a cross-(Wiki-)linking approach.
 

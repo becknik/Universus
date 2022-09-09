@@ -1,3 +1,7 @@
+---
+tags: explainatory
+---
+
 # Headings
 
 - Definition:
