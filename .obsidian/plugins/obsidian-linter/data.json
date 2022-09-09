@@ -20,7 +20,7 @@
     },
     "Insert YAML attributes": {
       "Inserts the given YAML attributes into the YAML frontmatter. Put each attribute on a single line.": true,
-      "Text to insert": "cards-deck: \ntags: \nstatus: \naliases: "
+      "Text to insert": "cards-deck: \ntags: \ncomplete: true\naliases: "
     },
     "Remove YAML Keys": {
       "Removes the YAML keys specified": false,
@@ -28,7 +28,7 @@
     },
     "YAML Key Sort": {
       "Sorts the YAML keys based on the order and priority specified. Note: removes blank lines as well.": true,
-      "YAML Key Priority Sort Order": "tags\ncards-deck\nstatus\npublish\naliases\nlinter-yaml-title-alias\ndate\nmod-date",
+      "YAML Key Priority Sort Order": "tags\ncards-deck\ncomplete\npublish\naliases\nlinter-yaml-title-alias\ndate\nmod-date",
       "Priority Keys at Start of YAML": true,
       "YAML Sort Order for Other Keys": "Ascending Alphabetical"
     },
@@ -161,8 +161,9 @@
   "foldersToIgnore": [
     "_Templates",
     "README",
-    "Recommendation",
-    "Style-Guide"
+    "Recommendations",
+    "Style-Guide",
+    "Headings"
   ],
   "linterLocale": "system-default",
   "logLevel": 4
