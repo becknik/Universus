@@ -41,7 +41,7 @@ mod-date: 2022-09-07
 - **Endgültige Verschiebedistanz** bei einem Misfit von $p[j]$ mit $text[i]\in\Sigma$: $i:=i+\max(shift[j],j-last[text[i]])$
 	-> Oder: Verrücke Muster um $\max\{\text{Index}- last[\text{Zusatzinformation}], shift[\text{negative Information}]\}$
 Beispiel:
-![[_Figures/Beispiel Boyer-Moore Tabellen.png]]
+![GitHub](https://raw.githubusercontent.com/jarnnk/UNIversus/main/Uni/DSA/Algorithmen/Text/_Figures/Beispiel%20Boyer-Moore%20Tabellen.png)
 ^1655839590887
 
 ## Beispiel 2:

@@ -48,7 +48,8 @@ All of the following plugins were used to creating and editing all of the publis
 	- The plugin occasionally does not parse $\text{Math}^{J_a^x}$ topics and normal text separat, so that the \* is replaced to \<em\>\</em\> in a formula due to HTML conversion…
 	-> I prevented this by using a $\cdot$ instead of \* in formulas
 	- Another problem is, that it does *not obey the Obsidian figure path settings* and therefore currently all figures are missing on the flashcards…
+	-> I was able to prevent this behavior by using the external URL link to the file on GitHub. However, the the specified scaling of the figure is gone…
 	- Furthermore, there ist indeed a problems with translation Markdown tables to HTML. To fix this, I sometimes added a blank '-' in the line before the tables start
 	-> For example at the bottom of the [[Uni/DSA/Algorithmen/Text/Knuth-Morris-Pratt|Knuth-Morris-Pratt]] file
 
-If you aren't [[Uni/Theo II/Komplexitättheorie/Probleme/Satisfiability|satisfied]] yet, please take a look at the more extending [[Style-Guide]] or, as I mentioned some lines above, simply do research/ watch some YouTube videos yourself
+If you aren't [[Uni/Theo II/Komplexitättheorie/Probleme/Satisfiability|satisfied]] yet, please take a look at the more extending [[Style-Guide]] or, as I mentioned some lines above, simply do research/ watch some YouTube videos yourself.

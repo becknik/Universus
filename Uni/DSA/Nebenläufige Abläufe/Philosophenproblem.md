@@ -11,9 +11,9 @@ mod-date: 2022-09-10
 ---
 
 # Philosophen-Problem
+![2022-07-05|150](https://upload.wikimedia.org/wikipedia/commons/7/7b/An_illustration_of_the_dining_philosophers_problem.png)
 
 ## Definition: #fc
-![2022-07-05|200](https://upload.wikimedia.org/wikipedia/commons/7/7b/An_illustration_of_the_dining_philosophers_problem.png)
 "Fünf Philosophen, von 0 bis 5 durchnummeriert, leben in einem Haus, in dem der Tisch für sie gedeckt ist. Jeder Philosoph hat einen Platz am Tisch. Ihr einziges Problem - neben denen philosophischer Natur - besteht darin, dass eine sehr schwierige Art von Spaghetti zur Mahlzeit bereitsteht, zu deren Verzehr man zwei Gabeln benötigt. Neben jedem Teller liegen jedoch nur zwei Gabeln bereicht, weshalb zwei Nachbarn nicht zur selben Zeit essen können."
 ~ [[Edsger W. Dijkstra]], Hierarchical ordering of sequential processes, 1971
 - Jeder Philosoph durchläuft einen Zyklus von Zuständen: denken -> hungrig -> essen -> denken …
@@ -27,13 +27,13 @@ mod-date: 2022-09-10
 - Nebenläufige Abläufe in Programmen
 -> Darstellung als [[Petri-Netze|Petri-Netze]]
 
-## Lösung:
+## Algorithmen:
 ```
 repeat
 	denken;
 	hungrig werden;
 	nimm Gabel i;
-	nimm Gabel (i + 1) %mod% 5;
+	nimm Gabel (i + 1) % 5;
 	essen;
 	lege Gabel i zurück;
 	lege Gabel (i + 1) % 5 zurück;
@@ -48,6 +48,6 @@ repeat
 	essen;
 	up(g_i);
 	up(g_{(i + 1) % 5});
-	until false
+until false
 ```
 -> Deadlocks sind möglich - für Deadlock-freie Lösung: (DSA VL20)

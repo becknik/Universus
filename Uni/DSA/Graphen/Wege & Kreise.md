@@ -19,6 +19,7 @@ mod-date: 2022-09-10
 ![|250](https://upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png)
 - Ist es möglich einen Rundgang durch Königsberg zu machen und jede der 7 Brücken genau einmal zu besuchen?
 	-> Der Königsberger Brückengraph ist nicht Euler'sch
+<sub>[Pictures Source](https://upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png)</sub>
 ^1653921006325
 
 ## Euler: #fc
