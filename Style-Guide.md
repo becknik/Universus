@@ -24,7 +24,7 @@ This file *serves as a guide* for those, which are *interested in contributing* 
 	[[Uni/DSA/Algorithmen/Text/_Figures/Beispiel Boyer-Moore Anwendung.png]], [[Uni/DSA/Bäume/_Figures/Beispiel Präfix-Baum.png]]
 
 ## Document Structure
-I mainly used the [Obsidian Linter](https://github.com/platers/obsidian-linter) plugin to maintain a strict structure across different documents. I included my personal setting in this git under `./.obsidian/plugins/obsidian-linter/data.json`. If you are interested in those settings, just install the plugin and the `data.json` file should apply the settings.
+I mainly used the [Obsidian Linter](https://github.com/platers/obsidian-linter) plugin to maintain a strict structure across different documents. I included my personal setting in this git under `/.obsidian/plugins/obsidian-linter/data.json`. If you are interested in those settings, just install the plugin and the `data.json` file should apply the settings.
 However be aware, that there are contents in the provided settings which I may not have added on the git so far, so that you should *observe and adjust it* before being able to apply the rules.
 
 In the following I listed some *ground laying rules* I *tried* to obey:

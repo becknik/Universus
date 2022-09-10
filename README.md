@@ -26,7 +26,7 @@ Currently available are:
 - [Datenstrukturen & Algorithmen](https://ankiweb.net/shared/info/1023735405)
 
 ## Note, that…
-I do not sync the full `.obsidian` folder due to the *Obsidian's plugin system* (which simply downloads all plugins locality into a subfolder) and *individual customization* choices. Here's a list of the contents of `/.obsidian` I decided to include:
+I do not sync the full `/.obsidian` folder due to the *Obsidian's plugin system* (which simply downloads all plugins locality into a subfolder) and *individual customization* choices. Here's a list of the contents of `/.obsidian` I decided to include:
 - `app.json` for the default settings
 > Yes, I somehow manage to make use of this buggy implementation of VIM - Just turn it off in the settings or don't forget to 'a'/'A' and 'Esc' :D
 - `core-plugins.json`: `backlink.json`, `switcher.json` & `templates.json` for the minimal intersect of core plugin settings
