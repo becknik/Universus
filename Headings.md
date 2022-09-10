@@ -9,7 +9,9 @@ tags: explainatory
 - Prinzip:
 - Fachtermini:
 - Eigenschaften:
+- Spezifikation:
 - Algorithmus/Pseudocode:
+- Vergleich:
 - Anwendung:
 - Beispiel(e):
 - Varianten:
