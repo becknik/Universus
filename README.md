@@ -3,24 +3,24 @@ tags: explainatory
 ---
 
 # UNIversus
-An **universitary knowledge collection** of a ambitious CS students using the woderful [Obsidian.md](https://obsidian.md/) Markdown tool with it's extending syntax and graph-view. This project is aiming to **sum up** all (essential) parts of teached subjects of the [University of Stuttgart](https://www.uni-stuttgart.de/) *CS bachelor degree* course in a cross-(Wiki-)linking approach.
-This git also holds some of my *tips for beginners*.
+An **universitary knowledge collection** of a ambitious CS students using the wonderful [Obsidian.md](https://obsidian.md/) Markdown tool with it's extending syntax and graph-view. This project is aiming to **sum up** all (essential) parts of teached subjects of the [University of Stuttgart](https://www.uni-stuttgart.de/) *CS bachelor degree* course in a cross-(Wiki-)linking approach.
+This git also holds some of my *tips for Obsidian interested*.
 
 However, be aware that the summaries were *initially created for myself* and therefore are sensitive to *my personal* way of thinking and understanding - which does not mean, that contributions aren't welcome!
 
 Even though, *this*, the [[Recommendations]] and the [[Style-Guide]] file are written in *English* to make my gathered *recommendations* and *best practices* for Obsidian understandable for an *international heading*, the summary is written in my native language, **German**.
 
-## But WHY?? - Motiavtion
+## But WHY?? / Motivation:
 …may be a question coming over your mind. Indeed the effort put in creating, extending and correcting those summaries is huge.
-Also, I have no idea (at this point) how to coordinate a project like this with multiple people, especially during writing phase.
+Also, I have no idea (at this point) how to coordinate a project like this with multiple people, especially during the writing phase.
 
-But even thinking trough this, I think this project has many benefits:
-- The best structuring and browsing of a summary a human being could wish due to the *graph view*
-- The best way to create *neat and noiseless* files (lets just call it "$\text{Design}\in\overline{\text{THEO}}$"), which you might just *learn better* with (Obsidians theming is customizable to every extend)
+But even thinking trough this, I think this project offers many benefits which overcome my personal doubts:
+- The best structure and browsing of a summary a human being (literally) could wish due to the *graph structure*
+- The best way to create *neat and noiseless* files (lets just call it "$\text{Design}\in\overline{\text{THEO}}$"), which you might just *learn better* with (Obsidians theming is customizable to every extend too)
 - No more *lectures PDF scrolling* to find a definition or theorem! Just type it in Obsidians search bar (which might be supportive on writing exam sheets etc.)
-- Simple files (or the whole vault) can simply be shared or exported to short PDFs (or even more formats if considering software like [Pandoc](https://pandoc.org/))
-- A better learning curve by discovering links between other topics as you write the summary (like that moments you find linkings between "Theo II" and "PSE"…)
-- A (as long as we're able to generate electricity) long lasting, *wiki-like* knowledge pool
+- Files (or the whole vault) can simply be shared or exported to short PDFs (or even more formats if considering software like [Pandoc](https://pandoc.org/))
+- A better learning curve by discovering links between other topics as you write the summary (like that moments you find linkings between "Theo II" and the "PSE"…)
+- A (as long as we're able to maintain electricity generation) long lasting, *wiki-like* knowledge pool
 - The best way I came across (so far) to share *Anki flashcard decks* and keep them *up-to-date* with *additions and corrections* (read more about this in the "Flashcards for Everyone" section below)
 - (Maybe) the power of a collective
 
