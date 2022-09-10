@@ -5,15 +5,18 @@ complete: true
 aliases: BubbleSort
 linter-yaml-title-alias: BubbleSort
 date: 2022-07-21
-mod-date: 2022-09-02
+mod-date: 2022-09-10
 ---
 
 # BubbleSort
 ![](https://corte.si/posts/code/visualisingsorting/bubble.png)
 
 ## Funktionsweise: #fc
-- Sortieren durch Aufsteigen vom durchgetauschten, größten Element bis zum (gekürzten) Ende der Folge
-	-> Metapher: Aufsteigende Blasen unterschiedlicher Größe, wobei kleinere Blasen die größeren anstoßen (und selbst stehen bleiben)
+- Die Sortierung kommt durch das wiederholte Aufsteigen von Elementen bis zum Ende der betrachteten Folge zustande
+- Dabei steigt immer das Element bis zum Ende der betrachteten Folge auf, welches das größte in dieser ist
+- Um das größte Element zu ermitteln, wird immer das relativ größere für das nach oben durchtauschen ausgewählt
+	-> Das kleinere Element wird bei der Erkennung eines größeren Elements liegen gelassen
+	-> Metapher: Aufsteigende kleinere Blasen, die größeren anstoßen und dabei im Array stecken bleiben
 ^1650720178867
 
 ## Algorithmus: #fc
