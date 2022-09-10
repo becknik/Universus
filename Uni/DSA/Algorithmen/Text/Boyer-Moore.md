@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm text
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
   - Boyer-Moore
   - BM

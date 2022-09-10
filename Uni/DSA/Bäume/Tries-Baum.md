@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree digital-tree indexstruct
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Tries-Baum
 linter-yaml-title-alias: Tries-Baum
 date: 2022-07-22

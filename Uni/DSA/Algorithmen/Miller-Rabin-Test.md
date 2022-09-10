@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs maths algorithm problem
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Miller-Rabin-Test
 linter-yaml-title-alias: Miller-Rabin-Test
 date: 2022-07-27

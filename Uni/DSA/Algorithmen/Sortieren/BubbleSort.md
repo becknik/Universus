@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm algorithm sort
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: BubbleSort
 linter-yaml-title-alias: BubbleSort
 date: 2022-07-21

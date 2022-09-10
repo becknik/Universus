@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs parallel java  
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Synchronisation
 date: 2022-07-27
 mod-date: 2022-08-05

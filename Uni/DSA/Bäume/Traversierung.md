@@ -1,19 +1,19 @@
 ---
 tags: uni dsa practical-cs tree algorithm
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
-  - Traversierung Von Bäumen
+  - Traversierung von Bäumen
   - Levelorder
   - Preorder
   - Inorder
   - Postorder
-linter-yaml-title-alias: Traversierung Von Bäumen
+linter-yaml-title-alias: Traversierung von Bäumen
 date: 2022-07-22
-mod-date: 2022-09-03
+mod-date: 2022-09-10
 ---
 
-# Traversierung Von Bäumen
+# Traversierung von Bäumen
 
 ## Kategorien #fc
 - [[../Graphen/Algorithmen/Tiefensuche|Tiefensuche]]:
@@ -28,7 +28,7 @@ mod-date: 2022-09-03
 	- **Levelorder**-Traversierung: Die Knoten werden Niveau-weise durchlaufen
 ^1651410159125
 
-## Code Der DFS-Varianten: #fc
+## Code zu den Varianten unter DFS: #fc
 ```java
 Preorder:
 if (n != nullNode) {

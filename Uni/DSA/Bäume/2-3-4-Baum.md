@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree indexstruct
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
   - 2-3-4-Baum
   - 2-3-4-Bäume

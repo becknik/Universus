@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm tree algorithm sort
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: HeapSort
 linter-yaml-title-alias: HeapSort
 date: 2022-07-21

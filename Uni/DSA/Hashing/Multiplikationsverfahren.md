@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs hash algorithm
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Multiplikationsverfahren
 linter-yaml-title-alias: Multiplikationsverfahren
 date: 2022-07-24

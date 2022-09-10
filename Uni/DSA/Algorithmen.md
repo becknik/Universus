@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm abstraction
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Algorithmen
 linter-yaml-title-alias: Algorithmen
 date: 2022-07-21

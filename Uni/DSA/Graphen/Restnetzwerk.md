@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph trait
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Restnetzwerk
 linter-yaml-title-alias: Restnetzwerk
 date: 2022-07-24

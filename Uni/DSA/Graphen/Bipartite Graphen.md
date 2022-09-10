@@ -1,14 +1,15 @@
 ---
-tags: uni dsa practical-cs graph bipartit trait 
+tags: uni dsa practical-cs graph bipartit trait
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Bipartite Graphen
-date: 2022-07-24
-mod-date: 2022-07-27
 linter-yaml-title-alias: Bipartite Graphen
+date: 2022-07-24
+mod-date: 2022-09-10
 ---
 
 # Bipartite Graphen
+-> [[Ungerichtete Graphen|Ungerichteter Graph]]
 
 ## Definition: #fc
 - Ein Graph $G = (V,E), V = A \cup B$ heißt bipartit, wenn folgendes gilt:

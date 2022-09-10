@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs struct abstraction
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Datenstrukturen
 linter-yaml-title-alias: Datenstrukturen
 date: 2022-07-21
@@ -28,8 +28,8 @@ mod-date: 2022-09-08
 - [[Datenstrukturen/Linked List|Liste]]
 	-> [[Datenstrukturen/Iterator|Iterator]]
 - Zugriffsbeschränkt:
-	- [[Datenstrukturen/Queues|Queues]]
-	- [[Datenstrukturen/Stacks|Stacks]]
+	- [[Datenstrukturen/Queue|Queues]]
+	- [[Datenstrukturen/Stack|Stacks]]
 - [[Datenstrukturen/Set|Sets]] (implementiert durch [[Bäume]])
 - [[Bäume/Heap|Heap]]
 - [[Datenstrukturen für Graphen|Datenstrukturen für Graphen]]

@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree indexstruct
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: B-Baum
 linter-yaml-title-alias: B-Baum
 date: 2022-07-22
@@ -31,7 +31,7 @@ mod-date: 2022-09-06
 - Wenn das zu löschend Element auf einer Blattseite liegt:
 	- Gegebenenfalls den *Unterlauf* behandeln
 - Wenn das zu löschende Element nicht auf einer Blattseite liegt:
-	- Das gelöschte Element wird durch den [[Traversierung von Bäumen|Inorder Vorgänger]] (=nächstkleinere Element) wird von einer Blattseite ersetzt
+	- Das gelöschte Element wird durch den [[Traversierung|Inorder Vorgänger]] (=nächstkleinere Element) wird von einer Blattseite ersetzt
 	- Gegebenenfalls muss hier der *Unterlauf* behandelt werden
 ^1652806896817
 

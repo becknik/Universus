@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm sort
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: MergeSort
 linter-yaml-title-alias: MergeSort
 date: 2022-07-21

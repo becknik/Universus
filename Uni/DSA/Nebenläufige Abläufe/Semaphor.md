@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Semaphor
 linter-yaml-title-alias: Semaphor
 date: 2022-07-20
@@ -11,7 +11,7 @@ mod-date: 2022-09-04
 # Semaphor
 
 ## Funktionsweise: #fc
-- Setzt sich aus einem Zähler und einer [[../Datenstrukturen/Queues|Queue]] zusammen
+- Setzt sich aus einem Zähler und einer [[../Datenstrukturen/Queue|Queue]] zusammen
 	-> Der Zähler repräsentiert die Anzahl der Prozesse, die auf den *kritischen Bereich* zugreifen dürfen
 - Wenn der Zähler auf 0 sinkt, werden nachfolgende Prozesse in die Queue gelegt
 - Semaphor Operationen:

@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs design_pattern
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
   - Divide And Conquer
   - Divide & Conquer

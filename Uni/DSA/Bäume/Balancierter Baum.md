@@ -1,7 +1,7 @@
 ---
-tags: uni dsa practical-cs tree trait
+	tags: uni dsa practical-cs tree trait
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
   - Balancierter Baum
   - Ausgeglichener Baum

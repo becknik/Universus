@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
   - Entwurf von Algorithmen
   - Algorithmenentwurf

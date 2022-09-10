@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs struct graph abstraction
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Datenstrukturen für Graphen
 linter-yaml-title-alias: Datenstrukturen für Graphen
 date: 2022-07-24

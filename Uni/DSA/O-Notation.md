@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs complexity
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: O-Notation
 linter-yaml-title-alias: O-Notation
 date: 2022-07-21
@@ -9,7 +9,7 @@ mod-date: 2022-09-02
 ---
 
 # O-Notation
-- [[Landau-Notationen]]
+-> [[Landau-Notationen]]
 
 ## Definition: #fc
 - Definiert eine asymptotische obere Grenze für eine Funktion $f$ im Bezug auf ihre Rechenzeit oder den verbrauchten Speicherplatz

@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree indexstruct abstraction
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: true
 aliases:
   - Bäume
   - Baum
@@ -11,14 +11,14 @@ aliases:
   - vollständig
 linter-yaml-title-alias: Bäume
 date: 2022-07-22
-mod-date: 2022-09-08
+mod-date: 2022-09-10
 ---
 
 # Bäume
--> Zusammenhängende, zyklenfreie [[Graphen|Graphen]]
--> [[Bäume/Traversierung von Bäumen|Traversierung]]
+-> Zusammenhängende, azyklische [[Graphen|Graphen]]
+-> [[Bäume/Traversierung|Traversierung]]
 
-## Grundlegende Begriffe: #fc
+## Grundlegende Fachtermini: #fc
 - *Kanten*
 - *Wurzelknoten*
 - *Kind-/ Elternknoten*
@@ -28,17 +28,17 @@ mod-date: 2022-09-08
 - *Niveau* (-> Zählung beginnt bei 0)
 ^1651408603108
 
-## Eigenschaften: #fc
+## Fachtermini für Eigenschaften: #fc
 - *Pseudoknoten*: Vereinfachung zum Testen auf Leerheit und null-Verweise
 	-> Am rechten Knoten des Head-Nodes hängt der Wurzelknoten
 - *voll*: Ein $n$-ärer Baum ist voll, wenn alle Knoten entweder 0 oder $n$ Kindknoten aufweisen
 - *Vollständigkeit*: Alle Blattknoten eines vollständigen Baumes liegen auf demselben Niveau
-- [[Bäume/Balancierter Baum|ausgeglichener/ balancierter Baum]]
-- [[Bäume/Geordneter Baum|geordneter Baum]]
-- *Einwegbaum* $\Leftrightarrow$ [[Bäume/Mehrwegbaum|Mehrwegbaum]]
+- [[Bäume/Balancierter Baum|Ausgeglichener/ Balancierter Baum]]
+- [[Bäume/Geordneter Baum|Geordneter Baum]]
+- *Einwegbaum* $\Leftrightarrow$ [[Bäume/Mehrwegbäume|Mehrwegbaum]]
 ^1651408861452
 
-## Kategorisierung: #fc
+## Vergleich: #fc
 | Baum-Typ                                            | Kategorie                     | Ausgeglichen   | Eigenschaften                    |     |
 | --------------------------------------------------- | ----------------------------- | -------------- | -------------------------------- | --- |
 | [[Bäume/Suchbaum\|Suchbaum]]                        |                               | $\times$       | binär                            |     |

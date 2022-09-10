@@ -1,7 +1,7 @@
 ---
 tags: dsa practical-cs design_pattern algorithm
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Algorithmenmuster
 linter-yaml-title-alias: Algorithmenmuster
 date: 2022-07-19

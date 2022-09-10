@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs problem algorithm
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: false
 aliases: Maximum Subarray Problem
 linter-yaml-title-alias: Maximum Subarray Problem
 date: 2022-07-19

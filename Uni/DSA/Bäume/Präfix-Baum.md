@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree digital-tree indexstruct
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: true
 aliases: Präfix-Baum
 linter-yaml-title-alias: Präfix-Baum
 date: 2022-07-24

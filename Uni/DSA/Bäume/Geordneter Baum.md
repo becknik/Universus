@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree trait
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Geordneter Baum
 linter-yaml-title-alias: Geordneter Baum
 date: 2022-07-22

@@ -1,11 +1,11 @@
 ---
 tags: uni dsa practical-cs struct
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: true
 aliases: Iterator
 linter-yaml-title-alias: Iterator
 date: 2022-07-21
-mod-date: 2022-09-08
+mod-date: 2022-09-10
 ---
 
 # Iterator
@@ -22,7 +22,7 @@ mod-date: 2022-09-08
 - `hasNext()`
 - `remove()`
 - *Erweiterte Spezifikation*:
-	- Wahlfreier Zugriff über Indizes
-	- Manipulation durch Einfügen und Löschen von Elementen
-	- Bidirektionale Iteration
+	- *Wahlfreier Zugriff* über Indizes
+	- *Manipulation* durch Einfügen und Löschen von Elementen
+	- *Bidirektionale Iteration*
 ^1649785309471

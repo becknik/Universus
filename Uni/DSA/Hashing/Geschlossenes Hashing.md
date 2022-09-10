@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs hash trait
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Geschlossenes Hashing
 linter-yaml-title-alias: Geschlossenes Hashing
 date: 2022-07-26

@@ -1,14 +1,14 @@
 ---
 tags: uni dsa practical-cs parallel theorem
 cards-deck: Uni::Courses::DSA
-status: unfinished
-aliases: Amdahlsches "Gesetz"
+complete: true
+aliases: Amdahlsches Gesetz
+linter-yaml-title-alias: Amdahlsches Gesetz
 date: 2022-07-27
-mod-date: 2022-08-25
-linter-yaml-title-alias: Amdahlsches "Gesetz"
+mod-date: 2022-09-10
 ---
 
-# Amdahlsches "Gesetz"
+# Amdahlsches Gesetz
 
 ## Definition: #fc
 - Beschreibt eine obere Grenze für die Beschleunigung von [[../Nebenläufige Abläufe|nebenläufige Abläufe]] durch mehrere Prozessoren

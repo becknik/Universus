@@ -1,14 +1,14 @@
 ---
-tags: uni dsa practical-cs struct 
+tags: uni dsa practical-cs struct
 cards-deck: Uni::Courses::DSA
-status: 
-aliases: Queues
+complete: true
+aliases: Queue
+linter-yaml-title-alias: Queue
 date: 2022-07-21
-mod-date: 2022-07-27
-linter-yaml-title-alias: Queues
+mod-date: 2022-09-10
 ---
 
-# Queues
+# Queue
 
 ## Eigenschaften: #fc
 - Funktionieren nach dem First In First Out **FIFO**-Prinzip

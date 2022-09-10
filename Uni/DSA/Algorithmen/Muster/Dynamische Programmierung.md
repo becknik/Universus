@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs design_pattern
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Dynamische Programmierung
 linter-yaml-title-alias: Dynamische Programmierung
 date: 2022-07-26

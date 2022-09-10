@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm text abstraction
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Text-Such-Algorithmen
 linter-yaml-title-alias: Text-Such-Algorithmen
 date: 2022-07-26

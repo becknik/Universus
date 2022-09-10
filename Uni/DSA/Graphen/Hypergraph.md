@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph trait 
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Hypergraph
 date: 2022-07-26
 mod-date: 2022-07-27

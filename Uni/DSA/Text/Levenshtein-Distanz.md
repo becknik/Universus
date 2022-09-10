@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs text
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Levenshtein-Distanz
 linter-yaml-title-alias: Levenshtein-Distanz
 date: 2022-07-24

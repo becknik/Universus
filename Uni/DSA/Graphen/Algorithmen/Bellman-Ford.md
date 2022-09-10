@@ -1,14 +1,14 @@
 ---
 tags: uni dsa practical-cs graph algorithm
 cards-deck: Uni::Courses::DSA
-status: 
-aliases: Bellman-Ford Algorithmus
-linter-yaml-title-alias: Bellman-Ford Algorithmus
+complete: true
+aliases: Bellman-Ford
+linter-yaml-title-alias: Bellman-Ford
 date: 2022-07-23
-mod-date: 2022-09-08
+mod-date: 2022-09-10
 ---
 
-# Bellman-Ford Algorithmus
+# Bellman-Ford
 
 ## Eigenschaften: #fc
 - Einstricht einer [[Breitensuche]] mit *iterativen Relaxieren* der Kanten

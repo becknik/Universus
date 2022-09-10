@@ -1,11 +1,11 @@
 ---
 tags: uni dsa practical-cs algorithm complexity abstraction
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: true
 aliases: Sortierverfahren
 linter-yaml-title-alias: Sortierverfahren
 date: 2022-07-21
-mod-date: 2022-09-05
+mod-date: 2022-09-10
 ---
 
 # Sortierverfahren

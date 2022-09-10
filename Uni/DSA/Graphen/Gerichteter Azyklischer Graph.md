@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph trait
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
   - Gerichteter Azyklischer Graph
   - DAG

@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree indexstruct
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
   - Rot-Schwarz-Baum
   - RS-Baum

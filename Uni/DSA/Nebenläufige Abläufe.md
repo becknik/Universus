@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs parallel abstraction
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Nebenläufige Abläufe
 linter-yaml-title-alias: Nebenläufige Abläufe
 date: 2022-07-27
@@ -23,6 +23,6 @@ mod-date: 2022-09-05
 
 ## Themen:
 - [[Nebenläufige Abläufe/Petri-Netze|Petri-Netze]]
-- [[Nebenläufige Abläufe/Philosophen-Problem|Philosophenproblem]]
+- [[Nebenläufige Abläufe/Philosophenproblem|Philosophenproblem]]
 - [[Nebenläufige Abläufe/Amdahlsches Gesetz|Amdahlsches Gesetz]]
 - [[Nebenläufige Abläufe/Message Passing Interface|Message Passing Interface]]

@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm sort
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: false
 aliases: RadixSort
 linter-yaml-title-alias: RadixSort
 date: 2022-07-23

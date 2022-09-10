@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree indexstruct
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: AVL-Baum
 linter-yaml-title-alias: AVL-Baum
 date: 2022-07-22

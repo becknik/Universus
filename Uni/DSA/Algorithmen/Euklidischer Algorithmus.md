@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Euklidischer Algorithmus
 linter-yaml-title-alias: Euklidischer Algorithmus
 date: 2022-07-24

@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph bipartit
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Matching
 linter-yaml-title-alias: Matching
 date: 2022-07-24
@@ -23,6 +23,6 @@ mod-date: 2022-09-03
 	-> $M$ beinhaltet die größtmögliche Kantenzahl
 - **Maximales [[Bipartite Graphen|Bipartite Graphen]]-Matching**: Es ist $S \subseteq A \times B$ für $G=(A\cup B,E)$ gesucht, so dass $S$ ein *maximales Matching* ist
 	-> [[Algorithmen/Ungarische Methode|Ungarische Methode]]
-	-> Alternativ: Der [[Algorithmen/Ford-Fulkerson Algorithmus|Ford-Fulkerson Algorithmus]] lässt sich auf den maximalen Fluss [[../../../Theo II/Reduktion|reduzieren]]
+	-> Alternativ: Der [[Algorithmen/Ford-Fulkerson|Ford-Fulkerson Algorithmus]] lässt sich auf den maximalen Fluss [[../../../Theo II/Reduktion|reduzieren]]
 - **Perfektes Matching**: Für den Graphen $G = (V,E)$ existiert ein Teilgraphen $G_M = (V_M, M)$ mit $V = V_M$
 ^1655391711309

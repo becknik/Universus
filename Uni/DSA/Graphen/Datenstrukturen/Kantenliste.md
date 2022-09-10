@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph indexstruct
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Kantenliste
 date: 2022-07-25
 mod-date: 2022-07-27

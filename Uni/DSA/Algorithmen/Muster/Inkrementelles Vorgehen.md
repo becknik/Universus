@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs design_pattern
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Inkrementelles Vorgehen
 linter-yaml-title-alias: Inkrementelles Vorgehen
 date: 2022-07-19

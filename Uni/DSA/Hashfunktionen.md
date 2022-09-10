@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs indexstruct hash
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Hashfunktionen
 linter-yaml-title-alias: Hashfunktionen
 date: 2022-07-24

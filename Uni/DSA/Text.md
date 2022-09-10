@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs text abstraction 
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Text
 date: 2022-07-26
 mod-date: 2022-07-27

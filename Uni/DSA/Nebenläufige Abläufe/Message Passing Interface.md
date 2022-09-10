@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs parallel api
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: false
 aliases:
   - Message Passing Interface
   - MPI

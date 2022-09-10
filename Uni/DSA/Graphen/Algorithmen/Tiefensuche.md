@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph algorithm
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: false
 aliases: Tiefensuche
 linter-yaml-title-alias: Tiefensuche
 date: 2022-07-23
@@ -12,13 +12,13 @@ mod-date: 2022-09-08
 -> Auch mit depth-first-search DFS abgekürzt
 
 ## Eigenschaften: #fc
-- ! [[../Topologisches Sortieren|Topologisches Sortieren]]
+- ! [[../Topologische Sortierung|Topologisches Sortieren]]
 - ! Zum Testen auf Zyklen durch die Detektion von Rückwärtskanten
 - Kann zur [[../../Suchverfahren|Suche]] und [[../../Algorithmen auf Graphen||Traversierung]] eingesetzt werden
 - Kann zur Konstruktion des [[../Spann- & Wurzelbaum|Spann- & Wurzelbaum]] eingesetzt werden
-- Nur für [[../Ungerichteter Graph|Ungerichteter Graphen]]: Zum Finden von [[../Zusammenhangskomponenten|Zusammenhangskomponenten]]
+- Nur für [[../Ungerichtete Graphen|Ungerichteter Graphen]]: Zum Finden von [[../Zusammenhangskomponenten|Zusammenhangskomponenten]]
 	- -> Variation für [[../Gerichtete Graphen|gerichtete Graphen]]: z.B. [[Algorithmus von Tarjan]]
-- Kann zur Überprüfung, ob ein Graph [[../Planare Graphen|planar]] ist, verwendet werden[^1]
+- Kann zur Überprüfung, ob ein Graph [[../Planarer Graph|planar]] ist, verwendet werden[^1]
 - Liegt im schlechtesten Fall in $\mathbfcal{O}(|V|+|E|)$
 ^1654949633212
 
@@ -26,11 +26,11 @@ mod-date: 2022-09-08
 -> Für mehrere [[../Zusammenhangskomponenten|Zusammenhangskomponenten]] muss der Algorithmus so lange iterativ ausgeführt werden, bis kein weißer Knoten mehr im Graph existiert
 1. Ein Startknoten wird bestimmt, blau gefärbt und auf den Stack gelegt
 2. Alle Knoten werden weiß gefärbt und die initiale Distanz $d$ zum Startknoten wird auf $\infty$ gesetzt
-3. Wiederhole, solange der [[../../Datenstrukturen/Stacks|Stack]] noch nicht leer ist:
+3. Wiederhole, solange der [[../../Datenstrukturen/Stack|Stack]] noch nicht leer ist:
 	- Ein Knoten $u$ wird vom Stack gepeekt
 	- Bei Suche: Wenn das entnommene Element dem gesuchten Element entspricht, wird die Suche beendet
 	- Falls der Knoten $u$ kein nicht-blauen Nachfolger mehr hat, wird er schwarz gefärbt und vom Stack gepopt
-		-> [[../Topologisches Sortieren|Topologisches Sortieren]]: Der Knoten wird in eine Liste eingetragen und am Ende des Algorithmus ausgegeben
+		-> [[../Topologische Sortierung|Topologisches Sortieren]]: Der Knoten wird in eine Liste eingetragen und am Ende des Algorithmus ausgegeben
 	- Sonst wird der lexikographisch kleinste, noch nicht blau markierte Nachfolgeknoten von $u$ wird blau gefärbt, sein Distanzwert geupdatet und auf den Stack gelegt
 4. Wenn der Stack leer ist, liegt das gesuchte Element nicht in der [[../Zusammenhangskomponenten|Zusammenhangskomponente]]
 	 -> Gebe "nicht gefunden" zurück

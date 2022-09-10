@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs struct
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Linked List
 linter-yaml-title-alias: Linked List
 date: 2022-07-21
@@ -20,8 +20,8 @@ mod-date: 2022-09-07
 - Das Zusammenführen von zwei Listen der Länge $n$ und $m$ liegt $\in\mathbfcal{O}(n)$
 	-> Durch die erste Liste einmal iterieren und dann den letzten Zeiger auf den 0. Index der zweiten Folge setzten
 	-> Bei doppelter Verkettung $\in\mathbfcal{O}(1)$ möglich
-- Kann für die Realisierung von [[Stacks|Stacks]] verwendet werden
-	-> Verkettungen von Head- und Tail-Node ermöglichen das Implementieren von [[Queues]]
+- Kann für die Realisierung von [[Stack|Stacks]] verwendet werden
+	-> Verkettungen von Head- und Tail-Node ermöglichen das Implementieren von [[Queue]]
 - Der *wahlfreie Zugriff* bei verketteten Listen liegt in $\mathbfcal{O}(n)$
 	-> Auch sind die Zugriffsoperationen *komplizierter* als die von Arrays
 ^1649751812441

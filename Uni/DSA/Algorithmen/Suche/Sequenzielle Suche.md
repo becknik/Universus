@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm search
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Sequenzielle Suche
 linter-yaml-title-alias: Sequenzielle Suche
 date: 2022-07-24

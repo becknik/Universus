@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs design_pattern
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Monte-Carlo
 linter-yaml-title-alias: Monte-Carlo
 date: 2022-07-27

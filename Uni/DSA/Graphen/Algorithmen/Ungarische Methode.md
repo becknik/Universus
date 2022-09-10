@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph bipartit algorithm
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: true
 aliases:
   - Ungarische Methode
   - Kuhn-Munkres

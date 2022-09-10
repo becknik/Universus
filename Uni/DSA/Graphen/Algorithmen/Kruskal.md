@@ -1,14 +1,14 @@
 ---
 tags: uni dsa practical-cs algorithm graph
 cards-deck: Uni::Courses::DSA
-status: 
-aliases: Algorithmus Von Kruskal
-linter-yaml-title-alias: Algorithmus Von Kruskal
+complete: true
+aliases: Kruskal
+linter-yaml-title-alias: Kruskal
 date: 2022-07-24
-mod-date: 2022-09-05
+mod-date: 2022-09-10
 ---
 
-# Algorithmus Von Kruskal
+# Kruskal
 
 ## Eigenschaften:
 - Ein Algorithmus auf [[../Gewichteter Graph|gewichteten Graphen]], um den [[../Spann- & Wurzelbaum|minimalen Spannbaum]] des Graphen zu bestimmen

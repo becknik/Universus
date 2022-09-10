@@ -1,14 +1,14 @@
 ---
 tags: uni dsa practical-cs struct
 cards-deck: Uni::Courses::DSA
-status: 
-aliases: Stacks
-linter-yaml-title-alias: Stacks
+complete: true
+aliases: Stack
+linter-yaml-title-alias: Stack
 date: 2022-07-21
-mod-date: 2022-09-08
+mod-date: 2022-09-10
 ---
 
-# Stacks
+# Stack
 
 ## Eigenschaften #fc
 - Funktionieren nach dem *First In First Out* (**LIFO**)-Prinzip

@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph flow
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Fluss
 linter-yaml-title-alias: Fluss
 date: 2022-07-24

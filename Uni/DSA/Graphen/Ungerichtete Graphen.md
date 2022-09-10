@@ -1,11 +1,11 @@
 ---
-tags: uni dsa practical-cs graph trait 
+tags: uni dsa practical-cs graph trait
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Ungerichteter Graph
-date: 2022-07-23
-mod-date: 2022-07-27
 linter-yaml-title-alias: Ungerichtete Graphen
+date: 2022-07-23
+mod-date: 2022-09-10
 ---
 
 # Ungerichtete Graphen

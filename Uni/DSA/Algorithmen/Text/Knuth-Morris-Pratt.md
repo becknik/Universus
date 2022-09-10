@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm text
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
   - Knuth-Morris-Pratt
   - KMP
@@ -11,6 +11,7 @@ mod-date: 2022-09-07
 ---
 
 # Knuth-Morris-Pratt
+-> [[../../Text-Such-Algorithmem|Text-Such-Algorithmen]]
 
 ## Eigenschaften: #fc
 - Der Algorithmus stellt durch die Verwendung von *positiven Informationen* aus dem vorherigen Vergleich eine Erweiterung des [[../Muster/Brute Force|Brute Force Ansatzes]] dar

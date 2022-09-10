@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree digital-tree abstraction indexstruct
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases:
   - Digitalbäume
   - Digitalbaum
@@ -13,7 +13,7 @@ mod-date: 2022-09-03
 # Digitalbäume
 
 ## Eigenschaften: #fc
-- Eine Menge von speziellen, unausgeglichenen [[Mehrwegbaum|Mehrwegbäume]]
+- Eine Menge von speziellen, unausgeglichenen [[Mehrwegbäume|Mehrwegbäume]]
 	-> Digitalbäume speichern jeweils nur ein Element pro Knoten
 - Der Verzweigungsgrad jedes Knotens ist unveränderlich und unabhängig vom Schlüsselwert des Knotens
 	-> Eignen sich vor allem für Zeichenketten über einem festen Alphabet

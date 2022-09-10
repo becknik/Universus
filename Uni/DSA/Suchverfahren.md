@@ -1,11 +1,11 @@
 ---
 tags: uni dsa practical-cs abstraction algorithm
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: true
 aliases: Suchverfahren
 linter-yaml-title-alias: Suchverfahren
 date: 2022-07-24
-mod-date: 2022-09-08
+mod-date: 2022-09-10
 ---
 
 # Suchverfahren
@@ -14,9 +14,10 @@ mod-date: 2022-09-08
 	-> [[Text/Reguläre Audrücke|Reguläre Ausdrücke]]
 - [[Hashfunktionen|Hashfunktionen]]
 
-## Komplexitäten von Varianten:
+## Vergleich der Komplexitäten: #fc
 | Verfahren                                        | Bester Fall | Schlechtester Fall | Durchschnitt: Erfolgreich | Durchschnitt: Erfolglos |
 | ------------------------------------------------ | ----------- | ------------------ | ------------------------- | ----------------------- |
 | [[Algorithmen/Suche/Sequenzielle Suche\|Sequenzielle Suche]] | 1           | $n$                | $\frac{n+1}{2}$           | $n$                     |
 | [[Algorithmen/Suche/Binäre Suche\|Binäre Suche]]             | 1           | $\log n$           | $\log n$                  | $\lceil\log n\rceil$                |
 | [[Bäume/Suchbaum\|Suchbäume]]                    | 1            | $\log n$                   | $\log n$                          | $\lceil\frac{\log n}{2}\rceil$                        |
+^1662767218885

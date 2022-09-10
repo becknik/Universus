@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs struct graph
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Knotenliste
 linter-yaml-title-alias: Knotenliste
 date: 2022-07-25

@@ -1,14 +1,14 @@
 ---
 tags: uni dsa practical-cs graph flow algorithm bipartit
 cards-deck: Uni::Courses::DSA
-status: unfinished
-aliases: Ford-Fulkerson Algorithmus
-linter-yaml-title-alias: Ford-Fulkerson Algorithmus
+complete: false
+aliases: Ford-Fulkerson
+linter-yaml-title-alias: Ford-Fulkerson
 date: 2022-07-24
-mod-date: 2022-09-08
+mod-date: 2022-09-10
 ---
 
-# Ford-Fulkerson Algorithmus
+# Ford-Fulkerson
 
 ## Eigenschaften:
 - Berechnet den [[../Maximaler Fluss|maximalen Fluss]] in einem Graphen
@@ -41,8 +41,9 @@ while es existiert Pfad p von s nach t im Restnetzwerk G_f do
 od;
 ```
 
-## Für [[../Bipartite Graphen|Bipartite Graphen]]: #fc
+## Reduktion auf Bipartite Graphen [[../Matching|Matching]]: #fc
 1. Ungerichtete Kanten werden in gerichtete Kanten von $A$ nach $B$ umgewandelt
+	 -> [[../Bipartite Graphen|Bipartite Graphen]]
 2. Hinzufügen von einer Quelle $s$ mit gerichteten Kanten zu $\forall a \in A$ und einer Senke $t$ mit Kanten von $\forall b \in B$
 3. Alle Kantengewichte werden auf 1 gesetzt
 4. Bestimme den maximalen Durchfluss durch die Ausführung des Ford-Fulkerson Algorithmus

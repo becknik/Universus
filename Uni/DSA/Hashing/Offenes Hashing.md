@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs hash trait
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Offenes Hashing
 linter-yaml-title-alias: Offenes Hashing
 date: 2022-07-26

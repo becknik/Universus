@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm sort
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: false
 aliases: ShellSort
 linter-yaml-title-alias: ShellSort
 date: 2022-07-25

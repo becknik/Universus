@@ -1,7 +1,7 @@
 ---
 tags: dsa practical-cs problem algorithm
 cards-deck: Uni::Courses::DSA
-status: unfinished
+complete: false
 aliases: Rucksackproblem
 linter-yaml-title-alias: Rucksackproblem
 date: 2022-07-19

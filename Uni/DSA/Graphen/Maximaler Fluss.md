@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph flow
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Maximaler Fluss
 linter-yaml-title-alias: Maximaler Fluss
 date: 2022-07-26
@@ -17,4 +17,4 @@ mod-date: 2022-09-03
 ^1655041696342
 
 ## Eigenschaften:
-- Kann mithilfe vom [[Algorithmen/Ford-Fulkerson Algorithmus|Ford-Fulkerson Algorithmus]] berechnet werden
+- Kann mithilfe vom [[Algorithmen/Ford-Fulkerson|Ford-Fulkerson Algorithmus]] berechnet werden

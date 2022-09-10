@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs algorithm search
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Binäre Suche
 linter-yaml-title-alias: Binäre Suche
 date: 2022-07-24

@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs graph parallel
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Petri-Netze
 linter-yaml-title-alias: Petri-Netze
 date: 2022-07-24

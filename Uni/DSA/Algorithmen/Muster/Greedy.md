@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs design_pattern
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Greedy
 linter-yaml-title-alias: Greedy
 date: 2022-07-19
@@ -18,8 +18,8 @@ mod-date: 2022-09-06
 ^1658939020227
 
 ## Anwendung: #fc
-- [[../../Graphen/Algorithmen/Dijkstra Algorithmus|Dijkstra-Algorithmus]]
-- [[../../Graphen/Algorithmen/Algorithmus von Kruskal|Algorithmus Von Kruskal]]
+- [[../../Graphen/Algorithmen/Dijkstra|Dijkstra-Algorithmus]]
+- [[../../Graphen/Algorithmen/Kruskal|Algorithmus Von Kruskal]]
 - Geldwechsel-Problem:
 	- Ein Geldbetrag $k < 1€$ soll in so wenige Münzen wie möglich gewechselt werden
 	- Greedy-Variante: Nehme die höchst verfügbare Münze und ziehe sie vom Geldbetrag ab und mache dies, bis der Betrag gleich 0 ist

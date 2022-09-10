@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs design_pattern
 cards-deck: Uni::Courses::DSA
-status: 
+complete: true
 aliases: Las-Vegas
 linter-yaml-title-alias: Las-Vegas
 date: 2022-07-27

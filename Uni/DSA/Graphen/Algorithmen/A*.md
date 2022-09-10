@@ -1,14 +1,14 @@
 ---
 tags: uni dsa practical-cs algorithm graph
 cards-deck: Uni::Courses::DSA
-status: unfinished
-aliases: A* Algorithmus
-linter-yaml-title-alias: A* Algorithmus
+complete: true
+aliases: A*
+linter-yaml-title-alias: A*
 date: 2022-07-23
-mod-date: 2022-09-08
+mod-date: 2022-09-10
 ---
 
-# A* Algorithmus
+# A*
 
 ## Eigenschaften: #fc
 - Der $A^*$-Algorithmus nutzt Heuristiken (z.B. Manhattan-Heuristik, Luftlinie) um den kürzesten Weg zum Ziel zu schätzen
@@ -69,7 +69,7 @@ for each v ∊ Successor(u) && v ∉ CLOSED do
 	new_f := g(u) + γ(u, v) + h(v);
 	if v ∊ OPEN && new_f ≥ f(v) then 
 		continue;
-	else // (f(v alter Pfad) > new_f) ∨ (v ∊ WHITE ∪ CLOSED)
+	else // (f(v alter Pfad) > new_f) ∨ (v ∊ WHITE ∪ OPEN)
 		Predecessor(v) := u;
 		Aktualisiere f- und g-Wert von v;
 		if v ∉ OPEN then

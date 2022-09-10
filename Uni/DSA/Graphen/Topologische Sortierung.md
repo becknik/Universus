@@ -1,14 +1,14 @@
 ---
-tags: uni dsa practical-cs graph sorting
+tags: uni dsa practical-cs graph sort
 cards-deck: Uni::Courses::DSA
-status: 
-aliases: Topologisches Sortieren
-linter-yaml-title-alias: Topologisches Sortieren
+complete: true
+aliases: Topologische Sortierung
+linter-yaml-title-alias: Topologische Sortierung
 date: 2022-07-25
-mod-date: 2022-09-02
+mod-date: 2022-09-10
 ---
 
-# Topologisches Sortieren
+# Topologische Sortierung
 
 ## Prinzip: #fc
 - Die Reihenfolge der Knoten eines [[Gerichteter Azyklischer Graph|gerichteter azyklischen Graphen]], so dass jeder Knoten nach seinem Vorgängern kommt und es keine Zyklen gibt
