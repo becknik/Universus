@@ -22,9 +22,8 @@
   "newLinkFormat": "relative",
   "vimMode": true,
   "userIgnoreFilters": [
-    "_Templates/",
-    "_Figures/",
-    "Daily/"
+    "_Templates/"
   ],
-  "communityPluginSortOrder": "download"
+  "communityPluginSortOrder": "download",
+  "showUnsupportedFiles": true
 }

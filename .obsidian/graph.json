@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#explainatory",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
       "query": "tag:abstraction",
       "color": {
         "a": 1,
@@ -138,13 +145,6 @@
       "color": {
         "a": 1,
         "rgb": 5585209
-      }
-    },
-    {
-      "query": "tag:addition",
-      "color": {
-        "a": 1,
-        "rgb": 6052956
       }
     }
   ],
