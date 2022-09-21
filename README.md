@@ -4,11 +4,13 @@ tags: explainatory
 
 # UNIversus
 An **universitary knowledge collection** of a ambitious CS students using the wonderful [Obsidian.md](https://obsidian.md/) Markdown tool with it's extending syntax and graph-view. This project is aiming to **sum up** all (essential) parts of taught subjects of the [University of Stuttgart](https://www.uni-stuttgart.de/) *CS bachelor degree* course in a cross-(Wiki-)linking approach.
+
 This git also holds some of my *tips for Obsidian interested peoples*.
+![](https://raw.githubusercontent.com/jarnnk/UNIversus/main/.example-figures/Obsidian-md-graph-view-DSA.png)
 
 However, be aware that the summaries were *initially created for myself* and therefore are sensitive to *my personal* way of thinking and understanding - which does not mean, that contributions or enhancements aren't welcome!
 
-Even though, *this README*, the [[Recommendations]] and the [[Style-Guide]] file are written in *English* to make my gathered *recommendations* and *best practices* for Obsidian understandable for *international readers*. However the summaries are written in my native language, **German**.
+Note, that *this README*, the [[Recommendations]] and the [[Style-Guide]] file are written in *English* to make my gathered *recommendations* and *best practices* for Obsidian understandable for *international readers*. However the summaries are written in my native language, **German**.
 
 ## But WHY?? / Motivation:
 …may be the question coming up to your mind. Indeed the effort put in creating, extending and correcting those summaries is huge.
@@ -34,17 +36,17 @@ To get the *most fluent experience* of Obsidian's MD-flavor it's recommend to in
 - View the *graph view* select the icon on the left side bar or just hit *Ctrl+g*
 
 ### Recommendations on starting your own vault:
-If you should find liking in what you see and you might want to *start your own* private Obsidian vault, I would recommend you to read through my Obsidian [[Recommendations]], the more extensive [[Style-Guide]] (which contain lower-level tips and best practices, which might save you some time) or just research yourself
+If you should find liking in what you see and you might want to *start your own* private Obsidian vault, I would recommend you to read through my Obsidian [[Recommendations]], the more extensive [[Style-Guide]]. The later contain "low-level" tips and best practices, which might save you some time .
 
 ### Contributing:
 If you should be interested in *contributing or enhancing* this vault, consider writing me an [private E-Mail](mailto:jannikb@posteo.de), contact me somewhere else or just [open an issue](https://github.com/jarnnk/UNIversus/issues)/ [pull request](https://github.com/jarnnk/UNIversus/pulls) on GitHub :^)
 
-### Flashcards for Everyone
+### Flashcards for Everyone:
 Currently I use this *Obsidian vault* in combination with the Anki [Flashcards Plugin](https://github.com/reuseman/flashcards-obsidian). Unfortunately, this plugin only works for one person at the same time. So I came over the idea to mirroring my generated [Anki](https://apps.ankiweb.net/)-decks for the courses in this repo on [AnkiWeb](https://ankiweb.net/shared/decks/).
 Currently available decks:
 - [Datenstrukturen & Algorithmen](https://ankiweb.net/shared/info/1023735405)
 ---
-## Notes on repositories structure
+## Notes on repositories structure:
 I do not sync the full `/.obsidian` folder due to the *Obsidian's plugin system* (which simply downloads all plugins locality into a subfolder) to allow local *individual customization* and plugin choices.
 Here's a list of the contents of `/.obsidian` I decided to include:
 - `app.json` for the default settings
