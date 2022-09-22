@@ -6,7 +6,7 @@ tags: explainatory
 An **universitary knowledge collection** of a ambitious CS students using the wonderful [Obsidian.md](https://obsidian.md/) Markdown tool with it's extending syntax and graph-view. This project is aiming to **sum up** all (essential) parts of taught subjects of the [University of Stuttgart](https://www.uni-stuttgart.de/) *CS bachelor degree* course in a cross-(Wiki-)linking approach.
 
 This git also holds some of my *tips for Obsidian interested peoples*.
-![](https://raw.githubusercontent.com/jarnnk/UNIversus/main/.example-figures/Obsidian-md-graph-view-DSA.png)
+![](https://raw.githubusercontent.com/jarnnk/UNIversus/main/.example-figures/current-vaults-graph-view.png)
 
 However, be aware that the summaries were *initially created for myself* and therefore are sensitive to *my personal* way of thinking and understanding - which does not mean, that contributions or enhancements aren't welcome!
 
