@@ -1,7 +1,7 @@
 ---
-tags: uni theo-1 theoretical-cs theorem
+tags: uni theo-1 theoretical-cs theorem chomsky
 cards-deck: Uni::Courses::Theo-I
-complete: false
+complete: true
 aliases:
   - Chomsky-Normalform
   - CNF

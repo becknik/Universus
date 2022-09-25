@@ -1,7 +1,7 @@
 ---
-tags: uni theo-1 theoretical-cs chomsky abstraction
+tags: uni theo-1 theoretical-cs chomsky abstraction formal-languages
 cards-deck: Uni::Courses::Theo-I
-complete: false
+complete: true
 aliases: Abschlusseigenschaften
 linter-yaml-title-alias: Abschlusseigenschaften
 date: 2022-09-20
@@ -19,6 +19,6 @@ mod-date: 2022-09-22
 | [[Typ-1\|CSL]]                             | $\checkmark$ | $\checkmark$ | $\checkmark$[^2]   | $\checkmark$    | $\checkmark$ |                                             |
 | [[Typ-0]]                                  | $\checkmark$ | $\checkmark$ | [^3]               | $\checkmark$    | $\checkmark$ |                                             |
 
-[^1]: Es fehlt die [[Grundlegendes/Grammatik|Grammatik-Beschreibung]]
+[^1]: Es fehlt die [[Grammatik|Grammatik-Beschreibung]]
 [^2]: [[../Theo II/Komplexitättheorie/Platzklassen/Satz von Immerman–Szelepcsényi|Satz Von Immerman–Szelepcsényi]], Details (die mich nicht interessieren) auf V.20 F.39.4 ff. und V.21 F.40.1 ff.
 [^3]: Folgt aus dem [[../Theo II/Halteprobleme|Halteproblem]]

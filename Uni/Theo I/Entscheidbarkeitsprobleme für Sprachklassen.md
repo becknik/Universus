@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs
+tags: uni theo-1 theoretical-cs chomsky formal-languages decision-problem abstraction 
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases: Entscheidbarkeitsprobleme für Sprachklassen
@@ -16,7 +16,7 @@ mod-date: 2022-09-23
 | [[Typ-3\|Typ-3/REG]]                                          | $\checkmark$[^1] | $\checkmark$[^2] | $\checkmark$[^3] | $\checkmark$[^4] | $\checkmark$[^5] |
 | [[2. Typ - CFL/Deterministische Kellerautomaten\|DCFL]]       | "                | "                | "                | $\checkmark$[^9] |                  |
 | [[Typ-2\|Typ-2/CFL]]                                          | $\checkmark$[^6] | $\checkmark$[^7] | $\checkmark$[^8] |                  |                  |
-| [[Typ-1\|Typ-1/CSL]]                                          | $\checkmark$[^0]     |                  | $\checkmark$(?)     |                  |                  |
+| [[Typ-1\|Typ-1/CSL]]                                          | $\checkmark$[^0] |                  |                  |                  |                  |
 | [[../Theo II/Entscheidbarkeit/Rekursiv Aufzählbar\|Typ-0/RE]] |                  |                  |                  |                  |                  |
 $\smile$
 [^0]: Direkt zu beginn der Vorlesung ([[Typ-1|hier]])

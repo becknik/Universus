@@ -1,13 +1,13 @@
 ---
-tags: uni theo-1 theoretical-cs theorem
+tags: uni theo-1 theoretical-cs theorem chomsky
 cards-deck: Uni::Courses::Theo-I
-complete: false
+complete: true
 aliases:
   - Pumping Lemma für Typ-2
   - uvwxy-Theorem
 linter-yaml-title-alias: Pumping Lemma für Typ-2
 date: 2022-09-21
-mod-date: 2022-09-21
+mod-date: 2022-09-25
 ---
 
 # Pumping Lemma für Typ-2
@@ -20,7 +20,9 @@ mod-date: 2022-09-21
 - Wird wie das [[../3. Typ - REG/Pumping Lemma für Typ-3|Pumping Lemma für Typ-3]] für Wiederspruchsbeweise (Z.z.: $L\notin$ [[../Typ-2|CFL]]) eingesetzt
 	-> "Angenommen, $L\in\text{CFL},$ dann $\exists n$, sodass jedes $z\in L$ mit $|z|\geq n$ die obigen Bedingungen erfüllt"
 
-## Negation: !!!
+## Negation:
+- $\forall n\in\mathbb{N},\exists z\in L$ mit $|z|\geq n$ und alle Zerlegungen $z=uvwxy$ mit $|uxw|\leq n,|ux|\geq1$ mindestens ein $z_i=uv^iwx^iy$ existier, so dass $z_i\notin L$ gilt
+> Keine Garantie, dass das stimmt…
 
 ## Eigenschaften:
 - Wird oft auch als $uvwxy$-Theorem bezeichnet
@@ -29,6 +31,6 @@ mod-date: 2022-09-21
 - Gegeben sei eine Grammatik $G$ in [[Chomsky-Normalform|CNF]] und der Ableitungsbaum für ein langes Wort
 	-> Für eine genügend große Länge des Worts (?) müssen sich Variablen auf mindestens einem Pfad im Baum wiederholen
 
-## Beispiele: !!!
+## Beispiele:
 - VL.12 F.23.3 ff.
 - VL.13 F.24.1

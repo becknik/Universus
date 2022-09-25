@@ -1,5 +1,5 @@
 ---
-tags: theoretical-cs
+tags: uni theoretical-cs practical-cs design-pattern 
 source: Algorithmen und Datenstrukturen
 cards-deck: Private::Books::Algorithmen und Datenstrukturen
 complete: true

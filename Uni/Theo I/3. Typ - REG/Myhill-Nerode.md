@@ -1,25 +1,32 @@
 ---
-tags: uni theo-1 theoretical-cs
+tags: uni theo-1 theoretical-cs formal-languages theorem
 cards-deck: Uni::Courses::Theo-I
 complete: true
-aliases: Myhill-Nerode Äquivalenz
-linter-yaml-title-alias: Myhill-Nerode Äquivalenz
+aliases: Myhill-Nerode
+linter-yaml-title-alias: Myhill-Nerode
 date: 2022-09-20
-mod-date: 2022-09-20
+mod-date: 2022-09-25
 ---
 
-# Myhill-Nerode Äquivalenz
+# Myhill-Nerode
 
-## Definitionen:
-- Die Äquivalenzrelation $R_L$ sei für eine [[../Grundlegendes/Formale Sprache|formale Sprache]] $L$ definiert als $$x~R_L~y\quad\Longleftrightarrow\quad[\forall w\in\Sigma^*:~xw\in L\Leftrightarrow ~yw\in L]$$
+## Definition
+
+### Myhill-Nerode Äquivalenz:
+- Die *Myhill-Nerode-Äquivalenzrelation* $R_L$ sei für eine [[../Formale Sprache|formale Sprache]] $L$ definiert als $$x~R_L~y\quad\Longleftrightarrow\quad[\forall w\in\Sigma^*:~xw\in L\Leftrightarrow ~yw\in L]$$
 	-> Die Relation ist *reflexiv*, *symmetrisch* und *transitiv*
 - Sei $L\in\text{REG}\Rightarrow\exists$ ein [[Deterministischer Endlicher Automat|DFA]] $M$ mit $L=T(M)$ und die Äquivalenzrelation $R_M$ ist definiert als $$x~R_M~y\quad\Longleftrightarrow\quad\hat{\delta}(z_0,x)=\hat{\delta}(z_0,y)$$
 -> $R_M$ verfeinert $R_L:\quad x~R_M~y\Rightarrow\forall w:\hat{\delta}(z_0,xw)=\hat{\delta}(z_0,yw)\Rightarrow x~R_L~y$
 -> $\forall$ Äquivalenzklasse $C$ gilt $C\in R_M\Rightarrow C\in R_L$
 
-## Aussage:
+### Syntaktische Kongruenz:
+- Wenn für $w_1,w_2\in\Sigma^*$ $$\forall x,y\in\Sigma^*:\quad xw_1y\in L\Leftrightarrow xw_2y\in L$$ gilt, dann sind $w_1$ und $w_2$ *äquivalent* (man schreibt $w_1\equiv w_2$ oder $w_1\equiv_Lw_2$) und sogar *syntaktisch kongruent*
+	-> Syntaktische Kongruenz: $[w_1\equiv_Lz_1\wedge w_2\equiv_Lz_2]\Rightarrow w_1w_2\equiv_Lz_1z_2$
+-> [[Syntaktisches Monoid]]
+
+## Satz:
 - Eine Sprache $L\subseteq\Sigma^*$ ist genau dann [[../Typ-3|regulär]], wenn der *Index der Äquivalenzrelation* $R_L$ *endlich* ist
-	-> Index von $R_L:$ Die Anzahl der Äquivalenzklassen in $R_L$ für  $\forall w\in L$
+	-> Index von $R_L:$ Die Anzahl der Äquivalenzklassen in $R_L$ für $\forall w\in L$
 
 ## Eigenschaften:
 - Für den eindeutig bestimmten, [[Minimalautomat|minimalen]] [[Deterministischer Endlicher Automat|DFA]] $M_0=(V,\Sigma,\delta,z_0,E)$ gilt: $|V|=$ Index von $R_L$

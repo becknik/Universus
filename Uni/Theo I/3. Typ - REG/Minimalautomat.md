@@ -18,4 +18,4 @@ mod-date: 2022-09-20
 3. *Wiederhole, bis keine Markierungen mehr möglich*:
 	- Suche in den *unmarkierten Paaren* nach $(p,q),$ für die $\exists a\in\Sigma,$ sodass das Paar $(\delta(p,a),\delta(q,a))$ schon markiert ist
 4. Verschmelze die unmarkierten Zustandspaare
-	 -> Der entstandene Automat ist ein [[Myhill-Nerode Äquivalenz|Myhill-Nerode]] Minimalautomat $M_0$
+	 -> Der entstandene Automat ist ein [[Myhill-Nerode|Myhill-Nerode]] Minimalautomat $M_0$

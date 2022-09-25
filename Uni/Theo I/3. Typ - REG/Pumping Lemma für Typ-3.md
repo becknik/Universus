@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs
+tags: uni theo-1 theoretical-cs theorem formal-languages
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:
@@ -21,7 +21,7 @@ mod-date: 2022-09-20
 	3. $\forall i\geq0:uv^iw\in L$
 - Soll nur für Wiederspruchsbeweise (Z.z.: $L\notin$ [[../Typ-3|REG]]) eingesetzt werden, da $$\text{Pumping Lemma}\setminus\text{REG}\neq\emptyset$$ (bezogen auf Sprachklasse) gilt
 
-## Negation: (?)
+## Negation:
 - $\forall n\in\mathbb{N}~\exists x\in L$ mit $|x|\geq n,$ …
 - … sodass jede Zerlegung $x=uvw,$ die die Bedingungen $|v|\geq1$ und $|uv|\leq n$ erfüllt, …
 - … die Eigenschaft aufweist, dass für *mindestens ein* Wort $x_i=uv^iw$ gilt, sodass $x_i\notin L$

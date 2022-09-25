@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs chomsky
+tags: uni theo-1 theoretical-cs chomsky formal-languages
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:
@@ -16,7 +16,7 @@ mod-date: 2022-09-23
 -> [[Chomsky-Hierarchie]]
 
 ## Definition:
-- Beliebige, gültige [[Grundlegendes/Grammatik|Grammatiken]]/ allgemeine Phrasenstrukturgrammatiken
+- Beliebige, gültige [[Grammatik|Grammatiken]]/ allgemeine Phrasenstrukturgrammatiken
 	-> Beschreibt die Menge aller Grammatiken, die existieren
 
 ## Eigenschaften:

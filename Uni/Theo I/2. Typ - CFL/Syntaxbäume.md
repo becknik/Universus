@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs
+tags: uni theo-1 theoretical-cs tree formal-languages
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:
@@ -14,7 +14,7 @@ mod-date: 2022-09-20
 
 ## Definition:
 - Eine Variante zur Darstellung einer *wesentlichen Ableitung* von [[../Typ-2|Typ-2-Grammatiken]]
-- Sei $G=(V,\Sigma,P,S)$ eine [[../Grundlegendes/Grammatik|Grammatik]] und die zugehörige *Ableitung* $S\Rightarrow y\Rightarrow y'\dots\Rightarrow w\in\Sigma^*$ und $y=x_1x_2\dots x_r$ die durch die [[../Grundlegendes/Grammatik|Übergangsrelation]] von $S$ entstandene Satzform, dann ist $S$ der *Wurzelknoten des Syntaxbaumes* mit $r$ *direkten Nachkommenknoten* $x_1$ bis $x_r$
+- Sei $G=(V,\Sigma,P,S)$ eine [[../Grammatik|Grammatik]] und die zugehörige *Ableitung* $S\Rightarrow y\Rightarrow y'\dots\Rightarrow w\in\Sigma^*$ und $y=x_1x_2\dots x_r$ die durch die [[../Grammatik|Übergangsrelation]] von $S$ entstandene Satzform, dann ist $S$ der *Wurzelknoten des Syntaxbaumes* mit $r$ *direkten Nachkommenknoten* $x_1$ bis $x_r$
 	-> Wenn $x_i\in\Sigma$ ist, dann ist $x_i$ ein Blattknoten des Baumes
 	-> Wenn $x_i\in V$ ist, dann ist $x_i$ ein innerer Knoten des Baumes, welcher wiederum einen Teilbaum trägt und daher so wie oben für $x_i$ anstelle von $S$ definiert ist
 

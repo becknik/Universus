@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs chomsky
+tags: uni theo-1 theoretical-cs chomsky formal-languages
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:
@@ -12,13 +12,13 @@ aliases:
   - kontextfreie Grammatik
 linter-yaml-title-alias: Typ-2
 date: 2022-09-15
-mod-date: 2022-09-23
+mod-date: 2022-09-25
 ---
 
 # Typ-2
 
 ## Definition:
-- Eine [[Grundlegendes/Grammatik|Grammatik]] $G$, die die Kriterien für den Grammatik [[Typ-1]] und $$\forall(u,v)\in P\text{ mit }u\in V(\text{also }|u|=1)\text{ und }|v|\geq1$$ erfüllt, gehört dem 2. Typ der [[Chomsky-Hierarchie]] an
+- Eine [[Grammatik|Grammatik]] $G$, die die Kriterien für den Grammatik [[Typ-1]] und $$\forall(u,v)\in P\text{ mit }u\in V(\text{also }|u|=1)\text{ und }|v|\geq1$$ erfüllt, gehört dem 2. Typ der [[Chomsky-Hierarchie]] an
 
 ## Eigenschaften:
 - Beschreiben unter anderem [[2. Typ - CFL/Korrekte Klammerausdrücke|Dyck-Wörter/ korrekte Klammerausdrücke]]
@@ -39,4 +39,5 @@ mod-date: 2022-09-23
 
 ## Theoreme:
 - [[2. Typ - CFL/Pumping Lemma für Typ-2|Pumping Lemma für Typ-2]]
+> Hier bin ich mir nicht sicher, ob das Typ-2 Pumping Lemma genauso wie das [[3. Typ - REG/Pumping Lemma für Typ-3|Pumping Lemma für Typ-3]] "leckt" und mehr Sprachen akzeptiert als CFL umfasst…
 - [[2. Typ - CFL/Chomsky-Normalform|Satz für die CNF]]

@@ -15,8 +15,8 @@ mod-date: 2022-09-20
 [CC Carlos Camino, SS2020, source:](https://fmi.uni-stuttgart.de/files/ti/teaching/s20/ti2/erg/z06.pdf)
 
 ## Definition:
-- Die Klassifizierung orientiert sich an der Regelmenge der [[Grundlegendes/Grammatik|Grammatik]] $G$
-  -> Da jede Grammatik eine [[Grundlegendes/Formale Sprache|formale Sprache]] beschreibt, wird die Klassifizierung auch auf Sprachklassen und nicht nur Grammatiken verwendet 
+- Die Klassifizierung orientiert sich an der Regelmenge der [[Grammatik|Grammatik]] $G$
+  -> Da jede Grammatik eine [[Formale Sprache|formale Sprache]] beschreibt, wird die Klassifizierung auch auf Sprachklassen und nicht nur Grammatiken verwendet 
 - Da es sich um eine Hierarchie handelt, gilt:$$\text{Typ-0}\subsetneq\text{Typ-1}\subsetneq\text{Typ-2}\subsetneq\text{Typ-3}$$
 - [[Typ-0]]: *Beliebige* Grammatiken/ Allgemeine Phrasenstrukturgrammatiken
 	-> Jede existierende Grammatik ist vom Typ-0

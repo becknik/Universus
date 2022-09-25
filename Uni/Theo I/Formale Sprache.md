@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs abstraction
+tags: uni theo-1 theoretical-cs abstraction formal-languages
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:
@@ -20,6 +20,6 @@ mod-date: 2022-09-15
 	-> Es gibt überabzählbar viele Sprachen über $\Sigma$
 
 ## Eigenschaften:
-- Für eine *formale Sprache* $L\subseteq\Sigma^*:L$ ist vom [[../Chomsky-Hierarchie|Typ]] $i\in\{0,1,2,3\},$ falls $\exists$ eine [[Grammatik|Grammatik]] $G$ mit $L=L(G)$
+- Für eine *formale Sprache* $L\subseteq\Sigma^*:L$ ist vom [[Chomsky-Hierarchie|Typ]] $i\in\{0,1,2,3\},$ falls $\exists$ eine [[Grammatik|Grammatik]] $G$ mit $L=L(G)$
 - Formale Sprachen entsprechen [[../../Theo II/Problemklassen|Entscheidungsproblemen]]
 	-> z.B. Gibt es einen Graphen der Länge 5 $\Leftrightarrow$ $\{L\mid L$ beschreibt Graphen mit einem Weg der Länge 5$\}$

@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs
+tags: uni theo-1 theoretical-cs formal-languages
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:

@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs
+tags: uni theo-1 theoretical-cs chomsky
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:

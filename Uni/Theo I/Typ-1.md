@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs chomsky
+tags: uni theo-1 theoretical-cs chomsky formal-languages
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:
@@ -19,7 +19,7 @@ mod-date: 2022-09-23
 # Typ-1
 
 ## Definition:
-- Eine gültige, [[Grundlegendes/Grammatik|formale Grammatik]] $G$ mit $$\forall(u,v)\in P:|u|\leq|v|$$ ist gehört dem 1. Typ der [[Chomsky-Hierarchie]] an
+- Eine gültige, [[Grammatik|formale Grammatik]] $G$ mit $$\forall(u,v)\in P:|u|\leq|v|$$ ist gehört dem 1. Typ der [[Chomsky-Hierarchie]] an
 
 ## Eigenschaften:
 - Für jede Satzform $v$ (für $P\ni(u,v)$, also der Struktur auf der rechten Seite der Übergangsrelation $\Rightarrow_G$) muss gelten, dass $|v|\geq1$

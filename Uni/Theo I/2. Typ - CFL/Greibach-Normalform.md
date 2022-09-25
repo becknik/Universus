@@ -1,7 +1,7 @@
 ---
-tags: uni theo-1 theoretical-cs theorem
+tags: uni theo-1 theoretical-cs theorem chomsky
 cards-deck: Uni::Courses::Theo-I
-complete: false
+complete: true
 aliases:
   - Greibach-Normalform
   - GNF
@@ -23,7 +23,7 @@ mod-date: 2022-09-21
 ## Eigenschaften:
 - Die Ableitungslänge für ein Wort der Länge $n$ ist genau $n$
 
-## Algorithmen: !!!
+## Algorithmen:
 - Algorithmus 1: Hat zum Zeil, dass $A_i\rightarrow A_j\beta$ nur für $i<j$ in $P$ vorkommen
 	-> Dabei sei $V=\{A_i,\dots,A_m\}$
 ```

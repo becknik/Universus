@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs decision-problem
+tags: uni theo-1 theoretical-cs decision-problem halteproblem
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases: Wortproblem

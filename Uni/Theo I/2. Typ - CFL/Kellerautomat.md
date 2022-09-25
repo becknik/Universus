@@ -1,7 +1,7 @@
 ---
-tags: uni theo-1 theoretical-cs automata
+tags: uni theo-1 theoretical-cs automata chomsky
 cards-deck: Uni::Courses::Theo-I
-complete: false
+complete: true
 aliases:
   - Kellerautomat
   - PDA
@@ -49,6 +49,7 @@ $$k:Z\times\Sigma^*\times\Gamma^*$$
 - Jeder PDA kann so *umgewandelt* werden, dass er immer *nur ein Zeichen als Eingabe* liest (also in Echtzeit arbeitet)
 	-> Folgt aus dem Beweis $\text{PDA}\Rightarrow\text{Typ-2}$
 	-> Einen solchen PDA $M'$ erhält man durch $\text{PDA }M\Rightarrow\text{Grammatik }G\Rightarrow\text{CNF }G'\Rightarrow\text{PDA }M'$ (?)
+> Ich verstehe nicht, was unser lieber Prof auf V.17 F.32.6 mit "gemäß Satz 1" meint 
 
 ## Vom PDA zur Grammatik:
 - Gegeben: Ein PDA $M=(Z,\Sigma,\Gamma,\delta,z_0,\#),$ der $o.B.d.A.$ den Keller pro Schritt um maximal ein Symbol vergrößert
@@ -60,4 +61,4 @@ $$k:Z\times\Sigma^*\times\Gamma^*$$
 	4. $\forall a\in\Sigma\cup\varepsilon:(z_1,BC)\in\delta(z,a,A)\quad\Leftrightarrow\quad((z,A,z')\rightarrow a(z_1,B,z_2)(z_2,C,z'))\in P$
 
 ## Beispiele
-- V.16 F.30.4 ff. !!!
+- Siehe V.16 F.30.4 ff.

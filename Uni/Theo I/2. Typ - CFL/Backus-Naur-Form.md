@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs
+tags: uni theo-1 theoretical-cs chomsky
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:
@@ -15,7 +15,7 @@ mod-date: 2022-09-15
 ## Definition
 
 ### Syntax:
--> Die Produktionsregel-Menge $P$ einer [[../Grundlegendes/Grammatik|formale Grammatik]] in anderem Syntax:
+-> Die Produktionsregel-Menge $P$ einer [[../Grammatik|formale Grammatik]] in anderem Syntax:
 - *Nicht-Terminale*: $\langle\text{linkeSeite}\rangle ::= \langle\text{NichtTerminal}_1\rangle\mid\langle\text{NichtTerminal}_2\rangle\mid\dots\mid\langle\text{NichtTerminal}_n\rangle$
 - *Terminalsymbole*: $\langle \text{Ziffer}\rangle ::= 1|2|3|4|5|6|7|8|9|0$
 - *Bedingungen*: $\langle\text{auswahl}\rangle ::=\text{ falls }\langle\text{bedingung}\rangle\text{ dann }\langle\text{block}\rangle$

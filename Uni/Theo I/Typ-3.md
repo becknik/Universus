@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs chomsky
+tags: uni theo-1 theoretical-cs chomsky formal-languages
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:
@@ -19,8 +19,8 @@ mod-date: 2022-09-20
 ## Definition:
 
 ## Definition:
-- Eine [[Grundlegendes/Grammatik|formale Grammatik]] $G$, die die Kriterien für den Grammatik [[Typ-2]] erfüllt und für die $$\forall(u,v)\in P:v\in \Sigma\cup\Sigma V$$ erfüllt ist, gehört dem 3. Typ der [[Chomsky-Hierarchie]] an
-	-> Die von der Grammatik erzeugte [[Grundlegendes/Formale Sprache|formale Sprache]] liegt in der dazugehörigen Sprachklasse
+- Eine [[Grammatik|formale Grammatik]] $G$, die die Kriterien für den Grammatik [[Typ-2]] erfüllt und für die $$\forall(u,v)\in P:v\in \Sigma\cup\Sigma V$$ erfüllt ist, gehört dem 3. Typ der [[Chomsky-Hierarchie]] an
+	-> Die von der Grammatik erzeugte [[Formale Sprache|formale Sprache]] liegt in der dazugehörigen Sprachklasse
 
 ## Eigenschaften:
 - [[Syntaxbäume]] von Typ-3 Grammatiken sind nutzlos
@@ -31,6 +31,7 @@ mod-date: 2022-09-20
 	-> [[3. Typ - REG/Deterministischer Endlicher Automat|DFA]] = [[3. Typ - REG/Nichtdeterministischer Endlicher Automat|NFA]] = [[Typ-3|REG]] = Typ-3 (bezogen auf *Sprachklassen*)
 - Reguläre Sprachen haben eine große Bedeutung (in der Informatik)
 	-> [[3. Typ - REG/Reguläre Ausdrücke|Reguläre Ausdrücke]], [[../DSA/Nebenläufige Abläufe/Petri-Netze|Petri-Netze]], …
+- $\forall L\in\text{REG}:$ Das [[3. Typ - REG/Syntaktisches Monoid|Syntaktisches Monoid]] von $L$ ist endlich und $L$ ist durch ein *endliches* [[Monoid|Monoid erkennbar]]
 
 ## Modelle:
 - [[3. Typ - REG/Deterministischer Endlicher Automat|DFAs]]/ [[3. Typ - REG/Nichtdeterministischer Endlicher Automat|NFAs]]
@@ -40,4 +41,4 @@ mod-date: 2022-09-20
 - [[3. Typ - REG/Satz von Rabin und Scott|Satz von Rabin und Scott]]
 - [[3. Typ - REG/Satz von Kleene|Satz von Kleene]]
 - ([[3. Typ - REG/Pumping Lemma für Typ-3|Pumping Lemma für Typ-3]])
-- [[3. Typ - REG/Myhill-Nerode Äquivalenz|Myhill-Nerode Äquivalenz]]
+- [[3. Typ - REG/Myhill-Nerode|Myhill-Nerode Äquivalenz]]

@@ -1,7 +1,7 @@
 ---
-tags: uni theo-1 theoretical-cs
+tags: uni theo-1 theoretical-cs chomsky theorem
 cards-deck: Uni::Courses::Theo-I
-complete: false
+complete: true
 aliases: Kuroda Normalform
 linter-yaml-title-alias: Kuroda Normalform
 date: 2022-09-21

@@ -1,5 +1,5 @@
 ---
-tags: uni theo-1 theoretical-cs
+tags: uni theo-1 theoretical-cs automata formal-languages
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases:
@@ -23,6 +23,6 @@ $$M=(Z,\Sigma,\Gamma,\delta,z_0,\#,F)$$
 - [[Typ-3|REG]] $\subsetneq\text{DCFL}:$ Ein [[3. Typ - REG/Deterministischer Endlicher Automat|DFA]] ist ein DPDA, der seinen Keller nicht nutzt
 $$\text{REG}\subsetneq\text{DCFL}\subseteq\text{CFL}$$
 	-> Die Menge der unmarkierten Palindrome ist $\in$ [[Typ-2|CFL]]$\setminus\text{DCFL}$
-- Die [[../Grundlegendes/Formale Sprache|Sprache]] der markierte Palindrome $L=\{w\$w^R\mid w\in\Sigma^*\},\$\notin\Sigma,\$\notin w$ liegen in $\text{DCFL}$
+- Die [[../Formale Sprache|Sprache]] der markierte Palindrome $L=\{w\$w^R\mid w\in\Sigma^*\},\$\notin\Sigma,\$\notin w$ liegen in $\text{DCFL}$
 - Beschreibt die Klasse der Sprachen, die sich durch [[LR(k) Grammatik]]en erzeugen lassen
 	-> Hier existiert scheinbar ein Algorithmus $\in\mathbfcal{O}(n)$
