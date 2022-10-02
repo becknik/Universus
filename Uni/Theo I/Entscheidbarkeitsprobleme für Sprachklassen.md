@@ -1,24 +1,25 @@
 ---
-tags: uni theo-1 theoretical-cs chomsky formal-languages decision-problem abstraction 
+tags: uni theo-1 theoretical-cs chomsky formal-languages decision-problem abstraction
 cards-deck: Uni::Courses::Theo-I
 complete: true
 aliases: Entscheidbarkeitsprobleme für Sprachklassen
 linter-yaml-title-alias: Entscheidbarkeitsprobleme für Sprachklassen
 date: 2022-09-20
-mod-date: 2022-09-23
+mod-date: 2022-10-02
 ---
 
 # Entscheidbarkeitsprobleme für Sprachklassen
 
-## Tabelle:
+## Tabelle: #fc
 |                                                               | Wortproblem      | Leerheit         | Endlichkeit      | Äquivalenz       | Schnitt          |
 | ------------------------------------------------------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | [[Typ-3\|Typ-3/REG]]                                          | $\checkmark$[^1] | $\checkmark$[^2] | $\checkmark$[^3] | $\checkmark$[^4] | $\checkmark$[^5] |
-| [[2. Typ - CFL/Deterministische Kellerautomaten\|DCFL]]       | "                | "                | "                | $\checkmark$[^9] |                  |
-| [[Typ-2\|Typ-2/CFL]]                                          | $\checkmark$[^6] | $\checkmark$[^7] | $\checkmark$[^8] |                  |                  |
-| [[Typ-1\|Typ-1/CSL]]                                          | $\checkmark$[^0] |                  |                  |                  |                  |
-| [[../Theo II/Entscheidbarkeit/Rekursiv Aufzählbar\|Typ-0/RE]] |                  |                  |                  |                  |                  |
-$\smile$
+| [[2. Typ - CFL/Deterministische Kellerautomaten\|DCFL]]       | "                | "                | "                | $\checkmark$[^9] | $\times$         |
+| [[Typ-2\|Typ-2/CFL]]                                          | $\checkmark$[^6] | $\checkmark$[^7] | $\checkmark$[^8] | $\times$         | $\times$         |
+| [[Typ-1\|Typ-1/CSL]]                                          | $\checkmark$[^0] | $\times$         | $\times$         | $\times$         | $\times$         |
+| [[../Theo II/Entscheidbarkeit/Rekursiv Aufzählbar\|Typ-0/RE]] | $\times$         | $\times$         | $\times$         | $\times$         | $\times$         |
+^1664630660487
+
 [^0]: Direkt zu beginn der Vorlesung ([[Typ-1|hier]])
 [^1]: Dank [[3. Typ - REG/Deterministischer Endlicher Automat\|DFAs]] in Echtzeit möglich
 [^2]: Prüfe Erreichbarkeit im [[../DSA/Graphen|Graphen]] des DFAs, oder [[3. Typ - REG/Pumping Lemma für Typ-3|Pumping Lemma für Typ-3]]
@@ -31,9 +32,9 @@ $\smile$
 [^9]: Géraud Sénizergues - seit 20 Jahren beweisen und gefeiert, trotzdem existiert noch kein einfacher Beweis…
 
 ### Markierungsalgorithmus mit produktiven Variablen:
-1. Markiere $\{A\in V\mid(A,w\in\Sigma^*)\in P\}$
+1. Markiere $\{A\in V\mid(A,w\in\Sigma^{Stern})\in P\}$
 2. Wiederhole, solange Markierungen hinzukommen:
-	- Markiere $\{A\in V\mid(A,\beta\in (\text{markiert}(V)\cup\Sigma)^*)\in P$
+	- Markiere $\{A\in V\mid(A,\beta\in (\text{markiert}(V)\cup\Sigma)^{Stern})\in P$
 3. Gebe $LEER$ aus, wenn $S$ nicht markiert ist
 
 ### Gleichheit mit $L\in$ [[Typ-3|REG]]:

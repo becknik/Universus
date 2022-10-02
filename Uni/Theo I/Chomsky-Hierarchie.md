@@ -14,9 +14,9 @@ mod-date: 2022-09-20
 ![[_Figures/Chomsky-Hiarchie-Spachen-Überblick.png|400]]
 [CC Carlos Camino, SS2020, source:](https://fmi.uni-stuttgart.de/files/ti/teaching/s20/ti2/erg/z06.pdf)
 
-## Definition:
+## Definition: #fc
 - Die Klassifizierung orientiert sich an der Regelmenge der [[Grammatik|Grammatik]] $G$
-  -> Da jede Grammatik eine [[Formale Sprache|formale Sprache]] beschreibt, wird die Klassifizierung auch auf Sprachklassen und nicht nur Grammatiken verwendet 
+  -> Da jede Grammatik eine [[Formale Sprachen|formale Sprache]] beschreibt, wird die Klassifizierung auch auf Sprachklassen und nicht nur Grammatiken verwendet 
 - Da es sich um eine Hierarchie handelt, gilt:$$\text{Typ-0}\subsetneq\text{Typ-1}\subsetneq\text{Typ-2}\subsetneq\text{Typ-3}$$
 - [[Typ-0]]: *Beliebige* Grammatiken/ Allgemeine Phrasenstrukturgrammatiken
 	-> Jede existierende Grammatik ist vom Typ-0
@@ -28,6 +28,7 @@ mod-date: 2022-09-20
 	-> Definiert durch $G\in\text{CSL/Typ-1}$ und $(u,v)\in P_G$ wobei $u\in V_G$ ist
 - [[Typ-3]]: *Reguläre*/ *Rechtslineare* Grammatiken
 	-> Definiert durch $G\in\text{CFL/Typ-2}$ und $(u,v)\in P_G,$ wobei $v\in\Sigma\cup\Sigma V$ gilt
+^1664630657037
 
 ## Eigenschaften:
 - [[Abschlusseigenschaften]]

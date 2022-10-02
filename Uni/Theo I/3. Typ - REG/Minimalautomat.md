@@ -10,7 +10,7 @@ mod-date: 2022-09-20
 
 # Minimalautomat
 
-## Algorithmus:
+## Algorithmus: #fc
 - Gegeben: Ein nicht-minimaler [[Deterministischer Endlicher Automat|DFA]] $M=(V,\Sigma,\delta,z_0,E)$
 1. Erstelle eine untere Dreiecksmatrix $M_{|V|}$ (mit dem Zusatz, dass $i=j\Rightarrow a_{ij}=0$, also die mittlere Diagonale auch 0en enthält)
 	-> Die Darstellung als Matrix macht das Zeichnen in der Anwendung einfacher
@@ -19,3 +19,4 @@ mod-date: 2022-09-20
 	- Suche in den *unmarkierten Paaren* nach $(p,q),$ für die $\exists a\in\Sigma,$ sodass das Paar $(\delta(p,a),\delta(q,a))$ schon markiert ist
 4. Verschmelze die unmarkierten Zustandspaare
 	 -> Der entstandene Automat ist ein [[Myhill-Nerode|Myhill-Nerode]] Minimalautomat $M_0$
+^1664630759137

@@ -8,13 +8,13 @@ aliases:
   - Pushdown Automaton
 linter-yaml-title-alias: Kellerautomat
 date: 2022-09-21
-mod-date: 2022-09-23
+mod-date: 2022-10-02
 ---
 
 # Kellerautomat
 -> [[Deterministische Kellerautomaten|Deterministische Kellerautomaten]]
 
-## Definition:
+## Definition: #fc
 - Definiert durch das *6-Tupel*:
 $$M=(Z,\Sigma,\Gamma,\delta,z_0,\#)$$
 - $Z:$ Die endliche, nicht-leere *Zustandsmenge*
@@ -22,34 +22,37 @@ $$M=(Z,\Sigma,\Gamma,\delta,z_0,\#)$$
 	-> $Z\cap\Sigma=\emptyset$
 - $\Gamma:$ Das endliche *Keller-/Bandalphabet*
 	-> $Z\cap\Gamma=\emptyset$
-- Die [[../Grundlegendes/Nichtdeterminismus|nichtdeterministische]] *Zustandsüberführungsfunktion* $$\delta:Z\times(\Sigma\cup\{\varepsilon\})\times\Gamma\rightarrow\mathcal{P}_e(Z\times\Gamma^*)$$
+- Die [[../Grundlegendes/Nichtdeterminismus|nichtdeterministische]] *Zustandsüberführungsfunktion* $$\delta:Z\times(\Sigma\cup\{\varepsilon\})\times\Gamma\rightarrow\mathcal{P}_e(Z\times\Gamma^{Stern})$$
 	-> $\mathcal{P}_e:$ Eine endliche Teilmenge der potenzierten Menge
 - $z_0:$ Der *Anfangszustand* $\in Z$
 - $\#:$ Das *Kellerbottom-Symbol* $\in\Gamma\setminus\Sigma$
+^1664631244236
 
-## Konfiguration:
-$$k:Z\times\Sigma^*\times\Gamma^*$$
+## Konfiguration: #fc
+$$k:Z\times\Sigma^{Stern}\times\Gamma^{Stern}$$
 - Der Kellerautomat befindet sich in einem *Zustand* $z\in Z,$ …
-	- … liest auf dem Eingabeband das den *vordersten Buchstaben* des Worts $w\in\Sigma^*$ und …
+	- … liest auf dem Eingabeband das den *vordersten Buchstaben* des Worts $w\in\Sigma^{Stern}$ und …
 	- … peekt das *oberste Keller-Symbol* $A_m$ vom [[../../DSA/Datenstrukturen/Stack|Stack/ Kellerspericher]] $V=A_1A_2\dots A_m$
 - *Konfigurationsübergänge*: Sei $$(z,\textbf{a}_\textbf{1}\dots a_n,A_1\dots A_m)$$ die aktuelle Konfiguration und $(z',B_1\dots B_k)\in\delta(z,a_1,A_1),$ dann resultiert daraus die Konfiguration $$(z',\textbf{a}_\textbf{2}\dots a_n,B_1\dots B_kA_2\dots A_m)$$
-	-> Übergänge zwischen (zwei) Konfigurationen werden wieder mit $\vdash/\vdash^*$ angegeben
+	-> Übergänge zwischen (zwei) Konfigurationen werden wieder mit $\vdash/\vdash^{Stern}$ angegeben
 	-> $\varepsilon$-Übergänge: $(z,\textbf{a}_\textbf{1}\dots a_n,A_1\dots A_m)\vdash(z',\textbf{a}_\textbf{1}\dots a_n,B_1\dots B_kA_2\dots A_m)$
-- Ein PDA akzeptiert durch *leeren Keller*: $$N(M)=\{w\in\Sigma^*\mid\exists z\in Z:(z_0,w,\#)\vdash^*(z,\textbf{ε},\varepsilon)\}$$
+- Ein PDA akzeptiert durch *leeren Keller*: $$N(M)=\{w\in\Sigma^{Stern}\mid\exists z\in Z:(z_0,w,\#)\vdash^{Stern}(z,\textbf{ε},\varepsilon)\}$$
 	-> Vergleiche mit [[Deterministische Kellerautomaten|DPDA]]
+^1664631244245
 
-## Eigenschaften:
+## Eigenschaften: #fc
 - Ein [[../Automaten|Automat]] wie ein [[../3. Typ - REG/Nichtdeterministischer Endlicher Automat|NFA]], nur dass er einen zusätzlichen [[../../DSA/Datenstrukturen/Stack|Stack/ Kellerspeicher]] besitzt
 - Akzeptiert durch einen *leeren Keller*, wenn die Eingabe zu dem Zeitpunk komplett gelesen wurde
 	-> Akzeptierung durch einen Endzustand ist äquivalent (Beweis:Übung?)
-- Es $\exists$ ein PDA $M$ für $L\subseteq\Sigma^*\Leftrightarrow L\in$ der Sprachklasse [[../Typ-2|CFL]]
+- Es $\exists$ ein PDA $M$ für $L\subseteq\Sigma^{Stern}\Leftrightarrow L\in$ der Sprachklasse [[../Typ-2|CFL]]
 	-> $O.B.d.A:\{L\mid \varepsilon\notin L\}$ (V.19 F.37.1)
-- *Ein (nützlicher) Satz:* Für den PDA $M$ mit $\forall z,z'\in Z$, $\forall w,w'\in\Sigma^*$ und $\forall V,V',Y\in\Gamma^*:$$$(v,w,V)\vdash^*(z',w'V')\Rightarrow(z,wx,VY)\vdash^*(z',w'x,V'Y)$$
+- *Ein (nützlicher) Satz:* Für den PDA $M$ mit $\forall z,z'\in Z$, $\forall w,w'\in\Sigma^{Stern}$ und $\forall V,V',Y\in\Gamma^{Stern}$ gilt: $$(v,w,V)\vdash^{Stern}(z',w'V')\Rightarrow(z,wx,VY)\vdash^{Stern}(z',w'x,V'Y)$$
 - Jeder PDA $M$ kann in einen *gleichwertigen* PDA $M'$ umgewandelt werden, sodass $N(M)=N(M')$ gilt und $M'$ *nur einen Zustand* hat
 - Jeder PDA kann so *umgewandelt* werden, dass er immer *nur ein Zeichen als Eingabe* liest (also in Echtzeit arbeitet)
 	-> Folgt aus dem Beweis $\text{PDA}\Rightarrow\text{Typ-2}$
 	-> Einen solchen PDA $M'$ erhält man durch $\text{PDA }M\Rightarrow\text{Grammatik }G\Rightarrow\text{CNF }G'\Rightarrow\text{PDA }M'$ (?)
-> Ich verstehe nicht, was unser lieber Prof auf V.17 F.32.6 mit "gemäß Satz 1" meint 
+> *Ich verstehe nicht, was unser lieber Prof auf V.17 F.32.6 mit "gemäß Satz 1" meint*
+^1664631244250
 
 ## Vom PDA zur Grammatik:
 - Gegeben: Ein PDA $M=(Z,\Sigma,\Gamma,\delta,z_0,\#),$ der $o.B.d.A.$ den Keller pro Schritt um maximal ein Symbol vergrößert

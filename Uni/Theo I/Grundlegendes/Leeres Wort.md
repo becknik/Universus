@@ -12,8 +12,9 @@ mod-date: 2022-09-23
 
 # Leeres Wort
 
-## Eigenschaften:
+## Eigenschaften: #fc
 - $|\varepsilon|=0$
 - $w\cdot\varepsilon=w$
 	-> Kommt in jedem Wort an jeder Stelle vor
  - Wird manchmal auch $\lambda$ bezeichnet
+^1664633804161

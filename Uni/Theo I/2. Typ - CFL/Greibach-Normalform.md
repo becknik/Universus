@@ -13,15 +13,18 @@ mod-date: 2022-09-21
 # Greibach-Normalform
 -> [[Syntaxbäume]]
 
-## Definition:
-- Eine [[../Typ-2|Typ-2 Grammatik]] $G$ mit der Regelmenge $P$ ist in Greibach-Normalform, wenn $$\forall(u,v)\in P:u\in V\wedge v\in\Sigma V^*$$ gilt.
+## Definition: #fc
+- Eine [[../Typ-2|Typ-2 Grammatik]] $G$ mit der Regelmenge $P$ ist in Greibach-Normalform, wenn $$\forall(u,v)\in P:u\in V\wedge v\in\Sigma V^{Stern}$$ gilt.
 	-> Jede Regel geht in *ein Terminal* und danach eine beliebige Anzahl an *Nicht-Terminalen* über
+^1664631195388
 
-## Satz:
+## Satz: #fc
 - Zu jeder kontextfreien Grammatik $G$ mit $\varepsilon\notin L(G):\exists G'$ in Greibach-Normalform, so dass $$L(G)=L(G')$$ gilt
+^1664631195391
 
-## Eigenschaften:
+## Eigenschaften: #fc
 - Die Ableitungslänge für ein Wort der Länge $n$ ist genau $n$
+^1664631195394
 
 ## Algorithmen:
 - Algorithmus 1: Hat zum Zeil, dass $A_i\rightarrow A_j\beta$ nur für $i<j$ in $P$ vorkommen

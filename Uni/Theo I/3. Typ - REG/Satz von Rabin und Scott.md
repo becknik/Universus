@@ -10,8 +10,9 @@ mod-date: 2022-09-16
 
 # Satz von Rabin und Scott
 
-## Aussage:
-- Für jede Sprache $L\in\Sigma^*:$ Wenn einen [[Nichtdeterministischer Endlicher Automat|NFA]] $M$ mit $T(M)=L$ existiert, dann existiert auch ein [[Deterministischer Endlicher Automat|DFA]] $M'$ mit $T(M')=L$
+## Aussage: #fc
+- Für jede Sprache $L\in\Sigma^{Stern}:$ Wenn einen [[Nichtdeterministischer Endlicher Automat|NFA]] $M$ mit $T(M)=L$ existiert, dann existiert auch ein [[Deterministischer Endlicher Automat|DFA]] $M'$ mit $T(M')=L$
 	-> $\text{NFA}\subseteq\text{DFA}$
 - Allerdings können die resultierenden DFAs eine deutlich höhere Zustandsmenge aufweisen als die äquivalenten NFAs (im Extrem: *Exponentielles Blow-Up*)
 	-> [[Potenzmengenkonstruktion]]
+^1664631006685
