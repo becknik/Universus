@@ -1,7 +1,3 @@
----
-tags: explainatory
----
-
 # UNIversus
 An **universitary knowledge collection** of a ambitious CS students using the wonderful [Obsidian.md](https://obsidian.md/) Markdown tool with it's extending syntax and graph-view. This project is aiming to **sum up** all (essential) parts of taught subjects of the [University of Stuttgart](https://www.uni-stuttgart.de/) *CS bachelor degree* course in a cross-(Wiki-)linking approach.
 
