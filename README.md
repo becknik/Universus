@@ -46,6 +46,7 @@ Currently I use this *Obsidian vault* in combination with the Anki [Flashcards P
 Currently available decks:
 - [Datenstrukturen & Algorithmen](https://ankiweb.net/shared/info/1023735405)
 - [Theoretische Informatik I](https://ankiweb.net/shared/info/1096330501)
+- [Theoretische Informatik II](https://ankiweb.net/shared/info/729716890) (**WORK NEEDED**)
 ---
 ## Notes on repositories structure:
 I do not sync the full `/.obsidian` folder due to the *Obsidian's plugin system* (which simply downloads all plugins locality into a subfolder) to allow local *individual customization* and plugin choices.
