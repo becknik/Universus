@@ -45,6 +45,7 @@ If you should be interested in *contributing or enhancing* this vault, consider 
 Currently I use this *Obsidian vault* in combination with the Anki [Flashcards Plugin](https://github.com/reuseman/flashcards-obsidian). Unfortunately, this plugin only works for one person at the same time. So I came over the idea to mirroring my generated [Anki](https://apps.ankiweb.net/)-decks for the courses in this repo on [AnkiWeb](https://ankiweb.net/shared/decks/).
 Currently available decks:
 - [Datenstrukturen & Algorithmen](https://ankiweb.net/shared/info/1023735405)
+- [Theoretische Informatik I](https://ankiweb.net/shared/info/1096330501)
 ---
 ## Notes on repositories structure:
 I do not sync the full `/.obsidian` folder due to the *Obsidian's plugin system* (which simply downloads all plugins locality into a subfolder) to allow local *individual customization* and plugin choices.
