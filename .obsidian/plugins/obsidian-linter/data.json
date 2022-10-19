@@ -3,7 +3,8 @@
     "Escape YAML Special Characters": {
       "Escapes colons with a space after them (: ), single quotes ('), and double quotes (\") in YAML.": false,
       "Default Escape Character": "\"",
-      "Try to Escape Single Line Arrays": false
+      "Try to Escape Single Line Arrays": false,
+      "Force Yaml Escape on Keys": ""
     },
     "Format Tags in YAML": {
       "Remove Hashtags from tags in the YAML frontmatter, as they make the tags there invalid.": true
@@ -13,6 +14,7 @@
       "Yaml aliases section style": "single string to multi-line",
       "Format yaml aliases section": true,
       "Yaml tags section style": "single string space delimited",
+      "Format yaml tags section": true,
       "Default yaml array section style": "single-line",
       "Format yaml array sections": true,
       "Force key values to be single-line arrays": "",
@@ -20,17 +22,24 @@
     },
     "Insert YAML attributes": {
       "Inserts the given YAML attributes into the YAML frontmatter. Put each attribute on a single line.": true,
-      "Text to insert": "cards-deck: \ntags: \ncomplete: true\naliases: "
+      "Text to insert": "tags: \ncards-deck: \ncomplete: true\naliases: "
+    },
+    "Move Tags to Yaml": {
+      "Move all tags to Yaml frontmatter of the document.": false,
+      "Yaml tags section style": "single-line",
+      "Remove the hashtag from tags in content body": false,
+      "Tags to ignore": ""
     },
     "Remove YAML Keys": {
       "Removes the YAML keys specified": false,
       "YAML Keys to Remove": ""
     },
     "YAML Key Sort": {
-      "Sorts the YAML keys based on the order and priority specified. Note: removes blank lines as well.": true,
-      "YAML Key Priority Sort Order": "tags\ncards-deck\ncomplete\npublish\naliases\nlinter-yaml-title-alias\ndate\nmod-date",
+      "Sorts the YAML keys based on the order and priority specified. Note: may remove blank lines as well.": true,
+      "YAML Key Priority Sort Order": "tags\nsource\ncards-deck\ncomplete\npublish\naliases\nlinter-yaml-title-alias\ndate\nmod-date",
       "Priority Keys at Start of YAML": true,
-      "YAML Sort Order for Other Keys": "Ascending Alphabetical"
+      "YAML Sort Order for Other Keys": "Ascending Alphabetical",
+      "Sorts the YAML keys based on the order and priority specified. Note: removes blank lines as well.": true
     },
     "YAML Timestamp": {
       "Keep track of the date the file was last edited in the YAML front matter. Gets dates from file metadata.": true,
@@ -42,14 +51,15 @@
     },
     "YAML Title": {
       "Inserts the title of the file into the YAML frontmatter. Gets the title from the first H1 or filename if there is no H1.": false,
-      "Title Key": "aliases",
+      "Title Key": "",
       "Inserts the title of the file into the YAML frontmatter. Gets the title from the first H1 or filename.": false
     },
     "YAML Title Alias": {
       "Inserts the title of the file into the YAML frontmatter's aliases section. Gets the title from the first H1 or filename.": true,
       "YAML aliases section style": "Single string that expands to multi-line array if needed",
       "Preserve existing aliases section style": true,
-      "Keep alias that matches the filename": true
+      "Keep alias that matches the filename": true,
+      "Use the YAML key `linter-yaml-title-alias` to help with filename and heading changes": true
     },
     "Capitalize Headings": {
       "Headings should be formatted with capitalization": false,
@@ -78,11 +88,16 @@
       "Converts common bullet list marker symbols to markdown list markers.": true
     },
     "Emphasis Style": {
-      "Makes sure the emphasis style is consistent.": false,
+      "Makes sure the emphasis style is consistent.": true,
       "Style": "asterisk"
     },
     "No Bare URLs": {
       "Encloses bare URLs with angle brackets except when enclosed in back ticks, square braces, or single or double quotes.": true
+    },
+    "Ordered List Style": {
+      "Makes sure that ordered lists follow the style specified. Note that 2 spaces or 1 tab is considered to be an indentation level.": false,
+      "Number Style": "ascending",
+      "Ordered List Indicator End Style": "."
     },
     "Proper Ellipsis": {
       "Replaces three consecutive dots with an ellipsis.": true
@@ -106,6 +121,10 @@
     "Two Spaces Between Lines with Content": {
       "Makes sure that two spaces are added to the ends of lines with content continued on the next line for paragraphs, blockquotes, and list items": false
     },
+    "Unordered List Style": {
+      "Makes sure that unordered lists follow the style specified.": true,
+      "List item style": "-"
+    },
     "Compact YAML": {
       "Removes leading and trailing blank lines in the YAML front matter.": true,
       "Inner New Lines": true
@@ -116,6 +135,9 @@
     "Convert Spaces to Tabs": {
       "Converts leading spaces to tabs.": true,
       "Tabsize": "2"
+    },
+    "Empty Line Around Blockquotes": {
+      "Ensures that there is an empty line around blockquotes unless they start or end a document. **Note that an empty line is either one less level of nesting for blockquotes or a newline character.**": false
     },
     "Empty Line Around Code Fences": {
       "Ensures that there is an empty line around code fences unless they start or end a document.": false
@@ -149,6 +171,7 @@
       "There should be a single space after list markers and checkboxes.": true
     },
     "Space between Chinese and English or numbers": {
+      "Ensures that Chinese and English or numbers are separated by a single space. Follows these [guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)": false,
       "Ensures that Chinese and English or numbers are separated by a single space. Follow this [guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)": false
     },
     "Trailing spaces": {
@@ -163,8 +186,15 @@
     "README",
     "Recommendations",
     "Style-Guide",
-    "Headings"
+    "Headings",
+    "!TODO"
   ],
   "linterLocale": "system-default",
-  "logLevel": 4
+  "logLevel": 4,
+  "lintCommands": [
+    {
+      "id": "flashcards-obsidian:generate-flashcard-current-file",
+      "name": "Flashcards: Generate for the current file"
+    }
+  ]
 }

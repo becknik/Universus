@@ -4,8 +4,8 @@
   "showLineNumber": true,
   "spellcheck": true,
   "spellcheckLanguages": [
-    "de",
-    "en-US"
+    "en-US",
+    "de-DE"
   ],
   "promptDelete": false,
   "alwaysUpdateLinks": true,
@@ -25,5 +25,8 @@
     "_Templates/"
   ],
   "communityPluginSortOrder": "download",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showInlineTitle": false
 }

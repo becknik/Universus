@@ -9,6 +9,8 @@
   "page-preview",
   "templates",
   "command-palette",
-  "random-note",
+  "slash-command",
+  "editor-status",
+  "markdown-importer",
   "word-count"
 ]
