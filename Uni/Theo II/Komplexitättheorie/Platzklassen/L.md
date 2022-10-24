@@ -3,9 +3,9 @@ tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
 complete: true
 aliases: L
-date: 2022-08-11
-mod-date: 2022-08-20
 linter-yaml-title-alias: L
+date: 2022-08-11
+mod-date: 2022-10-24
 ---
 
 # L
@@ -15,7 +15,7 @@ linter-yaml-title-alias: L
 $$L = DSPACE(\log n)$$
 
 ## Eigenschaften: #fc
-- [[Translationssatz für Platzklassen|Translationssatz für Platzklassen]]: $DSPACE(n)\subsetneq NSPACE(n)\Rightarrow L\subsetneq NL$
+- [[../Translationssätze|Translationssatz für Platzklassen]]: $DSPACE(n)\subsetneq NSPACE(n)\Rightarrow L\subsetneq NL$
 ^1660860512048
 
 ## Beispiele:

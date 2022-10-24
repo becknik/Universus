@@ -10,20 +10,20 @@ aliases:
   - REC
 linter-yaml-title-alias: Entscheidbarkeit
 date: 2022-07-03
-mod-date: 2022-09-10
+mod-date: 2022-10-24
 ---
 
 # Entscheidbarkeit
 
 ## Definition: #fc
 - Eine Menge $A$ ist *entscheidbar*, wenn ihre charakteristische Funktion $$\chi_A(w\in\Sigma^{Stern})=1,\text{ falls }w\in A,0 \text{ falls }w\notin A$$ [[Berechenbarkeit|berechenbar]] ist.
-	-> $\chi_A$ muss *total* und [[../Maths/Wohldefinierte Funktion|wohldefiniert]] sein
+	-> $\chi_A$ muss *total* und [[../Maths/Wohldefiniertheit|wohldefiniert]] sein
 - Eine Menge $A$ ist *semi-entscheidbar*, wenn die (co-)semi-charakteristische Funktion $\chi_A'/\chi_\overline{A}'=1,\text{ falls }w\in A/w\notin A, \text{ sonst }\bot$ *berechenbar* ist
 	-> Theo-I Terminus: Die Menge $A$ wird *akzeptiert*, wenn eine semi-charakteristische Funktion für $A$ existiert
 	-> Semi-entscheidbare Sprachen liegen in [[Entscheidbarkeit/Rekursiv Aufzählbar|RE]], co-semi-entscheidbare in $co\text{RE}$
 ^1661250083685
 
-## Eigenschaften: #fc
+## Eigenschaften:  #fc
 - Entscheidbare Sprachen liegen in der [[Komplexitätsklassen|Komplexitätsklasse]] $\text{R}=\text{RE}\cap co\text{RE}$[^1]
 - semi-entscheidbar $=$ [[Entscheidbarkeit/Rekursiv Aufzählbar|rekursiv aufzählbar]] $= \text{RE}$[^1]
 	-> $L\in\text{R}\Rightarrow L\in\text{RE}$

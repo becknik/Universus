@@ -31,7 +31,7 @@ ENDWHILE;
 OUTPUT: Es existiert ein Weg von s nach t
 ```
 
-## Beweis Der NL-Härte: #fc
+## Beweis Der NL-Härte:
 - Sei $A\in NL,$ dann gibt es eine logspace-beschränkte [[../../../Theo I/Turingmaschinen|NTM]] $M$ mit $L(M)=A$
 - Jedem Input $w\in\Sigma^{Stern}$ wird eine Gap-Instanz $f(w)=(G,s,t)$ zugeordnet
 - Sei $G=(V,E):$
@@ -41,4 +41,3 @@ OUTPUT: Es existiert ein Weg von s nach t
 	- $t=$ Eine akzeptierende Konfiguration von $M$
 - Die Abbildung $w\rightarrow(G,s,t)$ kann leicht mit logarithmischen Platzaufwand berechnet werden
 - $w\in A\Leftrightarrow f(w)\in GAP:$ Der Rechenweg von $M$ und der Weg im Graph $G$ stehen in 1:1 Korrespondenz
-^1660858547476

@@ -5,7 +5,7 @@ complete: true
 aliases: Platzkomplexität
 linter-yaml-title-alias: Platzkomplexität
 date: 2022-07-10
-mod-date: 2022-10-02
+mod-date: 2022-10-24
 ---
 
 # Platzkomplexität
@@ -22,10 +22,10 @@ mod-date: 2022-10-02
 
 ### Klassen: #fc
 -> Von oben nach unten $\subseteq/\subsetneq$
-- [[Platzklassen/PSPACE|PSPACE]] (=$IP$)
+- [[Platzklassen/PSPACE|PSPACE]] = $\text{IP}$
 	-> [[Platzklassen/Satz von Savitch|Satz Von Savitch]]
-- [[Platzklassen/NSPACE|NSPACE]] $=\text{CSL}=\text{LBA}$
-- [[Platzklassen/DSPACE|DSPACE]]
+- [[Platzklassen/SPACE|NSPACE]] $=\text{CSL}=\text{LBA}$
+- [[Platzklassen/SPACE|DSPACE]]
 - $\bigcup_{1\leq k}DSPACE(\log^kn) = \bigcup_{1\leq k}NSPACE(\log^kn)$
 	-> [[Platzklassen/Satz von Savitch|Satz Von Savitch]]
 - [[Platzklassen/NL|NL]]
@@ -39,7 +39,7 @@ mod-date: 2022-10-02
 ^1660502877092
 
 ## Theoreme & Folgerungen: #fc
-- [[Platzklassen/Satz von Savitch|Satz Von Savitch]]
+- [[Platzklassen/Satz von Savitch|Satz von Savitch]]
 - [[Platzklassen/Satz von Immerman–Szelepcsényi|Satz von Immerman–Szelepcsényi]]
 - Korollar aus der [[Platzklassen/Translationstechnik|Translationstechnik]]: $DSPACE(n)\subsetneq NSPACE(n)\Rightarrow L\subsetneq NL$
 ^1664743693685

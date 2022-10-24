@@ -5,7 +5,7 @@ complete: true
 aliases: Zeitkomplexität
 linter-yaml-title-alias: Zeitkomplexität
 date: 2022-07-09
-mod-date: 2022-10-02
+mod-date: 2022-10-24
 ---
 
 # Zeitkomplexität
@@ -24,8 +24,8 @@ mod-date: 2022-10-02
 - $NP\cap coNP$
 - [[Zeitklassen/P|P]] $:= \bigcup_{\text{Polynom }p}DTIME(p)$
 	-> *P-NP-Problem*: Jeweils untereinander nicht sicher, ob $\subseteq$ oder $\subsetneq$
-- [[Zeitklassen/NTIME|NTIME]] $:=\bigcup_{g\in\mathcal{O}(f)}NTIME(g)=\bigcup_{c\in\mathbb{N}}NTIME(c\cdot f)$
-- [[Zeitklassen/DTIME|DTIME]] $:=\bigcup_{g\in\mathcal{O}(f)}DTIME(g)=\bigcup_{c\in\mathbb{N}}DTIME(c\cdot f)$
+- [[Zeitklassen/TIME|NTIME]] $:=\bigcup_{g\in\mathcal{O}(f)}NTIME(g)=\bigcup_{c\in\mathbb{N}}NTIME(c\cdot f)$
+- [[Zeitklassen/TIME|DTIME]] $:=\bigcup_{g\in\mathcal{O}(f)}DTIME(g)=\bigcup_{c\in\mathbb{N}}DTIME(c\cdot f)$
 ^1660502918263
 
 ### Intern: #fc
@@ -45,8 +45,8 @@ $$NTIME(\mathcal{O}(f)) = NTIME(f)$$
 
 ## Theoreme: #fc
 - [[Zeitklassen/Satz von Hennie und Stearns|Satz von Hennie und Stearns]]
-- [[Zeitklassen/Zeitkonstruierbarkeit|Zeitkonstruierbarkeit]]
-- [[Zeitklassen/Zeithierarchiesatz|Zeithierarchiesatz]]
+- [[Konstruierbarkeit|Zeitkonstruierbarkeit]]
+- [[Hierarchiesätze|Zeithierarchiesatz]]
 - [[Lückensatz von Borodin|Lückensatz von Borodin]]
-- [[Zeitklassen/Translationssatz für Zeitklassen|Translationssatz für Zeitklassen]]
+- [[Translationssätze|Translationssatz für Zeitklassen]]
 ^1664743560144

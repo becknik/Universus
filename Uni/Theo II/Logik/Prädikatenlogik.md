@@ -5,12 +5,14 @@ complete: true
 aliases:
   - Prädikatenlogik
   - Logik erster Stufe
+  - Logik zweiter Stufe
 linter-yaml-title-alias: Prädikatenlogik
 date: 2022-08-05
-mod-date: 2022-10-02
+mod-date: 2022-10-18
 ---
 
 # Prädikatenlogik
+-> Hierbei handelt es sich um [Prädikatenlogik 2. Stufe](https://de.wikipedia.org/wiki/Pr%C3%A4dikatenlogik_zweiter_Stufe)
 
 ## Definition
 -> [[Belegung|Belegung]]

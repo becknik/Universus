@@ -1,5 +1,5 @@
 ---
-tags: uni theo-2 theoretical-cs complexity 
+tags: uni theo-2 theoretical-cs complexity solvability
 cards-deck: Uni::Courses::Theo-II
 complete: true
 aliases: NP-Härte

@@ -5,7 +5,7 @@ complete: true
 aliases: Ackermann-Funktion
 linter-yaml-title-alias: Ackermann-Funktion
 date: 2022-08-08
-mod-date: 2022-09-04
+mod-date: 2022-10-20
 ---
 
 # Ackermann-Funktion
@@ -17,7 +17,7 @@ mod-date: 2022-09-04
 ^1660502508932
 
 ## Eigenschaften: #fc
-- Die Ackermann-Funktion ist [[../../Maths/Wohldefinierte Funktion|wohldefiniert]] und total
+- Die Ackermann-Funktion ist [[../../Maths/Wohldefiniertheit|wohldefiniert]] und total
 - Die Ackermann-Funktion ist [[WHILE-berechenbar|WHILE-berechenbare]], totale, [[Modelle/Applikativ/µ-Rekursion|µ-rekursive]], aber nicht [[Modelle/Applikativ/Primitive Rekursion|primitiv rekursive]] Funktion
 	-> Simulation eines [[../../Ro I/OS & Environment/Stack|Stacks]] ist notwendig
 	-> "Für jede Eingabe müsste es eine LOOP-Schleife geben"

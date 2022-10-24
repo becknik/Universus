@@ -1,16 +1,18 @@
 ---
-tags: uni theo-2 theoretical-cs
+tags: uni theo-2 theoretical-cs complexity solvability
 cards-deck: Uni::Courses::Theo-II
 complete: true
-aliases: Satz Von Cook
-linter-yaml-title-alias: Satz Von Cook
+aliases: Satz von Cook
+linter-yaml-title-alias: Satz von Cook
 date: 2022-07-10
-mod-date: 2022-09-04
+mod-date: 2022-10-24
 ---
 
-# Satz Von Cook
--> Beweist die [[NP-Vollständigkeit|NP-Vollständigkeit]] von [[../../Probleme/Satisfiability|SAT]]
--> Wurde zeitgleich von Levin bewiesen
+# Satz von Cook
+
+## Eigenschaften:
+- Beweist die [[NP-Vollständigkeit|NP-Vollständigkeit]] von [[../../Probleme/Satisfiability|SAT]]
+- Wurde zeitgleich von Levin bewiesen
 
 ## Beweis $SAT\in NP$:
 - Sei $F$ eine Formel mit den Variablen $x_1,\dots,x_n$.

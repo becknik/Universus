@@ -2,13 +2,13 @@
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
 complete: true
-aliases: Lückensatz Von Borodin
+aliases: Lückensatz von Borodin
+linter-yaml-title-alias: Lückensatz von Borodin
 date: 2022-08-12
-mod-date: 2022-08-19
-linter-yaml-title-alias: Lückensatz Von Borodin
+mod-date: 2022-10-24
 ---
 
-# Lückensatz Von Borodin
+# Lückensatz von Borodin
 
 ## Definition: #fc
 - Sei $r$ eine totale, [[Berechenbarkeit|berechenbare]] Funktion mit $\forall n:n\leq r(n)$

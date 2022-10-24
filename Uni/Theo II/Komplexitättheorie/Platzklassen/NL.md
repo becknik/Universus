@@ -3,25 +3,27 @@ tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
 complete: true
 aliases: NL
-date: 2022-08-11
-mod-date: 2022-08-23
 linter-yaml-title-alias: NL
+date: 2022-08-11
+mod-date: 2022-10-24
 ---
 
 # NL
 
 ## Definition:
 $$NL = NSPACE(\log n)=NSPACE(\mathcal{O}(\log n))$$
-- [[Translationssatz für Platzklassen|Translationssatz für Platzklassen]]: $DSPACE(n)\subsetneq NSPACE(n)\Rightarrow$ [[L|L]] $\subsetneq NL$
+- [[../Translationssätze|Translationssatz für Platzklassen]]: $DSPACE(n)\subsetneq NSPACE(n)\Rightarrow$ [[L|L]] $\subsetneq NL$
 
 ## Beispiele #fc
-- Universalität von DFAs: Gegeben: DFA $A$, Frage: $L(A)=\Sigma^{Stern}?$
-	-> Die Universalität von NFAs ist [[PSPACE]]-vollständig, also $NL\subsetneq PSPACE,$ da die Probleme so weit auseinander sind
+- *Universalität von [[../../../Theo I/3. Typ - REG/Deterministischer Endlicher Automat|DFAs]]**
+	-> *Gegeben*: DFA $A$, Frage: $T(A)=\Sigma^{Stern}?$
+	-> $NL\subsetneq PSPACE$, da das Problem für NFAs [[PSPACE]]-vollständig ist und die Probleme so weit auseinander sind
 ^1660858067801
 
 ### NL-Vollständigkeit: #fc
-- [[../Probleme/Grapherreichbarkeitsproblem|GAP]]/ST-connectivity ist $\leq_{\log}$-vollständig für NL
-- $\text{2-SAT}$ ist $\leq_{\log}$-vollständig ($GAP \leq_{\log}\text{2-NSAT}$)
-	-> $2SAT$ ist NL-vollständig $\Leftrightarrow 2NSAT$ ist NL-vollständig ([[Satz von Immerman–Szelepcsényi|Satz von Immerman–Szelepcsényi]]) (V39.3)
-- Das Wortproblem für NFAs ist NL-vollständig
+- [[../Probleme/Grapherreichbarkeitsproblem|GAP/ ST-connectivity]] ist $\leq_{\log}$-vollständig für $\text{NL}$
+- 2-[[../Probleme/Satisfiability|SAT]] ist $\leq_{\log}$-vollständig
+	-> $GAP\leq_{\log}\text{2-NSAT}$
+	-> Kolar [[Satz von Immerman–Szelepcsényi|Satz von Immerman–Szelepcsényi]]: $2SAT$ ist NL-vollständig $\Leftrightarrow 2NSAT$ (V. 39.3)
+- Das [[../../../Theo I/Wortproblem|Wortproblem]] für [[../../../Theo I/3. Typ - REG/Nichtdeterministischer Endlicher Automat|NFAs]] ist NL-vollständig
 ^1660943198010

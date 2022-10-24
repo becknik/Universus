@@ -5,7 +5,7 @@ complete: true
 aliases: Theoreme
 linter-yaml-title-alias: Theoreme
 date: 2022-09-11
-mod-date: 2022-09-11
+mod-date: 2022-10-24
 ---
 
 # Theoreme
@@ -22,9 +22,7 @@ mod-date: 2022-09-11
 - [[Komplexitättheorie/Zeitklassen/Satz von Hennie und Stearns|Satz von Hennie und Stearns]]
 - [[Komplexitättheorie/Platzklassen/Satz von Savitch|Satz von Savitch]]
 - [[Komplexitättheorie/Hierarchiesätze|Hierarchiesätze]]
-	- [[Komplexitättheorie/Platzklassen/Platzhierarchiesatz|Platzhierarchiesatz]]
-	- [[Komplexitättheorie/Zeitklassen/Zeithierarchiesatz|Zeithierarchiesatz]]
 - [[Komplexitättheorie/Lückensatz von Borodin|Lückensatz von Borodin]]
 - [[Komplexitättheorie/Platzklassen/Satz von Immerman–Szelepcsényi|Satz von Immerman–Szelepcsényi]]
-- [[Komplexitättheorie/Zeitklassen/Translationssatz für Zeitklassen|Translationssatz für Zeitklassen]]
-- [[Komplexitättheorie/Platzklassen/Translationssatz für Platzklassen|Translationssatz für Platzklassen]]
+- [[Komplexitättheorie/Translationssätze|Translationssatz für Zeitklassen]]
+- [[Komplexitättheorie/Translationssätze|Translationssatz für Platzklassen]]

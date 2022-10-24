@@ -1,24 +1,23 @@
 ---
-tags: uni theo-2 theoretical-cs
+tags: uni theo-2 theoretical-cs complexity solvability
 cards-deck: Uni::Courses::Theo-II
 complete: true
 aliases: NP-Vollständigkeit
-date: 2022-08-11
-mod-date: 2022-08-20
 linter-yaml-title-alias: NP-Vollständigkeit
+date: 2022-08-11
+mod-date: 2022-10-24
 ---
 
 # NP-Vollständigkeit
 -> [[NP|NP]]
 
-## Definition:
+## Definition: #fc
 - Eine Sprache $A$ heißt NP-vollständig, falls sie [[NP/NP-Härte|NP-hart]] ist und $A \in$ [[NP|NP]] gilt
 $$A\in NP\wedge \forall L\in NP: L\leq_pA$$
+^1666643804965
 
 ## Eigenschaften: #fc
-- NP $\subseteq$ [[../../../Berechenbarkeit/LOOP-berechenbar|LOOP-berechenbar]]
-- NP-vollständige Probleme sind die schwierigsten Probleme in [[NP|NP]]
-- Nachweis für die Zugehörigkeit in NP funktioniert meistens über durch [[NP/Guess and Check|Guess And Check]]
+- Die schwierigsten Probleme in [[NP|NP]]
 - $L\in$ NP-vollständig $\Rightarrow$ Effizienter Algorithmus (=in Polynomialzeit lösbar) ist (wahrscheinlich) unmöglich
-- Falls $\exists A\in NP$-vollständig mit $A \in/\notin P:P =/\neq NP$
+- Falls $\exists A\in NP$-vollständig mit $A\in\text{P}:\text{P}=\text{NP}$ oder $A\notin\text{P}:\text{P}\neq\text{NP}$
 ^1660503074803

@@ -5,7 +5,7 @@ complete: true
 aliases: Komplexitätsklassen
 linter-yaml-title-alias: Komplexitätsklassen
 date: 2022-07-10
-mod-date: 2022-10-02
+mod-date: 2022-10-24
 ---
 
 # Komplexitätsklassen
@@ -31,6 +31,7 @@ mod-date: 2022-10-02
 - [[Komplexitättheorie/Platzklassen/NL|NL]] $=\text{NSPACE}(\log n)$[^1]
 - [[Komplexitättheorie/Platzklassen/L|L]] $=\text{DSPACE}(\log n)$[^1]
 [^1]: Als lösbar betrachtet
+- Probleme in [[Komplexitättheorie/Zeitklassen/NP|NP]], [[Komplexitättheorie/Platzklassen/PSPACE|PSPACE]], [[Komplexitättheorie/Zeitklassen/EXPTIME|EXPTIME]] und [[Entscheidbarkeit/Rekursiv Aufzählbar|RE]] werden als nicht lösbar betrachtet
 ![[_Figures/Komplexitätsklassen-Beziehungen.png]]
 [source:GitHub SerenGTI, GNU GLP3](https://github.com/SerenGTI/Theo_Inf/blob/master/Klausurzettel%20Theo%202/graph.png)
 ^1660502369712
