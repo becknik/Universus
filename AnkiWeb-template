@@ -4,13 +4,19 @@ Suttort URL="https://github.com/jarnnk/UNIversus"
 
 Description="
 <b>Einleitung:</b>
-Bei diesem Deck handelt es sich um einen Spiegel einer meiner auf <a href="https://github.com/jarnnk/UNIversus">GitHub veröffentlichten</a>, privaten Kurs-Zusammenfassung in dem Tool <a href="https://obsidian.md/">Obsidian.md</a> zu den Fächern aus dem Informatik Bachelor-Studiengang der <a href="https://www.uni-stuttgart.de/">Universität Stuttgart</a>.
-Die Karten wurde mit dem Obsidian.md <a href="https://github.com/reuseman/flashcards-obsidian">Flashcards Plugin</a> generiert und enthalten dementsprechend ein paar Schönheitsfehler aufgrund von Kompromissen, die ich wegen Bugs eingehen musste.
-Ich werde mir bestmöglich Mühe geben das Deck auf dem neusten Stand zu halten.
+Bei diesem Deck handelt es sich um eine Spiegelung einer meiner auf <a href="https://github.com/jarnnk/UNIversus">GitHub veröffentlichten</a>, privaten Kurs-Zusammenfassung in dem Tool <a href="https://obsidian.md/">Obsidian.md</a> zu den Fächern aus dem Informatik Bachelor-Studiengang der <a href="https://www.uni-stuttgart.de/">Universität Stuttgart</a>.
+Die Karten wurde mit dem Obsidian.md <a href="https://github.com/reuseman/flashcards-obsidian">Flashcards Plugin</a> generiert und enthielten dementsprechend bis vor kurzen noch ein paar Schönheitsfehler in der Formatierung (durch das Plugin) und MathJax-Kompromissen meinerseits, da die Dateien sonst nicht mehr richtig parsen würden.
+Ich werde mir bestmöglich Mühe geben die Decks - das hier eingeschlossen -  auf dem neusten Stand zu halten.
 
 <b>Inhalt:</b>
-Dieses Decks versuchen alle prüfungsrelevanten Themen (und noch ein paar mehr) aus der gleichnamigen Vorlesung abzudecken. Dabei ist das Zeil des Projekts nicht den Wortlaut der Vorlesung 1:1 wiederzugeben, sondern die Inhalte möglichst in eigenen Worten zu beschreiben wo es möglich und angemessen ist. Teils wurden auch Inhalte aus Ergänzungen und ab und an auch aus den Übungseinheiten und Übungsblättern hinzugefügt.
+Dieses Decks versuchen alle prüfungsrelevanten Themen (und manchmal auch ein paar mehr) aus der gleichnamigen Vorlesung abzudecken. Dabei ist das Zeil des Projekts nicht den Wortlaut der Vorlesung 1:1 wiederzugeben, sondern die Inhalte an passenden Stellen möglichst in eigenen Worten zu beschreiben.
+Teils wurden auch Inhalte aus den aktuellen Ergänzungen und ab und an auch kleine Beispiele aus den Übungsblättern hinzugefügt.
 
 
-Wenn Dir Fehler auf- oder Verbesserungen für dieses Deck/ die Dateien einfallen, zögere nicht, mich auf GitHub mit einem <a href="https://github.com/jarnnk/UNIversus/issues">Issue</a> oder eben per <a href="mailto:jannikb@posteo.de">E-Mail</a> darauf hinzuweisen.
+Wenn Dir <b>Fehler</b> auffallen oder Du Verbesserungsvroschläge hast, zögere bitte nicht, mich auf GitHub mit einem <a href="https://github.com/jarnnk/UNIversus/issues">Issue</a> oder eben per <a href="mailto:jannikb@posteo.de">E-Mail</a> darauf hinzuweisen. PR sind natürlich auch immer willkommen.
+Für ein besseres lernen!
+
+
+<b>Changelog:<b>
+<ls> 2022-11-25: Aufgrund von einem Update des oben erwähneten Flashcards Plugins habe ich dieses Deck (versucht) einmal komplett neu zu generieren. Nun sollte das studieren endlich (!) ohne nervige Formatierungsfehler möglich sein.
 "
