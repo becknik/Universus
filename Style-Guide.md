@@ -56,7 +56,7 @@ In the following I listed some *ground laying rules* I *tried* to obey:
 
 ### YAML Entries
 To *speed up* the creation of files with equal [YAML](https://en.wikipedia.org/wiki/YAML) parameters, templates with a basic YAML might be used. I did this by creating the `./_Templates` folder, setting it as my default template folder in the core plugins settings and adding a *shortcut*.
--> For example, one of my template looks like [[/_Templates/DSA|this]]
+-> For example, one of my template looks like [[_Templates/uni/DSA|this]]
 Templates also play nicely with [Linter](https://github.com/platers/obsidian-linter), when you first lint the file, paste the templates content by hitting the shortcut and then just delete the duplicate declarations.
 
 Here is *my set of YAML entries*:
