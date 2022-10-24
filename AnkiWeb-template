@@ -3,6 +3,9 @@ Title="Uni Stuttgart: CourseName"
 Suttort URL="https://github.com/jarnnk/UNIversus"
 
 Description="
+<b>Achtung:</b>
+Dieses Deck mag zwar inhaltlich ganz gut aufgestellt sein, allerdings noch etwas <i>unordentlich</i>. Überzeuge Dich bitte erstmal selbst von dem Zustand, bevor Du das Bestehen der Prüfung nächste Woche davon abhängig machst. :^)
+
 <b>Einleitung:</b>
 Bei diesem Deck handelt es sich um eine Spiegelung einer meiner auf <a href="https://github.com/jarnnk/UNIversus">GitHub veröffentlichten</a>, privaten Kurs-Zusammenfassung in dem Tool <a href="https://obsidian.md/">Obsidian.md</a> zu den Fächern aus dem Informatik Bachelor-Studiengang der <a href="https://www.uni-stuttgart.de/">Universität Stuttgart</a>.
 Die Karten wurde mit dem Obsidian.md <a href="https://github.com/reuseman/flashcards-obsidian">Flashcards Plugin</a> generiert und enthielten dementsprechend bis vor kurzen noch ein paar Schönheitsfehler in der Formatierung (durch das Plugin) und MathJax-Kompromissen meinerseits, da die Dateien sonst nicht mehr richtig parsen würden.
