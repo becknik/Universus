@@ -7,7 +7,7 @@ aliases:
   - freies Monoid
 linter-yaml-title-alias: Monoid
 date: 2022-09-13
-mod-date: 2022-09-25
+mod-date: 2022-10-31
 ---
 
 # Monoid
@@ -28,5 +28,6 @@ mod-date: 2022-09-25
 
 ## Erkennbarkeit: #fc
 - Die [[Formale Sprachen|formale Sprache]] $L$ wird von einem Monoid $(M,\circ,e)$ erkannt, wenn ein [[3. Typ - REG/Homomorphismus|Homomorphismus]] $\varphi:\Sigma^{Stern}\rightarrow\Sigma^{Stern}$ existiert, so dass das *Urbild* des Homomorphismus $\varphi,\varphi^{-1}=L$ ist
-> *Könne auch nicht stimmen… Ich bin mir bei dem Thema leider sehr unschlüssig*
 ^1664630602396
+
+> *Könne auch nicht stimmen… Ich bin mir bei dem Thema leider sehr unschlüssig*

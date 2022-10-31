@@ -42,6 +42,6 @@ mod-date: 2022-09-25
 	-> $R_L$ hat einen unendlichen Index
 - $L=\{x\in\{a,b\}^{Stern}\mid x\text{ enthält }abb\}:$
 	-> $R_L$ hat den Index 4 mit $[\varepsilon],[a],[ab],[abb],$ da man an Wörter mit diesen Suffixen jeweils dieselben $x\in\Sigma^{Stern}$ hängen kann, damit die Kompositionen wieder $\in L$ sind
-- $L=\{x\in\{a,b,c\}^{Stern}\mid|x|_a-|x|_b\equiv3\mod5\}:$
+- $L=\{x\in\{a,b,c\}^{Stern}\mid|x|_a-|x|_b\equiv3\pmod5\}:$
 	-> $R_L$ hat den Index 5, da sich an $x,y\in\Sigma^{Stern}$ mit $|x|_a=|y|_a$ natürlich immer dieselbe Anzahl an $a$ Anhängen lassen, damit sie $\in L$ sind
 	-> Falls $|x|_a\neq|y|_a$ gilt, stehen die Wörter auch nicht in Relation zueinander

@@ -8,7 +8,7 @@ aliases:
   - DFA
 linter-yaml-title-alias: Deterministischer Endlicher Automat
 date: 2022-09-15
-mod-date: 2022-09-21
+mod-date: 2022-10-31
 ---
 
 # Deterministischer Endlicher Automat
@@ -38,7 +38,7 @@ $$M=(Z,\Sigma,\delta,z_0,F)$$
 - Wird häufig als markierter, [[../../DSA/Graphen/Gerichtete Graphen|gerichteter Graph]] dargestellt
 	-> Dieser kann keine $\varepsilon$-Übergänge aufweisen
 - Können durch einen einfachen [[../../DSA/Algorithmen/Muster/Backtracking|Backtracking-Algorithmus]] in [[Minimalautomat|Minimalautomaten]] umgewandelt werden
-- Arbeitet in [[../../Theo II/Komplexitättheorie/Zeitklassen/DTIME|Realzeit]], die [[Potenzmengenkonstruktion|Potenzmengenkonstruktion]] fällt hingegen etwas aufwändiger aus
+- Arbeitet in [[../../Theo II/Komplexitättheorie/Zeitklassen/TIME|Realzeit]], die [[Potenzmengenkonstruktion|Potenzmengenkonstruktion]] (ohne Tricks für Umwandlung von [[Reguläre Ausdrücke|regulären Ausdrücken]] in DEAs notwendig) fällt hingegen etwas aufwändiger aus
 ^1664630729721
 
 ## Theoreme:

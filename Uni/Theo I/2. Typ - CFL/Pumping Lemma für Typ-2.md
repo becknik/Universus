@@ -7,7 +7,7 @@ aliases:
   - uvwxy-Theorem
 linter-yaml-title-alias: Pumping Lemma für Typ-2
 date: 2022-09-21
-mod-date: 2022-09-25
+mod-date: 2022-10-31
 ---
 
 # Pumping Lemma für Typ-2
@@ -23,15 +23,16 @@ mod-date: 2022-09-25
 
 ## Negation: #fc
 - $\forall n\in\mathbb{N},\exists z\in L$ mit $|z|\geq n$ und alle Zerlegungen $z=uvwxy$ mit $|uxw|\leq n,|ux|\geq1$ mindestens ein $z_i=uv^iwx^iy$ existier, so dass $z_i\notin L$ gilt
-> *Keine Garantie, dass das stimmt…*
 ^1664631275793
+
+> *Keine Garantie, dass das stimmt…*
 
 ## Eigenschaften:
 - Wird oft auch als $uvwxy$-Theorem bezeichnet
 
 ## Beweis-Schema: #fc
 - Gegeben sei eine Grammatik $G$ in [[Chomsky-Normalform|CNF]] und der Ableitungsbaum für ein langes Wort
-	-> Für eine genügend große Länge des Worts (?) müssen sich Variablen auf mindestens einem Pfad im Baum wiederholen
+	-> Für eine genügend große Länge des Worts müssen sich Variablen auf mindestens einem Pfad im Baum wiederholen
 ^1664737163713
 
 ## Beispiele:

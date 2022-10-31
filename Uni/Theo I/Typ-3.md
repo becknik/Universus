@@ -44,4 +44,4 @@ mod-date: 2022-09-20
 - [[3. Typ - REG/Satz von Kleene|Satz von Kleene]]
 - ([[3. Typ - REG/Pumping Lemma für Typ-3|Pumping Lemma für Typ-3]])
 - [[3. Typ - REG/Myhill-Nerode|Myhill-Nerode Äquivalenz]]
-^1664630493782
+^1666084274747

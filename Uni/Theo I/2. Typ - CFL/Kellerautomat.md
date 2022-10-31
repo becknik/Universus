@@ -8,7 +8,7 @@ aliases:
   - Pushdown Automaton
 linter-yaml-title-alias: Kellerautomat
 date: 2022-09-21
-mod-date: 2022-10-02
+mod-date: 2022-10-31
 ---
 
 # Kellerautomat
@@ -40,19 +40,25 @@ $$k:Z\times\Sigma^{Stern}\times\Gamma^{Stern}$$
 	-> Vergleiche mit [[Deterministische Kellerautomaten|DPDA]]
 ^1664631244245
 
-## Eigenschaften: #fc
+## Eigenschaften #fc
 - Ein [[../Automaten|Automat]] wie ein [[../3. Typ - REG/Nichtdeterministischer Endlicher Automat|NFA]], nur dass er einen zusätzlichen [[../../DSA/Datenstrukturen/Stack|Stack/ Kellerspeicher]] besitzt
 - Akzeptiert durch einen *leeren Keller*, wenn die Eingabe zu dem Zeitpunk komplett gelesen wurde
-	-> Akzeptierung durch einen Endzustand ist äquivalent (Beweis:Übung?)
+	-> Akzeptierung durch einen Endzustand ist äquivalent (Beweis: in den Übungen)
 - Es $\exists$ ein PDA $M$ für $L\subseteq\Sigma^{Stern}\Leftrightarrow L\in$ der Sprachklasse [[../Typ-2|CFL]]
 	-> $O.B.d.A:\{L\mid \varepsilon\notin L\}$ (V.19 F.37.1)
-- *Ein (nützlicher) Satz:* Für den PDA $M$ mit $\forall z,z'\in Z$, $\forall w,w'\in\Sigma^{Stern}$ und $\forall V,V',Y\in\Gamma^{Stern}$ gilt: $$(v,w,V)\vdash^{Stern}(z',w'V')\Rightarrow(z,wx,VY)\vdash^{Stern}(z',w'x,V'Y)$$
+^1664631244250
+
+### Ein (nützlicher) Satz:
+- Für den PDA $M$ mit $\forall z,z'\in Z$, $\forall w,w'\in\Sigma^{Stern}$ und $\forall V,V',Y\in\Gamma^{Stern}$ gilt: $$(v,w,V)\vdash^{Stern}(z',w'V')\Rightarrow(z,wx,VY)\vdash^{Stern}(z',w'x,V'Y)$$
+
+### Umwandlungen in gleichwertige PDAs: #fc
 - Jeder PDA $M$ kann in einen *gleichwertigen* PDA $M'$ umgewandelt werden, sodass $N(M)=N(M')$ gilt und $M'$ *nur einen Zustand* hat
 - Jeder PDA kann so *umgewandelt* werden, dass er immer *nur ein Zeichen als Eingabe* liest (also in Echtzeit arbeitet)
 	-> Folgt aus dem Beweis $\text{PDA}\Rightarrow\text{Typ-2}$
 	-> Einen solchen PDA $M'$ erhält man durch $\text{PDA }M\Rightarrow\text{Grammatik }G\Rightarrow\text{CNF }G'\Rightarrow\text{PDA }M'$ (?)
-> *Ich verstehe nicht, was unser lieber Prof auf V.17 F.32.6 mit "gemäß Satz 1" meint*
-^1664631244250
+^1667239830513
+
+> *Ich verstehe nicht, was auf V.17 F.32.6 mit "gemäß Satz 1" gemeint ist*
 
 ## Vom PDA zur Grammatik:
 - Gegeben: Ein PDA $M=(Z,\Sigma,\Gamma,\delta,z_0,\#),$ der $o.B.d.A.$ den Keller pro Schritt um maximal ein Symbol vergrößert

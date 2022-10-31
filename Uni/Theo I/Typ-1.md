@@ -44,7 +44,7 @@ UNTIL (x ∊ T) OR (T = T_1);
 IF x ∊ T THEN OUTPUT(1) ELSE OUTPUT(0);
 ```
 $$\displaylines{\forall X: X\subseteq(V\cup\Sigma)^{Stern}\\ *Abl_n(X)=X\cup\{w\in(V\cup \Sigma)^{Stern}\mid |w|\leq n\text{ und }\exists y\in X:y\Rightarrow_G w\}}$$
--> Ein [[../Theo II/Komplexitättheorie/Zeitklassen/NP-Härte|NP-harter]] Algorithmus
+-> Ein [[../Theo II/Komplexitättheorie/Zeitklassen/NP/NP-Härte|NP-harter]] Algorithmus
 ^1664630501472
 
 ## Modelle:
