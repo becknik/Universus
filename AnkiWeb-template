@@ -4,7 +4,8 @@ Suttort URL="https://github.com/jarnnk/UNIversus"
 
 Description="
 <b>Achtung:</b>
-Dieses Deck mag zwar inhaltlich ganz gut aufgestellt sein, allerdings noch etwas <i>unordentlich</i>. Überzeuge Dich bitte erstmal selbst von dem Zustand, bevor Du das Bestehen der Prüfung nächste Woche davon abhängig machst. :^)
+- Unfinished: Dieses Deck mag zwar inhaltlich ganz gut aufgestellt sein, allerdings noch etwas <i>unordentlich</i>. Überzeuge Dich bitte erstmal selbst von dem Zustand, bevor Du das Bestehen der Prüfung nächste Woche davon abhängig machst. :^)
+- Incremental: Dieses Deck ist noch nicht vollständig und wird im Laufe des Semesters immer wieder ergänzt und verbessert werden.
 
 <b>Einleitung:</b>
 Bei diesem Deck handelt es sich um eine Spiegelung einer meiner auf <a href="https://github.com/jarnnk/UNIversus">GitHub veröffentlichten</a>, privaten Kurs-Zusammenfassung in dem Tool <a href="https://obsidian.md/">Obsidian.md</a> zu den Fächern aus dem Informatik Bachelor-Studiengang der <a href="https://www.uni-stuttgart.de/">Universität Stuttgart</a>.
@@ -22,6 +23,6 @@ Für ein besseres lernen!
 
 <b>Changelog:</b>
 <ul>
-  <li> 2022-11-25: Aufgrund von einem Update des oben erwähneten <a href="https://github.com/reuseman/flashcards-obsidian">Flashcards Plugins</a> habe ich dieses Deck (versucht) einmal komplett neu zu generieren. Nun sollte das studieren endlich (!) ohne nervige Formatierungsfehler möglich sein.
+  <li> 2022-10-25: Aufgrund von einem Update des oben erwähneten <a href="https://github.com/reuseman/flashcards-obsidian">Flashcards Plugins</a> habe ich dieses Deck (versucht) einmal komplett neu zu generieren. Nun sollte das studieren endlich (!) ohne nervige Formatierungsfehler möglich sein.
 </ul>
 "
