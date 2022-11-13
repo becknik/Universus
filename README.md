@@ -42,7 +42,7 @@ Currently I use this *Obsidian vault* in combination with the Anki [Flashcards P
 Currently available decks:
 - [Datenstrukturen & Algorithmen](https://ankiweb.net/shared/info/1023735405)
 - [Systemkonzepte & Programmierung](https://ankiweb.net/shared/info/1702498575) *(IN PROGRESS)*
-- [Mathe I](https://ankiweb.net/shared/info/1863940268) *(IN PROGRESS)*
+- [Uni Stuttgart: Mathe 1 für Inf,SWT & MSV](https://ankiweb.net/shared/info/2089618036) *(IN PROGRESS)*
 - [Theoretische Informatik I](https://ankiweb.net/shared/info/1096330501)
 - [Theoretische Informatik II](https://ankiweb.net/shared/info/729716890) (**WORK NEEDED**)
 ---
