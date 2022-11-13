@@ -42,3 +42,10 @@ $$A_1\times A_2\times\dots\times A_n:=\{(a_1,a_2,\dots,a_n)\mid a_i\in A_i\text{
 ### Richard Dedekind: #fc
 - Sei $A$ ein nicht-leere Menge, dann ist $A$ unendlich groß, genau dann wenn $\exists B\subsetneq A:|A|=|B|$
 ^1667419513696
+
+## Partitionierung:
+- Sei $M$ eine Menge, dann heißen alle *disjunkte, nicht-leere Teilmengen* von $M$ Partitionen von $M$
+
+### Eigenschaften:
+- Die Partitionen einer Singleton Menge $\{M'\}$ ist immer $\{\{M'\}\}$
+- *Triviale Partition* von $M':P=\{M'\}$

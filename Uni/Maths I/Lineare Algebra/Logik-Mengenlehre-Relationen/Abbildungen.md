@@ -8,7 +8,7 @@ aliases:
   - surjektiv
 linter-yaml-title-alias: Abbildungen
 date: 2022-10-26
-mod-date: 2022-11-02
+mod-date: 2022-11-07
 ---
 
 # Abbildungen
@@ -32,10 +32,14 @@ mod-date: 2022-11-02
 
 ### Surjektivität: #fc
 - Eine Abbildung $F:A\rightarrow B$ ist genau dann surjektiv, wenn $$\forall y\in B:|F^{-1}(\{y\})|\geq 1$$ erfüllt ist
+	-> In anderen Worten: Für jedes $B'\subseteq B,|B'|=1$ besteht das Urbild aus mindestens einem Element
+- Die Abbildung $F$ ist *nicht surjektiv*, wenn $\exists b\in B:|F^{-1}(b)|=0$ gilt
 ^1666789477605
 
 ### Injektivität: #fc
 - Eine Abbildung $F:A\rightarrow B$ ist genau dann *injektiv*, wenn $$\forall y\in B:|F^{-1}(\{y\})|\leq 1$$ erfüllt ist
+	-> Anders ausgedrückt: Für jedes $B'\subseteq B,|B'|=1$ besteht das Urbild aus höchstens einem Element
+- Die Abbildung $F$ ist *nicht injektiv*, wenn $\exists b\in B:|F^{-1}(b)|\geqslant 2$ gilt
 ^1666789477607
 
 ### Identfunktion:
@@ -52,10 +56,10 @@ mod-date: 2022-11-02
 ^1666790294756
 
 ### Mächtigkeit und Verhältnis: #fc
-- Seien $A,B$ nicht-leere, endliche [[Mengenlehre|Mengen]] und $f:A\rightarrow B$ eine [[Abbildungen|Abbildung]]
-	- Ist $f$ *injektiv*, so gilt $|A|\leqslant|B|$
-	- Ist $f$ *surjektiv*, so gilt $|A|\geqslant|B|$
-	- Falls $|A| = |B|$ gilt, so ist $f$ *bijektiv*
+- Seien $A,B$ nicht-leere, endliche [[Mengenlehre|Mengen]] und $V=\{f:A\rightarrow B\}$ die Mengen aller [[Abbildungen]] auf $A\rightarrow B,$ so gilt
+	- es gilt $|A|\leqslant|B|,$ wenn $\exists f'\in V\text{ mit }f'$ *injektiv*
+	- es gilt $|A|\geqslant|B|$, wenn $\exists f'\in V\text{ mit }f'$ *surjektiv*
+	- falls $|A| = |B|$ gilt $\exists f'\in V\text{ mit }f'$ *bijektiv*
 ^1667415783098
 
 ## Beispiel:

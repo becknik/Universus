@@ -5,7 +5,7 @@ complete: true
 aliases: Matrizen
 linter-yaml-title-alias: Matrizen
 date: 2022-10-31
-mod-date: 2022-10-31
+mod-date: 2022-11-07
 ---
 
 # Matrizen
@@ -19,20 +19,25 @@ $$\begin{pmatrix}a_{11} & \cdots & a_{1m}\\\vdots & \ddots & \vdots\\a_{n1} & \c
 ^1667232770811
 
 ### Spezielle Matrizen: #fc
-- Die *Einheitsmatrix*: $$\begin{pmatrix}1 & 0 & \cdots & 0 \\ 0 & 1 & \ddots & \vdots \\ \vdots & \ddots & \ddots & 0 \\ 0 & \cdots & 0 & 1\end{pmatrix}\quad\Leftrightarrow\quad E_n=\left(\delta_{ij}\begin{cases}1, & \text{falls }i=j\\0, & \text{falls }i\neq j\end{cases}~\right)$$
-	-> *Konecker-Symbol*
+- Die *Einheitsmatrix*: $$\begin{pmatrix}1 & 0 & \cdots & 0 \\ 0 & 1 & \ddots & \vdots \\ \vdots & \ddots & \ddots & 0 \\ 0 & \cdots & 0 & 1\end{pmatrix}$$
+  -> *Konecker-Symbol*: $E_n=\left(\delta_{ij}\begin{cases}1, & \text{falls }i=j\\0, & \text{falls }i\neq j\end{cases}~\right)$
 ^1667232770821
 
 ## Produkt #fc
-- Für zwei Matrizen $A,B$ mit $A_{n,m}(R),B_{m,k}(R)$ ist der Eintrag $a_{ij}$ des Matrizenprodukts $C_{n,k}(R)$ durch $$\sum_{k=1}^na_{ik}b_{jk}$$ gegeben
-- Anzahl der skalaren Multiplikationen für $M_1\in M_{l,m}(R),M_2\in M_{m,n}:l\cdot m\cdot n$
+- Für zwei Matrizen $A,B$ mit $A_{\ell,m}(R),B_{m,n}(R)$ auf dem [[Ringe|Ring]] $R$ ist der Eintrag $a_{ij}$ des *Matrixprodukts* $A\times b\in R^{\ell\times n}$ gegeben durch: $$(A\cdot B)_{ij}\quad:=\quad\sum_{k=1}^ma_{ik}b_{kj}\quad\text{für }1\leqslant i\leqslant\ell\text{ und }1\leqslant j\leqslant n$$
+  -> Das Matrixprodukt ist also eine [[../Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $M_{\ell,m}(R)\times M_{m,n}(R)\rightarrow M_{\ell, m}(R)$ 
 ^1667232770823
 
+### Eigenschaften:
+- Anzahl der notwendigen *skalaren Multiplikationen* von zwei Matrizen $M_1\in M_{m,n}(R)$ und $M_2\in M_{n,p}:m\cdot n\cdot p$
+- Die Matrixmultiplikation ist nicht kommutativ
+
+## Addition
+- Eine [[../Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $M_{\ell,m}(R)\times M_{\ell,m}(R)\rightarrow M_{\ell,m}(R)$
+
 ## Eigenschaften: #fc
-- Die menge der $M_{n,m}$-Matrizen mit Einträgen aus dem [[Ringe|Ring]] $R$ wird mit der *Nullmatrix* und der *komponentenweisen Addition* zu einer [[Gruppen|abelschen Gruppe]]
-	-> Assoziativität
-- Die Menge der $M_n(R)$-Matrizen wird mit *Multiplikation* und *Addition* und der $n\times n$-*Einheitsmatrix* zu einem [[Ringe|unären Ring]]
-	-> Assoziativität & Distributivität
-- $M_n(R)$ besitzt *Nullteiler*, sobald $n\geq2$
-	-> Nullteiler: $\exists a,b\in M_n(R),a,b\neq M_0:ab=0$
+- Die Menge der Matrizen $M\in R^{m\times n}$ mit Einträgen aus dem [[Ringe|Ring]] $R$ bildet mit der *Nullmatrix* und *komponentenweisen Addition* eine [[Gruppen|abelschen Gruppe]]
+- Die Menge der $M_n(R)$-Matrizen wird mit *Multiplikation* und *Addition* und der *Einheitsmatrix* $E\in R^{n\times n}$ zu einem [[Ringe|unären Ring]]
+- $M_n(R)$ besitzt *Nullteiler*, sobald $n\geq2$ gilt
+	-> *Nullteiler*: $\exists a,b\in M_n(R),a,b\neq M_0:ab=0$
 ^1667232770825

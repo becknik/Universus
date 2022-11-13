@@ -7,6 +7,7 @@ aliases:
   - Gruppenaxiome
   - abelsche Gruppe
   - symmetrische Gruppe
+  - Untergruppen
 linter-yaml-title-alias: Gruppen
 date: 2022-10-27
 mod-date: 2022-11-02
@@ -29,10 +30,9 @@ mod-date: 2022-11-02
 	1. Abgeschlossenheit unter *Gruppenverknüpfung*: $\forall a,b\in H:a\ast b\in H$
 	2. Abgeschlossenheit unter *Inversenbildung*: $\forall a\in H:a^{-1}\in H$
 		 -> Hieraus folgt, dass $e\in H,$ da $a\ast a^{-1}=e$
+- *Triviale Untergruppe*: $\{e\}\subseteq G$
+- *Echte Untergruppe*: Eine Gruppe $H\subsetneq G$
 ^1667208549578
-
-#### Eigenschaften:
-- Für jede Gruppe bildet $\{e\}$ eine triviale Untergruppe
 
 ### Abelsche/ Kommutative Gruppe: #fc
 - Zusätzlich zu den *Gruppenaxiomen* muss gelten:

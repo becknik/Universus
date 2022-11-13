@@ -2,17 +2,27 @@
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
 complete: true
-aliases: Symmetrische Gruppe
+aliases:
+  - Symmetrische Gruppe
+  - Permutationen
 linter-yaml-title-alias: Symmetrische Gruppe
 date: 2022-10-31
-mod-date: 2022-10-31
+mod-date: 2022-11-07
 ---
 
 # Symmetrische Gruppe
 
 ## Definition #fc
-- Sei $M$ eine [[../Logik-Mengenlehre-Relationen/Mengenlehre|Menge]], dann wird die Gesamtheit der bijektiven [[../Logik-Mengenlehre-Relationen/Abbildungen|Abbildungen]] auf dieser als $$Sym(M):=\{f:M\rightarrow M\mid f\text{ ist bijektiv}\}$$ definiert
-- Unter der *Verkettung von Abbildungen* erfüllt $Sym$ die [[Gruppen|Gruppenaxiome]] mit der Identfunktion $id_M$ eine Gruppe
-- Für $M=\{1,2,\dots,(n-1),n\}$ hat $Syn(n):=Syn(M)$ $n!$ Elemente
-	-> $a\in Syn(n)$ notiert man entweder als $1\mapsto3,2\mapsto1,3\mapsto2$ oder als $\begin{pmatrix}1 & 2 & 3\\3 & 1 & 2\end{pmatrix}$
+- Sei $M$ eine [[../Logik-Mengenlehre-Relationen/Mengenlehre|Menge]], dann wird die Gesamtheit der bijektiven [[../Logik-Mengenlehre-Relationen/Abbildungen|Abbildungen]] auf ihr definiert als $$Sym(M):=\{f:M\rightarrow M\mid f\text{ ist bijektiv}\}$$
+	-> $Sym(M)$ Bildet mit der *Verkettung von Abbildungen* eine [[Gruppen|Gruppe]]
+	-> Verkettung von Abbildungen: $F:A\rightarrow B,~~G:B\rightarrow C,~~G\circ F:A\rightarrow C,\quad a\mapsto G(F(a))$
+- Für den Spezialfall $M:=\{1,2,\dots,n\}$ schreibt man $Syn(n):=Syn(M)$
+	-> Die Gruppe $Sym(n)$ hat $n!$ Elemente
+^1667840542808
+
+### Permutation: #fc
+- $n\in Sym(M)$ heißen *Permutationen* von $M$
+- Eine Permutation für zum Beispiel $a\in Syn(3)$ notiert man …
+	- entweder als $1\mapsto3,2\mapsto1,3\mapsto2$,
+	- oder als $N_{2,n}(M)$ [[Matrizen|Matrix]]: $\begin{pmatrix}1 & 2 & 3\\3 & 1 & 2\end{pmatrix}$
 ^1667208430077
