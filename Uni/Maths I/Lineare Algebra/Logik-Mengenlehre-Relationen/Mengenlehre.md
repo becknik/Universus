@@ -6,9 +6,10 @@ aliases:
   - Mengenlehre
   - Menge
   - Kartesisches Produkt
+  - Partitionierung
 linter-yaml-title-alias: Mengenlehre
 date: 2022-10-18
-mod-date: 2022-11-02
+mod-date: 2022-11-13
 ---
 
 # Mengenlehre
@@ -42,6 +43,11 @@ $$A_1\times A_2\times\dots\times A_n:=\{(a_1,a_2,\dots,a_n)\mid a_i\in A_i\text{
 ### Richard Dedekind: #fc
 - Sei $A$ ein nicht-leere Menge, dann ist $A$ unendlich groß, genau dann wenn $\exists B\subsetneq A:|A|=|B|$
 ^1667419513696
+
+### Potenzmenge: #fc
+- Sei $A$ eine endliche Menge mit $|A|=n\in\mathbb{N},$ dann gilt $|\mathcal{P}(A)|=2^n$
+	-> $2^n=(1+1)^n=\sum_{k=0}^n\binom{n}{k}=\sum_{k=0}^n\binom{n}{k}=\binom{n}{0}+\binom{n}{1}+\cdots+\binom{n}{n}$
+^1668374916270
 
 ## Partitionierung:
 - Sei $M$ eine Menge, dann heißen alle *disjunkte, nicht-leere Teilmengen* von $M$ Partitionen von $M$

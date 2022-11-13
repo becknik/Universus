@@ -20,6 +20,17 @@ mod-date: 2022-11-07
 -> Man definiert $\mathbb{Q}:=\mathcal{K}(A,R)$
 ^1667399525643
 
+## Komplexe Zahlen
+
+### Definition:
+- $\mathbb{C}:=\{a\pm ib\}$
+- Realteil $\Re((a,b))=a$
+- Imaginärteil $\Im((a,b))=b$
+- $1^2:=-1$
+
+### Konjungierte komplexe Zahl:
+- Zu jeder komplexen Zahl $z\in\mathbb{C}$ definiert man die zu $z$ komplex konjungierte Zahl   als $$\overline{z}:=(a,-b)=\Re(z)-i\Im(z)$$
+
 ## Kontiuumshypothese #fc
 - Frage: Ist $\mathcal{P}(\mathbb{N})$ gleich mächtig zu $\mathbb{R}$?
 ^1667838948578
