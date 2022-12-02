@@ -46,7 +46,7 @@ mod-date: 2022-11-07
 - $id_X:X\rightarrow X, x\mapsto x$
 
 ### Verkettung: #fc
-- Seien $F:A\rightarrow B$ und $G:C\rightarrow D$ zwei Abbildungen, so ist auch $F\circ G:A\rightarrow C,a\mapsto G(F(a))$ eine Abbildung
+- Seien $F:A\rightarrow B$ und $G:B\rightarrow C$ zwei Abbildungen, so ist auch $F\circ G:A\rightarrow C,a\mapsto G(F(a))$ eine Abbildung
 	-> *Kommutativität* ist nicht erfüllt: $F\circ G\neq F\circ G$
 	-> *Assoziativität* ist erfüllt: $(G\circ H)\circ F=H\circ(G\circ F)$
 ^1667214407762
