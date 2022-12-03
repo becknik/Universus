@@ -15,44 +15,58 @@ Be aware that the summaries were *initially created for myself* and therefore ar
 Note, that only the README, [Recommendations](./Recommendations.md) and [Style-Guide](./Style-Guide.md) file are written in *English* to make the gathered *recommendations* and *best practices* for Obsidian usable for *international readers*.
 The summaries however are written in my *native language*, which is German.
 
-## Motivation & Benefits:
-…may be the question coming up to your mind. Indeed the effort put in creating, extending and correcting those summaries is huge.
-> (Besides I have no idea (at this point) how to coordinate a project like this with multiple people, especially during the writing phase.)
+## Motivation
 
-But even considering this, I think this project offers many benefits which overcome my personal doubts:
-- The best structure of a summary a human being (literally) could wish for, due to the *graph structure*
-- The best way to create *neat and noiseless* files (lets just call it "$\text{Design}\in\overline{\text{THEO}}$"), which you might just *learn better* with (Obsidians theming is customizable to every extend)
-- No more *lectures PDF scrolling* to find a topics or theorems definition - Just type it in Obsidians search bar (which might be supporting with doing exercises or writing exam sheets)
-	
-	-> Keep in mind nevertheless, that *depending on this collection* to much instead of laboring through the courses materials yourself will - without questioning - result in **failing the exam** :)
+I think this way of writing summaries offers many benefits which overcome the drawbacks (which are especially getting used to it & time conumption):
+- The best summary structure a human being could wish for, due to it's easy editability, dynamic way of linking topics and of course the resulting *graph structure*
+- The best way to create *neat and noiseless* topic-files (lets just call it "$\text{Design}\in\overline{\text{THEO}}$"), which you might just *learn better* with on any of your terminal devices
+- No more *lectures PDF scrolling* to find a topics or theorems definition when solving exercice sheets or wirting exam cheat sheets - Just make use of Obsidians search bar
 - A long lasting, *wiki-like* knowledge pool, which eventually make some topics faster graspable my providing examples or a more extensive explanation
 - The best way I (so far) came across to share *Anki flashcard decks* and keep them *up-to-date* with *additions and corrections* (see "Flashcards for Everyone" section below)
-- Maybe: a better learning curve by discovering links between topics of different courses
-- Files can easily be shared or exported to short PDFs (or, considering software like [Pandoc](https://pandoc.org/), even more formats)
+- Maybe: a better learning curve by discovering links between topics of different courses and therefore setting things in relation
+- Summary files might be easily shared by exportation to short PDFs
+- A lot more things...
+
+## (So far) unsovled Questions:
+
+- [ ] How to provide people with up to date Anki card decks, which are generated from this vault?
+> AnkiWeb as best-so-far solution. Somtimes I forgett to commit & push or update cards on AnkiWeb. Automation of publication & pulling would be nice.
+> AnkiWeb pulished decks are available 24h after publishing, which is REALLY annoying
+- [ ] How to coordinate a gaint summary during the writing phase?
 ---
-## Getting Started:
-All files are formatted in a (extended) *Extended Markdown-Syntax*, so you could browse this collection with any MD-compatible text-editor.
+
+## Getting Started
+
+As already mentioned, all files are formatted in a extended *Markdown-Syntax*, so you could browse this collection with any MD-compatible text-editor.
 To get the *most fluent experience* of Obsidian's MD-flavor it's recommend to install Obsidian from the [Official Webiste](https://obsidian.md/) (and maybe watch a Tutorial).
 
-### Some basic functions:
-- Switch between *Editing*- and a more pleasing *Reading-Mode* by clicking the right top corner icon or *Ctrl+e*
-- View the *graph view* select the icon on the left side bar or just hit *Ctrl+g*
+### How to Obsidian
+I'd recommend you to watch some tutorials on this point.
+What especially comes in handy for this project:
+- `Ctrl+e` - For switch between *Editing-* and *Reading-Mode* 
+- `Ctrl+g` - For a view on the *graph view* Obsidian creates out of the links between summaries
 
-### Recommendations on starting your own vault:
-If you should find liking in what you see and you might want to *start your own* private Obsidian vault, I would recommend you to read through my Obsidian [[Recommendations]], the more extensive [[Style-Guide]]. The later contain "low-level" tips and best practices, which might save you some time .
+### How to start your own Obsidian vault
+As mentioned above, there exists a rather basic [Recommendations](./Recommendations.md) file and a really extensive [Style-Guide](./Style-Guide.md) file. The last one aims to discuss the "design-decissions" I made and the tips & "best practises" I think to discover in this vault.
+If you should find liking in what you see and you might want to *start your own* private Obsidian vault, I would definitifley recommend you to read through them. They explain a way which works best for me.
 
-### Contributing:
-If you should be interested in *contributing or enhancing* this vault, consider writing me an [private E-Mail](mailto:jannikb@posteo.de), contact me somewhere else or just [open an issue](https://github.com/jarnnk/UNIversus/issues)/ [pull request](https://github.com/jarnnk/UNIversus/pulls) on GitHub :^)
+### How to Anki-Flashcards for everyone
+One great element of the subset of Obsidian [plugins](./Recommendations.md) I daily use is the Anki [Flashcards Plugin](https://github.com/reuseman/flashcards-obsidian). I came over the idea to mirroring my generated [Anki](https://apps.ankiweb.net/)-decks for the courses in this repo on the [AnkiWeb](https://ankiweb.net/shared/decks/), where you can download the lastest version each.
 
-### Flashcards for Everyone:
-Currently I use this *Obsidian vault* in combination with the Anki [Flashcards Plugin](https://github.com/reuseman/flashcards-obsidian). Unfortunately, this plugin only works for one person at the same time. So I came over the idea to mirroring my generated [Anki](https://apps.ankiweb.net/)-decks for the courses in this repo on [AnkiWeb](https://ankiweb.net/shared/decks/).
-Currently available decks:
+#### Shared decks:
+> When the linked deck is currently not available, this is due to I uploaded a new version (and AnkiWeb being shitty). Come back within `24h`, then it should be definitively available.
 - [Datenstrukturen & Algorithmen](https://ankiweb.net/shared/info/1023735405)
 - [Systemkonzepte & Programmierung](https://ankiweb.net/shared/info/1702498575) *(IN PROGRESS)*
-- [Uni Stuttgart: Mathe 1 für Inf,SWT & MSV](https://ankiweb.net/shared/info/2089618036) *(IN PROGRESS)*
+- [Mathe 1 für Inf,SWT & MSV](https://ankiweb.net/shared/info/2089618036) *(IN PROGRESS)*
 - [Theoretische Informatik I](https://ankiweb.net/shared/info/1096330501)
-- [Theoretische Informatik II](https://ankiweb.net/shared/info/729716890) (**WORK NEEDED**)
----
+- [Theoretische Informatik II](https://ankiweb.net/shared/info/729716890) **(WORK & LOTS OF LOVE NEEDED)**
+
+### Contributing
+
+If you should be interested in *contributing or enhancing* this project, consider writing me an [private E-Mail](mailto:jannikb@posteo.de), contact me anywhere else or just [open an issue](https://github.com/jarnnk/UNIversus/issues)/ [pull request](https://github.com/jarnnk/UNIversus/pulls) on GitHub :^)
+
+I appreciate every bit of work aiming to enhance this project :D
+
 ## Notes on repositories structure:
 I do not sync the full `/.obsidian` folder due to the *Obsidian's plugin system* (which simply downloads all plugins locality into a subfolder) to allow local *individual customization* and plugin choices.
 Here's a list of the contents of `/.obsidian` I decided to include:
