@@ -1,14 +1,21 @@
 # UNIversus
-An **universitary knowledge collection** of a ambitious CS students using the wonderful [Obsidian.md](https://obsidian.md/) Markdown tool with it's extending syntax and graph-view. This project is aiming to **sum up** all (essential) parts of taught subjects of the [University of Stuttgart](https://www.uni-stuttgart.de/) *CS bachelor degree* course in a cross-(Wiki-)linking approach.
+An *universitary knowledge collection* of a CS student, using the [Obsidian.md](https://obsidian.md/) Markdown tool with it's extending syntax and features.
 
-This git also holds some of my *tips for Obsidian interested peoples*.
-![](https://raw.githubusercontent.com/jarnnk/UNIversus/main/.example-figures/current-vaults-graph-view.png)
+![Preview of Obsidian-Graph showing summaries of this project](https://raw.githubusercontent.com/jarnnk/UNIversus/main/.example-figures/current-vaults-graph-view.png)
+---
 
-However, be aware that the summaries were *initially created for myself* and therefore are sensitive to *my personal* way of thinking and understanding - which does not mean, that contributions or enhancements aren't welcome!
+This project is aiming to *sum up* all essential parts of taught subjects of the [University of Stuttgart](https://www.uni-stuttgart.de/) *CS bachelor degree* course in a Wiki-like cross-linking approach.
 
-Note, that *this README*, the [[Recommendations]] and the [[Style-Guide]] file are written in *English* to make my gathered *recommendations* and *best practices* for Obsidian understandable for *international readers*. However the summaries are written in my native language, **German**.
+This repo also holds some *tips for Obsidian* I started obeying to manage a general summary, which might be interesting for people aiming to create their own summaries/ vaults.
 
-## But WHY?? / Motivation:
+### Disclaimers
+
+Be aware that the summaries were *initially created for myself* and therefore are sensitive to *my personal* way of thinking and understanding. If you finde some of it not optimal, please consider the contact section below.
+
+Note, that only the README, [Recommendations](./Recommendations.md) and [Style-Guide](./Style-Guide.md) file are written in *English* to make the gathered *recommendations* and *best practices* for Obsidian usable for *international readers*.
+The summaries however are written in my *native language*, which is German.
+
+## Motivation & Benefits:
 …may be the question coming up to your mind. Indeed the effort put in creating, extending and correcting those summaries is huge.
 > (Besides I have no idea (at this point) how to coordinate a project like this with multiple people, especially during the writing phase.)
 
