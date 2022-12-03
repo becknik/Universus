@@ -25,7 +25,7 @@ I think this way of writing summaries offers many benefits which overcome the dr
 - The best way I (so far) came across to share *Anki flashcard decks* and keep them *up-to-date* with *additions and corrections* (see "Flashcards for Everyone" section below)
 - Maybe: a better learning curve by discovering links between topics of different courses and therefore setting things in relation
 - Summary files might be easily shared by exportation to short PDFs
-- A lot more things...
+- A lot more things…
 
 ## (So far) unsovled Questions:
 
@@ -51,7 +51,7 @@ As mentioned above, there exists a rather basic [Recommendations](./Recommendati
 If you should find liking in what you see and you might want to *start your own* private Obsidian vault, I would definitifley recommend you to read through them. They explain a way which works best for me.
 
 ### How to Anki-Flashcards for everyone
-One great element of the subset of Obsidian [plugins](./Recommendations.md) I daily use is the Anki [Flashcards Plugin](https://github.com/reuseman/flashcards-obsidian). I came over the idea to mirroring my generated [Anki](https://apps.ankiweb.net/)-decks for the courses in this repo on the [AnkiWeb](https://ankiweb.net/shared/decks/), where you can download the lastest version each.
+One great element of the subset of Obsidian [community plugins](./Recommendations.md) I daily use is the Anki [Flashcards Plugin](https://github.com/reuseman/flashcards-obsidian). I came over the idea to mirroring my generated [Anki](https://apps.ankiweb.net/)-decks for the courses in this repo on the [AnkiWeb](https://ankiweb.net/shared/decks/), where you can download the lastest version each.
 
 #### Shared decks:
 > When the linked deck is currently not available, this is due to I uploaded a new version (and AnkiWeb being shitty). Come back within `24h`, then it should be definitively available.
@@ -61,19 +61,12 @@ One great element of the subset of Obsidian [plugins](./Recommendations.md) I da
 - [Theoretische Informatik I](https://ankiweb.net/shared/info/1096330501)
 - [Theoretische Informatik II](https://ankiweb.net/shared/info/729716890) **(WORK & LOTS OF LOVE NEEDED)**
 
-### Contributing
+### How to Contribute
 
 If you should be interested in *contributing or enhancing* this project, consider writing me an [private E-Mail](mailto:jannikb@posteo.de), contact me anywhere else or just [open an issue](https://github.com/jarnnk/UNIversus/issues)/ [pull request](https://github.com/jarnnk/UNIversus/pulls) on GitHub :^)
 
 I appreciate every bit of work aiming to enhance this project :D
 
-## Notes on repositories structure:
-I do not sync the full `/.obsidian` folder due to the *Obsidian's plugin system* (which simply downloads all plugins locality into a subfolder) to allow local *individual customization* and plugin choices.
-Here's a list of the contents of `/.obsidian` I decided to include:
-- `app.json` for the default settings
-> Yes, I somehow manage to make use of this buggy implementation of VIM - Just turn it off in the settings or don't forget to 'a'/'A' and 'Esc' :D
-- `core-plugins.json`: `backlink.json`, `switcher.json` & `templates.json` for the minimal intersect of core plugin settings
-- `graph.json` for a personally eye-candy customized view of the graph
-- My settings example for the [Obsidian Linter](https://github.com/platers/obsidian-linter) plugin, on which choices you can read more in the community plugin [[Recommendations]] section
 ---
-> This project's name was inspired by my friend and fellow student [Anton Sproll](https://github.com/fewpews) and this [UNIverum](https://github.com/fewpews/UNIversum) project. Also, I just took notice of Obsidian's existence because of this great guy :^)
+> This project's name was inspired by my friend and fellow student [Anton Sproll](https://github.com/fewpews) and this [UNIverum](https://github.com/fewpews/UNIversum) project.
+> Also, I just took notice of Obsidian's existence because of this great guy :^)
