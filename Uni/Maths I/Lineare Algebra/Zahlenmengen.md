@@ -10,14 +10,14 @@ mod-date: 2022-11-07
 
 # Zahlenmengen
 
-## Rationale Zahlen
+## Rationale Zahlen $\mathbb{Q}$
 
-### Konstruktion aus $\mathbb{Z}$ und $\mathbb{Q}$: #fc
-- Man definiere die [[Logik-Mengenlehre-Relationen/Äquivalenzrelationen|Äquivalenzrelation]] $R$ über $A=\mathbb{Z\times N}$ mit $$R:=\{(n,m),(n',m')\in A\times A\mid nm'=n'm\}$$
-- Man kürze $\mathcal{K}((n,m),R)$ ab als $n/m$ oder $\frac{n}{m}$
-- Man definiere ein *vollständig gekürztes Paar* als $(n,m)\in A,$ für das $\not\exists k\in\mathbb{N},k>1:\quad n\mid k\wedge m\mid k$ gilt
-	-> Man definiere $B:=\{(n,m)\in A\mid (n,m)\text{ ist vollständig gekürzt}\}$ als *Repräsentantensystm* der [[Logik-Mengenlehre-Relationen/Äquivalenzklassen|Äquivalenzklasse]]
--> Man definiert $\mathbb{Q}:=\mathcal{K}(A,R)$
+### Konstruktion aus $\mathbb{Z}$ und $\mathbb{N}$: #fc
+- Sie $R$ eine [[Logik-Mengenlehre-Relationen/Äquivalenzrelationen|Äquivalenzrelation]] über $A$ mit $A=\mathbb{Z\times N}$  und $$R:=\{(n,m),(n',m')\in A\times A\mid nm'=n'm\}$$
+- Anstelle von $\mathcal{K}((n,m),R)$ notiert man $a\in R$ als $n/m$ oder $\frac{n}{m}$
+- Definition eines *vollständig gekürztes Paar* als $(n,m)\in A,$ für das $\not\exists k\in\mathbb{N},k>1:\quad n\mid k\wedge m\mid k$ gilt
+	-> Sei $B:=\{(n,m)\in A\mid (n,m)\text{ ist vollständig gekürzt}\}$ das *Repräsentantensystem* von $R$
+$$\mathbb{Q}:=\mathcal{K}(A,R)$$
 ^1667399525643
 
 ## Komplexe Zahlen

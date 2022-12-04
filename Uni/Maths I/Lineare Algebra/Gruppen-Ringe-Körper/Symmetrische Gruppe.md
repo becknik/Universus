@@ -22,7 +22,7 @@ mod-date: 2022-11-07
 
 ### Permutation: #fc
 - $n\in Sym(M)$ heißen *Permutationen* von $M$
-- Eine Permutation für zum Beispiel $a\in Syn(3)$ notiert man …
-	- entweder als $1\mapsto3,2\mapsto1,3\mapsto2$,
-	- oder als $N_{2,n}(M)$ [[Matrizen|Matrix]]: $\begin{pmatrix}1 & 2 & 3\\3 & 1 & 2\end{pmatrix}$
+- Eine Permutation für zum Beispiel $a\in Syn(3)$ notiert man als …
+	- [[../Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]]: $1\mapsto3,2\mapsto1,3\mapsto2$,
+	- [[Matrizen|Matrix]]: $N_{2,n}(M):\begin{pmatrix}1 & 2 & 3\\3 & 1 & 2\end{pmatrix}$
 ^1667208430077

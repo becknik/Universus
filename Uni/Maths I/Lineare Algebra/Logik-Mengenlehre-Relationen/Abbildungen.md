@@ -4,6 +4,7 @@ cards-deck: Uni::Courses::Maths-I
 complete: true
 aliases:
   - Abbildungen
+  - Abbildung
   - injektiv
   - surjektiv
 linter-yaml-title-alias: Abbildungen

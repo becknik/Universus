@@ -35,6 +35,7 @@ mod-date: 2022-11-07
 ### Eigenschaften
 
 #### Lemma 4.11: #fc
-- Sei $m\in\mathbb{N}\wedge n\in\mathbb{Z}$ mit $\overline{n}.$
-- Seien $a,b,c,d\in\mathbb{Z},$ so gilt: $$\overline{a}=\overline{c}\wedge\overline{b}=\overline{d}\quad\Rightarrow\quad\overline{a+b}=\overline{c+d}\wedge\overline{ab}=\overline{cd}$$
+- Sei $m\in\mathbb{N}$ dann bezeichnen wird die Restklasse von $n\in\mathbb{Z},n\pmod m$ als $\overline{n}.$
+- Seien $a,b,c,d\in\mathbb{Z}$
+- Wenn $\overline{a}=\overline{c}\wedge\overline{b}=\overline{d}$ gilt, dann folgt daraus $\overline{a+b}=\overline{c+d}$ und $\overline{ab}=\overline{cd}$
 ^1667413844946

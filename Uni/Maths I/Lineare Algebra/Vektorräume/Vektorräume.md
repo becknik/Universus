@@ -1,13 +1,14 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+complete: false
 aliases:
   - Vektorräume
+  - Vektorraum
   - Vektorraumaxiome
 linter-yaml-title-alias: Vektorräume
 date: 2022-11-13
-mod-date: 2022-11-13
+mod-date: 2022-12-04
 ---
 
 # Vektorräume
@@ -30,6 +31,8 @@ mod-date: 2022-11-13
 ## Eigenschaften: #fc
 - Für $v\in V$ gilt: $c\cdot0=0$
 - $\forall\lambda\in K,v\in V$ gilt: $(−\lambda)v=−(\lambda v)=\lambda(−v)$
+- Jeder Vektorraum besitzt ein [[Erzeugendensystem|Basis]]
+	-> Beweis über das [[Zornsche Lemma]] oder das [[Auswahlaxiom]] !!!
 ^1668377840944
 
 ## Beispiele
@@ -38,6 +41,7 @@ mod-date: 2022-11-13
 - $V=K^n$ und $K=K$ bildet mit der komplementweisen Addition und der Skalarmultiplikation $$K\times V\rightarrow V,\quad\lambda\cdot(x_1,\dots,x_n):=(\lambda x_1,\dots,\lambda x_n)$$ einen der wichtigsten Vektorräume
 ^1668377840947
 
-### Reelle Funktionen:
+### Reelle Funktionen: #fc
 - Sei $V:=\{f:\mathbb{R}\rightarrow\mathbb{R}\}$ die Menge aller reellen Abbildungen, $(f+g)(t):=f(t)+g(t)$ die Addition und $(\lambda\cdot f)(t):=\lambda f(t)$ die Skalarmultiplikation auf dieser
 	-> Betrachte beispielsweise die [[Untervektorräume]] von $f:\mathbb{R}\times\mathbb{R}$ aller stetig wachsender oder aller differenzierbaren Funktionen in $\mathbb{R}$
+^1670110927886

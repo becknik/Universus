@@ -2,7 +2,9 @@
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
 complete: true
-aliases: Gruppenhomomorphismus
+aliases:
+  - Gruppenhomomorphismus
+  - Kern
 linter-yaml-title-alias: Gruppenhomomorphismus
 date: 2022-10-31
 mod-date: 2022-11-07
@@ -15,7 +17,7 @@ mod-date: 2022-11-07
 ^1667212708981
 
 ### Kern: #fc
-- Sei $f:G\rightarrow H$ ein *Gruppenhomomorphismus* und sei $e$ das neutrale Element in $H$, dann wird $$ker(f):=f^{-1}(\{e\})=\{g\in G\mid f(g)=e\}$$ als *Kern* von$f$ bezeichnet
+- Sei $f:G\rightarrow H$ ein *Gruppenhomomorphismus* und sei $e$ das neutrale Element in $H$, dann wird $$\text{ker}(f):=f^{-1}(\{e\})=\{g\in G\mid f(g)=e\}$$ als *Kern* von$f$ bezeichnet
 ^1667212712232
 
 ## Eigenschaften: #fc
