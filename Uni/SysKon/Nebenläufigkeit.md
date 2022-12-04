@@ -58,8 +58,9 @@ Procedure q:
 ```
 ^1666631339165
 
-### Worst-Update-Problem: #fc
-- Mehrere Prozesse schreiben "gleichzeitig" ein Update in einen Zustandsspeicher, wodurch das Update des zufällig letzten Prozesses bestehen bleibt
+### Lost-Update-Problem: #fc
+- Mehrere Prozesse schreiben "gleichzeitig" ein Update in einen Zustandsspeicher
+  -> Das Update des zufällig letzten Prozesses bestehen bleibt bestehen, das andere geht verloren
 ^1667421610647
 
 ## Lösungen

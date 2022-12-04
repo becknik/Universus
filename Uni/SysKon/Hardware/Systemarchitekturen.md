@@ -7,7 +7,7 @@ aliases:
   - quasi-parallel
 linter-yaml-title-alias: Systemarchitekturen
 date: 2022-10-24
-mod-date: 2022-10-24
+mod-date: 2022-11-10
 ---
 
 # Systemarchitekturen
@@ -17,9 +17,29 @@ mod-date: 2022-10-24
 - Quasi-Parallelität durch Multitasking bei Warten auf Interrupts oder I/O
 	-> Trägt zur erhöhten Ausnutzung des Prozessorkerns bei
 
+### Ausführung von [[../Nebenläufige Programme|nebenläufigen Programmen]]: #fc
+- Sei $\Pi=\{p,q\},p=\{p_1,\dots,p_{n(p)}\},q=\{q_1,\dots,q_{n(q}\}$, dann verläuft die Ausführung von $\Pi$ mit Unterbrechungen durch das Betriebssystem $o=\{o_1,\dots,o_{n(o)}\}$:
+$$\text{Systemsicht: }p_1,\dots,p_j\mid o_1,\dots,o_k\mid q_1,\dots,q_l\mid o_{k+1},\dots,o_m\mid p_{j+1},\dots,p_n$$
+^1667816585177
+
 ## Mehrkernprozessoren
 - Alle Kerne greifen auf einen gemeinsamen Speicher zu
 - Echtere Parallelität kann durch Multi-Tasking auf jedem Kern stattfinden
+
+### Ressourcen #fc
+- *Lokal*: [[../../Ro I/Cache|Cache]] und lokaler Speicher
+	-> Dienen der effizienten Ausführung des Prozesses (-> [[../../Ro I/Performanz/Out-Of-Order Issue|Out-Of-Order Issue]])
+	- Lokaler Speicher: Hier leben nicht geteilte Variablen
+		-> Werden von [[Memory Protection Units]] zugesichert
+		-> [[../../Ro I/Aktuelles/Shared Memory|NUMA]]
+- *Gemeinsame Ressourcen*: [[../../Ro I/Aktuelles/Shared Memory|Shared Memory]]
+	-> Aktualisierung des gemeinsamen Zustands
+^1667816775288
+
+#### Cache Coherence: #fc
+- Bei Schreib-Zugriff auf zwischen Threads geteilte Speicheradressen treten Hardwaresperren ein
+	-> Der Memory Bus blockiert durch ein *Cache-Coherence Protokoll*
+^1667830091499
 
 ## Multiprozessor-Systeme
 - Mehrere Prozessoren (mit mehreren Kernen) arbeiten zusammen
@@ -27,8 +47,4 @@ mod-date: 2022-10-24
 - Häufig existiert ein globaler Speicher, den alle Prozessoren nutzen
 
 ## Verteilte Systeme
-- Eine Menge von Computing-Nodes aus Einzel- und Mehrkernprozessoren
-	-> Doppelt-echte Parallelität
-- Es existiert kein gemeinsamer Speicher zwischen den Knoten
-- Ein Rechnernetz ermöglicht die Kommunikation zwischen den Knoten
-- Echte Parallelität findet zwischen Knoten, Prozessoren eines Knotens und Kernen eines Prozessors statt
+-> [[Verteilte Systeme|Verteilte Systeme]]

@@ -7,7 +7,7 @@ aliases:
   - Pipeline
 linter-yaml-title-alias: Produzent-Konsument
 date: 2022-10-24
-mod-date: 2022-10-24
+mod-date: 2022-11-07
 ---
 
 # Produzent-Konsument
@@ -22,5 +22,6 @@ mod-date: 2022-10-24
 -> Eine Verallgemeinerung des Produzenten-Konsumenten-Modells
 - *Intermediäre Komponenten* sind sowohl Konsumenten, als auch Produzenten
 - Die Prozesse sind über *unidirektionale* Kommunikationskanäle miteinander verbunden
-	-> Die [[../../Ro I/RISC-V/Pipeline|RISC-V-Pipeline]] ist genau genommen gar keine Pipeline, da die Kommunikation aufgrund des [[../../Ro I/Performanz/Forwarding|Forwardings]] und [[../../Ro I/Performanz/Multiple Issue|Multiple Issue]] nicht ganz unidirektional verläuft (?)
+	-> Rückkopplungen/ Schleifen sind erlaubt
+- Beispiele: [[../../Ro I/RISC-V/Pipeline|RISC-V Pipeline]]
 ^1666630152023
