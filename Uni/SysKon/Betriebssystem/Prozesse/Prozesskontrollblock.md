@@ -1,31 +1,33 @@
 ---
 tags: uni practical-cs syskon os process
 cards-deck: Uni::Courses::SysKon
-complete: true
+completed: true
 aliases:
   - Prozesskontrollblock
   - PCB
 linter-yaml-title-alias: Prozesskontrollblock
-date: 2022-11-12
-mod-date: 2022-11-12
+date-of-creation: 2022-11-12
+mod-date: 2023-01-02
 ---
 
 # Prozesskontrollblock
 
-## Komposition #fc
-- PCB
-	-> Der wesentliche Zustand eines Betriebssystems besteht aus Kontrollblöcken
+## Prozessabbild mit PCB #fc
+- *Prozesskontrollblock*
+	-> Zugriff nur in [[../../OS|Ring-0]] möglich
+	-> Der wesentliche *Zustand eines Betriebssystems* besteht aus Kontrollblöcken
+- User-Stack
 - [[../../../Ro I/OS & Environment/Speicherorganisation|Rechnerorganisation I/Speicherorganisation]]:
-	-> User-Stack, Heap, BSS, Data, Text-Segment
+	-> Bilden den *privaten Adressraum des Prozesses*
 - Gemeinsamer Adressraum
 ^1668288356125
 
-## Aufbau: (6) #fc
-- Prozessidentität: Eine eindeutige Nummer
-- Prozessstatus: PC, Stapelzeiger, Regster, Process Status Word
-- Scheduling-Information: Prozessorstand (=neu, bereit, blockiert), Priorität, Wartezeit…
-- I/O-Informationen: Zugehörige Dateien, I/O-Geräte
-- Speicherinformationen: Seitentabellen
-- Accounting-Informationen: CPU-Zeit
-- Weitere Informationen wie z.B. PID der Eltern-Prozesse
+## Aufbau (6+1) #fc
+- Prozessidentität *PID*: Eine eindeutige Nummer
+- Prozessstatus (Ausführungskontext): [[../../../Ro I/RISC-V/Problem Counter|PC]], Stapelzeiger, [[../../../Ro I/RISC-V/Register|Register]], *Process Status Word*
+- [[../Scheduling|Scheduling]]-Information: Prozessorzustand, Priorität, Wartezeit, etc.
+- I/O-Informationen: Geöffnete Dateien, I/O-Geräte
+- Speicherinformationen: [[../../../Ro I/Virtualisierung/Seitentabelle|Seitentabellen]], etc.
+- Accounting-Informationen: [[../../../Ro I/Performanz/CPU-Time|CPU-Time]]
+- Mögliche weitere Informationen: PID der Eltern-Prozesse, etc.
 ^1668288356133

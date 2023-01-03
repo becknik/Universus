@@ -1,13 +1,13 @@
 ---
 tags: uni practical-cs syskon os
 cards-deck: Uni::Courses::SysKon
-complete: true
+completed: true
 aliases:
   - Prozess
   - Prozesszustand
 linter-yaml-title-alias: Prozess
-date: 2022-10-28
-mod-date: 2022-11-19
+date-of-creation: 2022-10-28
+mod-date: 2023-01-02
 ---
 
 # Prozess
@@ -22,15 +22,6 @@ mod-date: 2022-11-19
 	-> [[../../../Ro I/RISC-V/Problem Counter|Problem Counter]]
 ^1667058688569
 
-## Atomizität: #fc
-- Ein Befehl verwendet maximal einen Lese- oder Schreibzugriff auf gemeinsame Ressourcen
-	-> Auf geteilten Datentypen sind Lese- und Schreiboperationen (durch *atomic* (oder Java's `volatile`)) *atomar*
-	-> Auf geteilten Datenstrukturen sind Zugriffe *nicht atomar*
-- Grundlegende Annahmen:
-	- $x\leftarrow n+1$ ist atomar, wenn $x$ lokal und $n$ geteilt ist
-	- $x\leftarrow++n$ ist nicht atomar, wenn $n$ geteilt ist
-^1668079574864
-
 ## 7-Zustände-Modell: #fc
 - *Neu*: Der Prozess ist bekannt, aber noch nicht gestartet
 - *Bereit*: Nach einer Prozess-Zulassung, eines Blocks oder einem *Präemptions-Timeouts*
@@ -42,28 +33,31 @@ mod-date: 2022-11-19
 	-> Durch Suspendieren ist die [[../Korrektheitskriterien|Fairness]] nicht mehr erfüllt
 	-> Die [[../../../Ro I/Virtualisierung/Virtueller Speicher|virtuellere Speicherverwaltung]] ermöglicht eine Auslagerung von Speicherseiten
 - *Terminiert*: Es folgen Aufräumen & Abrechnen
-	-> *Zombie*: Terminierter Prozess, dessen Exit-Code noch Relevanz für den Elternprozess besitzt/ noch nicht vom Eltern-Prozess abgefragt wurde
-	-> Exit-Code: `echo $`
+	- *Zombie*: Terminierter Prozess, dessen Exit-Code noch Relevanz für den Elternprozess besitzt/ noch nicht vom Eltern-Prozess abgefragt wurde
+		-> "Wenn ein Kind stirbt, welchen Exit-Code hat es?" ~ Frank Dürr
+		-> Exit-Code: `echo $`
 ^1668685376955
+
+## Erstellung (5) #fc
+1. Weise dem Prozess wird eine neue *PID* zu
+	 -> Die Identität wird im in der Prozessliste verwaltet
+2. Allokiere Speicher für den Prozess
+3. Initialisiere [[Prozesse/Prozesskontrollblock|PCB]]
+4. Verlinke den Prozess mit dem [[../OS|OS]]
+	-> Zum Beispiel durch die Einordnung in die Ready-Queue
+5. Erstelle & erweitere *OS-Verwaltungsstrukturen*
+^1668880398096
 
 ## Start #fc
 - Ein Prozess wird immer von einem anderen Prozess gestartet
-- POSIX `fork()` erstellt einen Kind-Prozess mit *fast exakter Prozess-Kopie* des Eltern-Prozesses
+- POSIX `fork()` erstellt einen Kind-Prozess aus einer fast exakten "Kopie" des Eltern-Prozesses
 	-> Unterschiedliche *PID*, gleiche *offenen Dateien*
+	-> Ausführung des Eltern-Programms wird nach Terminierung des Kind-Prozesses fortgesetzt
 - `clone()` entspricht `fork()` mit *präziser Kontroller* über Daten, die zwischen Kind- und Eltern-Prozess geteilt werden
 	-> "Linux Torvalds skaliert nicht, denn er kann sich nicht klonen"
 - `exec()` ersetzt das aktuelle Prozessabbild durch ein neues Programm
+	-> Welches Programm ausgeführt wird, wird über einen Parameter-String spezifiziert
 ^1668880415898
-
-### Ablauf: #fc
-1. Dem Prozess wird eine neue Identität (*PID*) zugewiesen
-	 -> Die Identität wird im in der Prozessliste verwaltet
-2. Allokation von Speicher für den Prozess
-3. Initialisierung des [[Prozesse/Prozesskontrollblock|PCBs]]
-4. Der Prozess wird wird mit dem OS verlinkt
-	-> Zum Beispiel durch die Einordnung in die Ready-Queue
-5. Erweiterte OS-Verwaltungsstrukturen werden erstellt
-^1668880398096
 
 ## Eigenschaften: #fc
 - Mehrere Prozesse können sich Ressourcen teilen
