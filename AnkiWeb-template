@@ -1,6 +1,6 @@
 Title="Uni Stuttgart: CourseName"
 
-Suttort URL="https://github.com/jarnnk/UNIversus"
+Suttort URL="https://github.com/becknik/UNIversus"
 
 Description="
 <b>Achtung:</b>
@@ -8,7 +8,7 @@ Description="
 - Incremental: Dieses Deck ist noch nicht vollständig und wird im Laufe des Semesters immer wieder ergänzt und verbessert werden.
 
 <b>Einleitung:</b>
-Bei diesem Deck handelt es sich um eine Spiegelung einer meiner auf <a href="https://github.com/jarnnk/UNIversus">GitHub veröffentlichten</a>, privaten Kurs-Zusammenfassung in dem Tool <a href="https://obsidian.md/">Obsidian.md</a> zu den Fächern aus dem Informatik Bachelor-Studiengang der <a href="https://www.uni-stuttgart.de/">Universität Stuttgart</a>.
+Bei diesem Deck handelt es sich um eine Spiegelung einer meiner auf <a href="https://github.com/becknik/UNIversus">GitHub veröffentlichten</a>, privaten Kurs-Zusammenfassung in dem Tool <a href="https://obsidian.md/">Obsidian.md</a> zu den Fächern aus dem Informatik Bachelor-Studiengang der <a href="https://www.uni-stuttgart.de/">Universität Stuttgart</a>.
 Die Karten wurde mit dem Obsidian.md <a href="https://github.com/reuseman/flashcards-obsidian">Flashcards Plugin</a> generiert und enthielten dementsprechend bis vor kurzen noch ein paar Schönheitsfehler in der Formatierung (durch das Plugin) und MathJax-Kompromissen meinerseits, da die Dateien sonst nicht mehr richtig parsen würden.
 Ich werde mir bestmöglich Mühe geben die Decks - das hier eingeschlossen -  auf dem neusten Stand zu halten.
 
@@ -17,7 +17,7 @@ Dieses Decks versuchen alle prüfungsrelevanten Themen (und manchmal auch ein pa
 Teils wurden auch Inhalte aus den aktuellen Ergänzungen und ab und an auch kleinere Beispiele aus den Übungsblättern hinzugefügt.
 
 
-Wenn Dir <b>Fehler</b> auffallen oder Du <b>Verbesserungsvorschläge</b> hast, zögere bitte nicht, mich auf GitHub mit einem <a href="https://github.com/jarnnk/UNIversus/issues">Issue</a> oder eben per <a href="mailto:jannikb@posteo.de">E-Mail</a> darauf hinzuweisen. PR sind natürlich auch willkommen.
+Wenn Dir <b>Fehler</b> auffallen oder Du <b>Verbesserungsvorschläge</b> hast, zögere bitte nicht, mich auf GitHub mit einem <a href="https://github.com/becknik/UNIversus/issues">Issue</a> oder eben per <a href="mailto:jannikb@posteo.de">E-Mail</a> darauf hinzuweisen. PR sind natürlich auch willkommen.
 Für ein besseres lernen!
 
 
