@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs text
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Levenshtein-Distanz
 linter-yaml-title-alias: Levenshtein-Distanz
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-02
 ---
 
@@ -15,7 +15,7 @@ mod-date: 2022-09-02
 
 ## Funktion: #fc
 - Basiert auf einer $(m+1) \times (n+1)$ großen Matrix
-	-> Initialisiert durch $D_{0,0} =\varepsilon, D_{i,0}=w_1[i], D_{0,j} = w_2[j]$
+	→ Initialisiert durch $D_{0,0} =\varepsilon, D_{i,0}=w_1[i], D_{0,j} = w_2[j]$
 - Gleichteure Editier-Operationen:
 	- *insert(c)*
 	- *update(a $\Rightarrow$ b)*

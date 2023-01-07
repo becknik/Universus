@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs hash
 cards-deck: Uni::Courses::DSA
-complete: false
+completed: false
 aliases: Dynamisches Hashing
 linter-yaml-title-alias: Dynamisches Hashing
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-08
 ---
 

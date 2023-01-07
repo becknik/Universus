@@ -1,9 +1,9 @@
 ---
 tags: uni dsa practical-cs graph trait 
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Multigraph
-date: 2022-07-26
+date-of-creation: 2022-07-26
 mod-date: 2022-07-27
 linter-yaml-title-alias: Multigraph
 ---

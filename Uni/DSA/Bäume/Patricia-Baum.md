@@ -1,15 +1,15 @@
 ---
 tags: uni dsa practical-cs tree digital-tree indexstruct
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Patricia-Baum
 linter-yaml-title-alias: Patricia-Baum
-date: 2022-07-22
+date-of-creation: 2022-07-22
 mod-date: 2022-09-02
 ---
 
 # Patricia-Baum
--> [[Digitalbäume|Digitalbäume]]
+→ [[Digitalbäume|Digitalbäume]]
 
 ## Eigenschaften: #fc
 - "**P**ractical **A**lgorithm **T**o **R**etrieve **I**nformation **C**oded **I**n **A**lphanumeric"

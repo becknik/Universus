@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs tree trait
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Mehrwegbäume
 linter-yaml-title-alias: Mehrwegbäume
-date: 2022-07-25
+date-of-creation: 2022-07-25
 mod-date: 2022-09-10
 ---
 

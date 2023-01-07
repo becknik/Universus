@@ -1,11 +1,11 @@
 ---
 tags: uni dsa practical-cs parallel abstraction
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Nebenläufige Abläufe
 linter-yaml-title-alias: Nebenläufige Abläufe
-date: 2022-07-27
-mod-date: 2022-09-05
+date-of-creation: 2022-07-27
+mod-date: 2022-09-13
 ---
 
 # Nebenläufige Abläufe
@@ -13,12 +13,12 @@ mod-date: 2022-09-05
 ## Eigenschaften:
 - Mehrere kommunizierende Automaten werden in Form von Prozessen *koordiniert*
 - Kommen bei verteilten oder mehrkernigen Systemen zum Einsatz
-	-> [[../../Privat/Programmiersprachen/Java/Java-Threads|Java-Threads]]
+	→ [[../../Softwareentwicklung/ProgLangs/Java/Parallel/Threads|Java-Threads]]
 
-## Zustände: #fc
+## Zustände von Prozessen: #fc
 - *Initialisiert* $\Rightarrow$ *Bereit* $\Leftrightarrow$ *Aktiv* $\Rightarrow$ *Terminiert*
 - *Blockiert*: Falls eine gemeinsame Ressource durch einen anderen Prozess gesperrt ist
-	-> *Aktiv* $\Rightarrow$ *Blockiert* $\Rightarrow$ *Bereit*
+	→ *Aktiv* $\Rightarrow$ *Blockiert* $\Rightarrow$ *Bereit*
 ^1657017218566
 
 ## Themen:

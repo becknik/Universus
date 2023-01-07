@@ -1,9 +1,9 @@
 ---
 tags: uni dsa practical-cs parallel java  
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Synchronisation
-date: 2022-07-27
+date-of-creation: 2022-07-27
 mod-date: 2022-08-05
 linter-yaml-title-alias: Synchronisation
 ---
@@ -18,6 +18,6 @@ linter-yaml-title-alias: Synchronisation
 ## Intraprozess: #fc
 - Synchronisation der Threads mit Hilfe von Monitoren
 - **Monitor**: Regelt den Zugriff von Threads auf *kritische Bereiche* durch das Sicherstellen von *Wechselseitigen Ausschluss* von Threads
-	-> *synchronized* in Java
+	→ *synchronized* in Java
 - [[Semaphor|Semaphor]]
 ^1657019361152

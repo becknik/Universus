@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs algorithm graph
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Kruskal
 linter-yaml-title-alias: Kruskal
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-10
 ---
 

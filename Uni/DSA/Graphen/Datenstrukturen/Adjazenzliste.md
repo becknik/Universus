@@ -1,9 +1,9 @@
 ---
 tags: uni dsa practical-cs graph indexstruct
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Adjazenzliste
-date: 2022-07-25
+date-of-creation: 2022-07-25
 mod-date: 2022-07-27
 linter-yaml-title-alias: Adjazenzliste
 ---
@@ -12,7 +12,7 @@ linter-yaml-title-alias: Adjazenzliste
 
 ## Eigenschaften: #fc
 - Nachbarschaften werden durch eine Liste in einer für den Knotenindex verantwortlichen Liste gespeichert
-	-> Die Zeitkomplexität ist von der Realisierung der verwendeten Liste abhängig
+	→ Die Zeitkomplexität ist von der Realisierung der verwendeten Liste abhängig
 - Die Datenstruktur kann wie eine [[../../Datenstrukturen/Linked List|Linked List]] dynamisch wachsen
 - Die Leerstellen einer [[Adjazenzmatrix|Adjazenzmatrix]] werden eingespart
 - Kann bedarfsgerecht auch mit Arrays kombiniert werden
@@ -20,7 +20,7 @@ linter-yaml-title-alias: Adjazenzliste
 
 ## Einfügen Von Kanten: #fc
 - Bedarf den Test, ob die Kant schon existiert
-	-> Teurer als bei [[Adjazenzmatrix|Adjazenzmatritzen]]
+	→ Teurer als bei [[Adjazenzmatrix|Adjazenzmatritzen]]
 ^1658939224065
 
 ## Löschen Von Knoten: #fc

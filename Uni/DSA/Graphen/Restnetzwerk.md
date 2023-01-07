@@ -1,15 +1,15 @@
 ---
 tags: uni dsa practical-cs graph trait
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Restnetzwerk
 linter-yaml-title-alias: Restnetzwerk
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-04
 ---
 
 # Restnetzwerk
--> [[Fluss]]
+→ [[Fluss]]
 
 ## Definition: #fc
 - Wenn an der Kante (u,v) der Fluss f anliegt, dann ergibt sich die resultierende Restkapazität durch $$c_f(v, u) = c(v,u) - f(v,u) = c(v,u) + f(u,v)$$

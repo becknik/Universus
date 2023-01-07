@@ -1,10 +1,10 @@
 ---
-tags: uni dsa practical-cs design_pattern
+tags: uni dsa practical-cs design-pattern
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Monte-Carlo
 linter-yaml-title-alias: Monte-Carlo
-date: 2022-07-27
+date-of-creation: 2022-07-27
 mod-date: 2022-09-05
 ---
 
@@ -13,9 +13,9 @@ mod-date: 2022-09-05
 ## Prinzip: #fc
 - Steht für *Mostly Correct*
 - Berechnet mit der Wahrscheinlichkeit $p < 1$ das korrekte Ergebnis
-	-> Die Korrektheit hängt von einer *Zufallskomponente* ab
+	→ Die Korrektheit hängt von einer *Zufallskomponente* ab
 - Macht sich eine randomisierte Abtastung zur Berechnung *numerischer Resultate* zunutzen
-	-> "*Gesetz der großen Zahlen*": Konvergenz der relativen Häufigkeit zu Erwartungswert (?)
+	→ "*Gesetz der großen Zahlen*": Konvergenz der relativen Häufigkeit zu Erwartungswert (?)
 - Ist auf jeden Fall *effizient*
 - Kann bei Entscheidungsproblemen zweiseitige Fehler aufweisen
 ^1658939028908

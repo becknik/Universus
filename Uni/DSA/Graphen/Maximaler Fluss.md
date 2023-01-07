@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs graph flow
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Maximaler Fluss
 linter-yaml-title-alias: Maximaler Fluss
-date: 2022-07-26
+date-of-creation: 2022-07-26
 mod-date: 2022-09-03
 ---
 
@@ -12,7 +12,7 @@ mod-date: 2022-09-03
 
 ## Definition: #fc
 - Berechnung der Werte eines [[Fluss|Flusses]] $F$ im Graphen $G$: $$val(G,F,s) = \sum_{u \in V} f(s,u)$$
-	-> $F$ bestimmt den Wert für jede Kante $u$
+	→ $F$ bestimmt den Wert für jede Kante $u$
 - So ist der maximale Durchfluss: $$\max\{ val(G, F, s)\mid F \text{ ist ein korrekter Fluss in } G \text{ bezüglich } s,t\}$$
 ^1655041696342
 

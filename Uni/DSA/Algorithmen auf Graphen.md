@@ -1,16 +1,16 @@
 ---
 tags: uni dsa practical-cs graph algorithm abstraction
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Algorithmen Auf Graphen
 linter-yaml-title-alias: Algorithmen Auf Graphen
-date: 2022-07-25
+date-of-creation: 2022-07-25
 mod-date: 2022-09-08
 ---
 
 # Algorithmen Auf Graphen
--> [[Graphen|Graphen]]
--> [Interaktive Veranschaulichung](http://qiao.github.io/PathFinding.js/visual/)
+→ [[Graphen|Graphen]]
+→ [Interaktive Veranschaulichung](http://qiao.github.io/PathFinding.js/visual/)
 
 ## Traversierung:
 - [[Graphen/Algorithmen/Breitensuche|Breitensuche]]
@@ -18,7 +18,7 @@ mod-date: 2022-09-08
 
 ## Kürzester Weg:
 - [[Graphen/Algorithmen/Dijkstra|Dijkstra Algorithmus]]
-- [[Graphen/Algorithmen/A*|A* Algorithmus]]
+- [[Graphen/Algorithmen/A-Stern|A* Algorithmus]]
 - [[Graphen/Algorithmen/Bellman-Ford|Bellman-Ford Algorithmus]]
 
 ## Minimaler Spannbaum:

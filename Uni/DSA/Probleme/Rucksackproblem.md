@@ -1,10 +1,10 @@
 ---
 tags: dsa practical-cs problem algorithm
 cards-deck: Uni::Courses::DSA
-complete: false
+completed: false
 aliases: Rucksackproblem
 linter-yaml-title-alias: Rucksackproblem
-date: 2022-07-19
+date-of-creation: 2022-07-19
 mod-date: 2022-09-08
 ---
 
@@ -51,4 +51,4 @@ if C < g1
 	else return max(f(2,C), f(2,C − g_1) + w_1)
 fi
 ```
--> Garantiert optimale Lösung durch [[../Algorithmen/Muster/Dynamische Programmierung|dynamische Programmierung]]
+→ Garantiert optimale Lösung durch [[../Algorithmen/Muster/Dynamische Programmierung|dynamische Programmierung]]

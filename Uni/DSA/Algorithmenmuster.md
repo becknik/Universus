@@ -1,16 +1,16 @@
 ---
-tags: dsa practical-cs design_pattern algorithm
+tags: dsa practical-cs design-pattern algorithm
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Algorithmenmuster
 linter-yaml-title-alias: Algorithmenmuster
-date: 2022-07-19
+date-of-creation: 2022-07-19
 mod-date: 2022-09-05
 ---
 
 # Algorithmenmuster
--> [[Algorithmen]]
--> [[../../Privat/Algorithmenparadigmen|Algorithmenparadigmen]]
+→ [[Algorithmen]]
+→ [[../../Softwareentwicklung/Algorithmen/Algorithmenparadigmen|Algorithmenparadigmen]]
 
 ## Varianten: #fc
 - [[Algorithmen/Muster/Inkrementelles Vorgehen|Inkrementelles Vorgehen]]
@@ -22,7 +22,7 @@ mod-date: 2022-09-05
 	- [[Algorithmen/Muster/Brute Force|Brute Force Algorithmus]]
 - Effiziente Verfahren:
 	- [[Algorithmen/Muster/Scanline|Scanline-Verfahren]]
-	- [[Algorithmen/Muster/Sweep|Sweep-Verfahren]]
+	- *Sweep-Verfahren*
 - Randomisierte Algorithmen:
 	- [[Algorithmen/Muster/Las-Vegas|Las-Vegas]]
 	- [[Algorithmen/Muster/Monte-Carlo|Monte-Carlo]]

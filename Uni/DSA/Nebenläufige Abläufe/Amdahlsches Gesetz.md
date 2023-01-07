@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs parallel theorem
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Amdahlsches Gesetz
 linter-yaml-title-alias: Amdahlsches Gesetz
-date: 2022-07-27
+date-of-creation: 2022-07-27
 mod-date: 2022-09-10
 ---
 

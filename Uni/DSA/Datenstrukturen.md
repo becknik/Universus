@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs struct abstraction
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Datenstrukturen
 linter-yaml-title-alias: Datenstrukturen
-date: 2022-07-21
+date-of-creation: 2022-07-21
 mod-date: 2022-09-08
 ---
 
@@ -15,18 +15,18 @@ mod-date: 2022-09-08
 - Verknüpfen die enthaltenen Daten über Operationen
 - Ermöglichen einen Zugriff in einer geeigneter Weise
 - Ermöglichen eine Manipulation der enthaltenen Daten
--> "Erst rechnerverarbeitbare Darstellungen von Informationen erlauben es Programmieren realistischer Probleme in angemessenen Abstraktionsebene"[^1]
+→ "Erst rechnerverarbeitbare Darstellungen von Informationen erlauben es Programmieren realistischer Probleme in angemessenen Abstraktionsebene"[^1]
 ^1649750641843
 
 ## Eigenschaften: #fc
 - *Effizienz*: Im Bezug des Zugriffs oder der Speicherung
-	-> In manchen Anwendungsfällen können auch *eigenständige Implementierung* für eine Steigerung der Effizienz verwendet werden
+	→ In manchen Anwendungsfällen können auch *eigenständige Implementierung* für eine Steigerung der Effizienz verwendet werden
 - (Meistens) *Wiederverwendbarkeit*: Gegeben durch Generizität und Bibliotheken
 ^1649750745819
 
 ## Varianten:
 - [[Datenstrukturen/Linked List|Liste]]
-	-> [[Datenstrukturen/Iterator|Iterator]]
+	→ [[Datenstrukturen/Iterator|Iterator]]
 - Zugriffsbeschränkt:
 	- [[Datenstrukturen/Queue|Queues]]
 	- [[Datenstrukturen/Stack|Stacks]]

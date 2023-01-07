@@ -1,11 +1,11 @@
 ---
 tags: uni dsa practical-cs algorithm abstraction
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Algorithmen
 linter-yaml-title-alias: Algorithmen
-date: 2022-07-21
-mod-date: 2022-09-08
+date-of-creation: 2022-07-21
+mod-date: 2022-09-13
 ---
 
 # Algorithmen
@@ -15,8 +15,8 @@ mod-date: 2022-09-08
 - Bestehen aus mehreren *elementaren Schritten*
 - Müssen nach *endlicher Zeit* terminieren
 - *Treiben* ein *allgemeinen* Bearbeitungs- oder Berechnungsvorgang *voran*
-	-> In der Informatik handelt es sich eher um Berechnungen
-- Lassen sich auf *abstrakten Maschinen* (=Prozessoren) ausführen
+	→ In der Informatik handelt es sich eher um Berechnungen
+- Lassen sich auf *[[../../Softwareentwicklung/Algorithmen/Modelle/Abstrakte Maschinen|abstrakten Maschinen]]* ausführen
 ^1649750932424
 
 ## Intuitiver Algorithmus-Begriff:
@@ -29,7 +29,7 @@ mod-date: 2022-09-08
 ^1662235629954
 
 ## Varianten:
--> [[Algorithmenmuster|Algorithmenmuster]]
+→ [[Algorithmenmuster|Algorithmenmuster]]
 - [[Suchverfahren|Suchverfahren]]
 - [[Sortierverfahren]]
 - [[Algorithmen auf Graphen|Algorithmen auf Graphen]]

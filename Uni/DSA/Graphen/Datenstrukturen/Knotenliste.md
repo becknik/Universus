@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs struct graph
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Knotenliste
 linter-yaml-title-alias: Knotenliste
-date: 2022-07-25
+date-of-creation: 2022-07-25
 mod-date: 2022-09-05
 ---
 
@@ -14,7 +14,7 @@ mod-date: 2022-09-05
 - Der erste Wert zeigt die Anzahl der Knoten an
 - Der zweite Wert zeigt die Anzahl der Kanten im Graphen an
 - Danach: Der erste Wert gibt die Anzahl der (ausgehenden) Kanten an, danach folgen die Zielknoten in eben dieser Anzahl
--> Benötigt bei dichten Graphen weniger Speicherplatz als die [[Kantenliste]], bieten dafür aber eine höhere Zeitkomplexität
+→ Benötigt bei dichten Graphen weniger Speicherplatz als die [[Kantenliste]], bieten dafür aber eine höhere Zeitkomplexität
 ^1653919478962
 
 ## Knoten hinzufügen:

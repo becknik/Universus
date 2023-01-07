@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs algorithm
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Euklidischer Algorithmus
 linter-yaml-title-alias: Euklidischer Algorithmus
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-02
 ---
 
@@ -15,7 +15,7 @@ mod-date: 2022-09-02
 
 ## Algorithmus: #fc
 ```
-Method: modernEuclid (a, b) -> ggT(a, b)
+Method: modernEuclid (a, b) → ggT(a, b)
 x := a; y := b;
 if y = 0 then
 	return x

@@ -1,13 +1,13 @@
 ---
-tags: uni dsa practical-cs design_pattern
+tags: uni dsa practical-cs design-pattern
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases:
   - Divide And Conquer
   - Divide & Conquer
   - D&C
 linter-yaml-title-alias: Divide And Conquer
-date: 2022-07-19
+date-of-creation: 2022-07-19
 mod-date: 2022-09-06
 ---
 
@@ -15,9 +15,9 @@ mod-date: 2022-09-06
 
 ## Prinzip: #fc
 - Das Problem wird *rekursiv* auf ein *identisches, separat berechenbares* Problem mit *kleinerer Eingabemenge* zurückgeführt
-	-> "*Rekursive Rückführung*"
+	→ "*Rekursive Rückführung*"
 - Die resultierenden atomaren Teilprobleme werden gelöst und die entstandenen Teillösungen dann zu einer Gesamtlösung zusammengesetzt
-	-> Jedes *Teilproblem soll von der selben Natur* wie das vorher Zerlegte sein, so dass es sich durch denselben Algorithmus lösen lässt
+	→ Jedes *Teilproblem soll von der selben Natur* wie das vorher Zerlegte sein, so dass es sich durch denselben Algorithmus lösen lässt
 ^1658258681785
 
 ## Algorithmus:

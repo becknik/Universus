@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Scanline
 linter-yaml-title-alias: Scanline
-date: 2022-09-02
+date-of-creation: 2022-09-02
 mod-date: 2022-09-02
 ---
 

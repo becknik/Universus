@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree algorithm
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases:
   - Traversierung von Bäumen
   - Levelorder
@@ -9,7 +9,7 @@ aliases:
   - Inorder
   - Postorder
 linter-yaml-title-alias: Traversierung von Bäumen
-date: 2022-07-22
+date-of-creation: 2022-07-22
 mod-date: 2022-09-10
 ---
 
@@ -18,12 +18,12 @@ mod-date: 2022-09-10
 ## Kategorien #fc
 - [[../Graphen/Algorithmen/Tiefensuche|Tiefensuche]]:
 	- **Preorder**: Zuerst der Knoten, dann der linke, danach der rechte Teilbaum
-		-> Erzeugt die normale [[Polnische Notation]]/ Präfixschreibweise
+		→ Erzeugt die normale [[Polnische Notation]]/ Präfixschreibweise
 	- **Inorder**: Zuerst der der linke Teilbaum, dann der Knoten und dann der rechte Teilbaum
-		-> Erzeugt die Infix-Schreibweise ohne Klammerung
+		→ Erzeugt die Infix-Schreibweise ohne Klammerung
 	- **Postorder**-Traversierung: Zuerst der Linke, dann der rechte Teilbaum und dann der Knoten
-		-> Erzeugt die umgekehrte [[Polnische Notation]]/ Postfixschreibweise
-		-> Erlaubt mit *Preorder* zusammen eine Rekonstruktion des Baums
+		→ Erzeugt die umgekehrte [[Polnische Notation]]/ Postfixschreibweise
+		→ Erlaubt mit *Preorder* zusammen eine Rekonstruktion des Baums
 - [[../Graphen/Algorithmen/Breitensuche|Breitensuche]]:
 	- **Levelorder**-Traversierung: Die Knoten werden Niveau-weise durchlaufen
 ^1651410159125

@@ -1,17 +1,17 @@
 ---
 tags: uni dsa practical-cs abstraction algorithm
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Suchverfahren
 linter-yaml-title-alias: Suchverfahren
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-10
 ---
 
 # Suchverfahren
--> [[Algorithmen auf Graphen|Algorithmen Auf Graphen]]
+→ [[Algorithmen auf Graphen|Algorithmen Auf Graphen]]
 - [[Text-Such-Algorithmem|Text-Such-Algorithmen]]
-	-> [[Text/Reguläre Audrücke|Reguläre Ausdrücke]]
+	→ [[Text/Reguläre Audrücke|Reguläre Ausdrücke]]
 - [[Hashfunktionen|Hashfunktionen]]
 
 ## Vergleich der Komplexitäten: #fc

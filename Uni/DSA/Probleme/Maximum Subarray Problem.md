@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs problem algorithm
 cards-deck: Uni::Courses::DSA
-complete: false
+completed: false
 aliases: Maximum Subarray Problem
 linter-yaml-title-alias: Maximum Subarray Problem
-date: 2022-07-19
+date-of-creation: 2022-07-19
 mod-date: 2022-09-05
 ---
 
@@ -28,5 +28,5 @@ public static int maxSumScanline(int[] numbers) {
 	return bisMax;
 }
 ```
--> Effiziente Lösung in $\mathbfcal{O}(n)$
+→ Effiziente Lösung in $\mathbfcal{O}(n)$
 ^1658308911904

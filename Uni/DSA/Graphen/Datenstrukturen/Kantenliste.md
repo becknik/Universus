@@ -1,9 +1,9 @@
 ---
 tags: uni dsa practical-cs graph indexstruct
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Kantenliste
-date: 2022-07-25
+date-of-creation: 2022-07-25
 mod-date: 2022-07-27
 linter-yaml-title-alias: Kantenliste
 ---

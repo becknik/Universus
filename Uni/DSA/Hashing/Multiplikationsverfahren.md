@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs hash algorithm
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Multiplikationsverfahren
 linter-yaml-title-alias: Multiplikationsverfahren
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-05
 ---
 
@@ -12,7 +12,7 @@ mod-date: 2022-09-05
 
 ## Funktionsweise: #fc
 1. Der Objektschlüssel $s$ wird mit der *möglichst unrationalen* Zahl $0 < z < 1$ multipliziert
-	-> Beispielsweise kommt die Dezimalbruchentwicklung der harmonischen Reihe, die Goldene Zahl etc. infrage
+	→ Beispielsweise kommt die Dezimalbruchentwicklung der harmonischen Reihe, die Goldene Zahl etc. infrage
 2. Ganzzahl wird entfernt: $g(s) = s\cdot z-\lfloor s\cdot z\rfloor$
 3. Addition mit $p$ und abrunden: $h(s)=\lfloor p\cdot g(s)\rfloor$
 ^1656966172271

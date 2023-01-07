@@ -1,7 +1,7 @@
 ---
 tags: uni dsa practical-cs tree indexstruct abstraction
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases:
   - Bäume
   - Baum
@@ -10,13 +10,13 @@ aliases:
   - voll
   - vollständig
 linter-yaml-title-alias: Bäume
-date: 2022-07-22
+date-of-creation: 2022-07-22
 mod-date: 2022-09-10
 ---
 
 # Bäume
--> Zusammenhängende, azyklische [[Graphen|Graphen]]
--> [[Bäume/Traversierung|Traversierung]]
+→ Zusammenhängende, azyklische [[Graphen|Graphen]]
+→ [[Bäume/Traversierung|Traversierung]]
 
 ## Grundlegende Fachtermini: #fc
 - *Kanten*
@@ -25,12 +25,12 @@ mod-date: 2022-09-10
 - *Innerer Knoten/ Blätter*
 - $n$-ärer - $n=$ globale, maximale Anzahl an Kanten
 - *Pfad* = Eine Folge von unterschiedlichen, zusammenhängenden Kanten
-- *Niveau* (-> Zählung beginnt bei 0)
+- *Niveau* (→ Zählung beginnt bei 0)
 ^1651408603108
 
 ## Fachtermini für Eigenschaften: #fc
 - *Pseudoknoten*: Vereinfachung zum Testen auf Leerheit und null-Verweise
-	-> Am rechten Knoten des Head-Nodes hängt der Wurzelknoten
+	→ Am rechten Knoten des Head-Nodes hängt der Wurzelknoten
 - *voll*: Ein $n$-ärer Baum ist voll, wenn alle Knoten entweder 0 oder $n$ Kindknoten aufweisen
 - *Vollständigkeit*: Alle Blattknoten eines vollständigen Baumes liegen auf demselben Niveau
 - [[Bäume/Balancierter Baum|Ausgeglichener/ Balancierter Baum]]

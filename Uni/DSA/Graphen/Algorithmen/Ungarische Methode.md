@@ -1,12 +1,12 @@
 ---
 tags: uni dsa practical-cs graph bipartit algorithm
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases:
   - Ungarische Methode
   - Kuhn-Munkres
 linter-yaml-title-alias: Ungarische Methode
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-07
 ---
 
@@ -16,14 +16,14 @@ mod-date: 2022-09-07
 - Wird auch *Kuhn-Munkres-Algorithmus* genannt
 - Ziel: Es soll ein [[../Matching|Matching]] mit dem maximalen oder minimalen Gewicht auf einem [[../Bipartite Graphen|bipartiten Graphen]] gefunden werden
 - Annahme für den bipartiten Graphen: $|A| = |B|$
-	-> Eine Erweiterung existiert
+	→ Eine Erweiterung existiert
 ^1658939217852
 
 ## Funktionsweise: #fc
 - Eine [[../Datenstrukturen/Adjazenzmatrix|Adjazenzmatrix]] aus $A$ (Zeile) und $B$ (Spalte) wird erstellt
-	-> Falls $|A|\neq|B|$ gilt, soll mit 0-Zeilen und -Spalten aufgefüllt werden
+	→ Falls $|A|\neq|B|$ gilt, soll mit 0-Zeilen und -Spalten aufgefüllt werden
 0. Falls ein maximales Matching (für jedes Paar ist der maximale Wert gesucht) gesucht ist: Suche das Maximum in de Matrix und ersetzte alle Werte durch die Differenz zu diesem Wert
-	 -> Die Matrix sollte nun aus nicht-negativen Werten und dort 0-Werten bestehen, wo vorher die maximalen Zahlenwerte standen
+	 → Die Matrix sollte nun aus nicht-negativen Werten und dort 0-Werten bestehen, wo vorher die maximalen Zahlenwerte standen
 1. Für jede Zeile ($a\in A$): Finde den *kleinsten Wert* und *subtrahiere* ihn von jedem Wert dieser Zeile
 2. Für jede Spalte ($b\in B$): Finde den *kleinsten Wert* und *subtrahiere* ihn von jedem Wert dieser Spalte
 - Wiederhole:
@@ -32,7 +32,7 @@ mod-date: 2022-09-07
 	5. Der kleinste, durch keine Line bedeckte Wert wird gespeichert
 	und von jeder *unbedeckten* Zeile ($a\in A$) *subtrahiert*
 	und auf jede bedeckten Spalte ($b\in B$) *addiert*
-		-> *Alle Werte* in einer *nicht-durchgestrichenen Zeile* müssen sind von der Subtraktion betroffen, egal ob die Spalte bedeckt ist oder nicht
+		→ *Alle Werte* in einer *nicht-durchgestrichenen Zeile* müssen sind von der Subtraktion betroffen, egal ob die Spalte bedeckt ist oder nicht
 ^1655393399501
 
 ## Anwendung:
@@ -59,7 +59,7 @@ for each zeile (A), die keine ★-Markierung hat do
 	entferne zeile aus zeilenbedeckungen
 od
 return zeilenbedeckungen, spaltenbedeckungen
---> Die finale Zuordnung entspricht den ★-Markeriungen 
+-→ Die finale Zuordnung entspricht den ★-Markeriungen 
 ```
--> Wichtig ist nicht die Durchführung, sonder dass die Anzahl an Bedeckungen minimal ist
+→ Wichtig ist nicht die Durchführung, sonder dass die Anzahl an Bedeckungen minimal ist
 ^1658939217855

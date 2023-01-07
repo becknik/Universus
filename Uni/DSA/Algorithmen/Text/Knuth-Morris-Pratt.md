@@ -1,24 +1,24 @@
 ---
 tags: uni dsa practical-cs algorithm text
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases:
   - Knuth-Morris-Pratt
   - KMP
 linter-yaml-title-alias: Knuth-Morris-Pratt
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-07
 ---
 
 # Knuth-Morris-Pratt
--> [[../../Text-Such-Algorithmem|Text-Such-Algorithmen]]
+→ [[../../Text-Such-Algorithmem|Text-Such-Algorithmen]]
 
 ## Eigenschaften: #fc
 - Der Algorithmus stellt durch die Verwendung von *positiven Informationen* aus dem vorherigen Vergleich eine Erweiterung des [[../Muster/Brute Force|Brute Force Ansatzes]] dar
 - Liegt durch die Suche & Analyse des Musters in $O(n+m)$
 - Ist *Stream*-fähig
 - In der Praxis ist der Algorithmus aufgrund der geringen Selbstähnlichkeit der Texte kaum effizienter als die native Suche
-	-> In der Bioinformatik hingegen schon
+	→ In der Bioinformatik hingegen schon
 ^1656412370585
 
 ## Funktionsweise: #fc

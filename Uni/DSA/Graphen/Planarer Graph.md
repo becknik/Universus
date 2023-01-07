@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs graph trait
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Planarer Graph
 linter-yaml-title-alias: Planarer Graph
-date: 2022-07-24
+date-of-creation: 2022-07-24
 mod-date: 2022-09-10
 ---
 

@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs algorithm sort
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: QuickSort
 linter-yaml-title-alias: QuickSort
-date: 2022-07-21
+date-of-creation: 2022-07-21
 mod-date: 2022-09-07
 ---
 
@@ -32,7 +32,7 @@ Falls u < o:
 	Qucksort(F, pivot_index_new + 1, o);
 ```
 ```
-Method: Zerlege(F, u, o, p) -> pivot_index_new
+Method: Zerlege(F, u, o, p) → pivot_index_new
 pivot_index_new := u  // Auch pn genannt
 // Wenn u zufällig das kleinste Element im F ist, bleibt pn = u
 pivot_element := F[p]

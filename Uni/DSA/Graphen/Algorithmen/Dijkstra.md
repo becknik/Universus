@@ -1,10 +1,10 @@
 ---
 tags: uni dsa practical-cs graph algorithm
 cards-deck: Uni::Courses::DSA
-complete: false
+completed: false
 aliases: Dijkstra
 linter-yaml-title-alias: Dijkstra
-date: 2022-07-23
+date-of-creation: 2022-07-23
 mod-date: 2022-09-10
 ---
 
@@ -14,8 +14,8 @@ mod-date: 2022-09-10
 - Berechnet den *kürzesten Weg* von einem Startknoten zu allen erreichbaren Knoten eines [[../Gewichteter Graph|gewichteten Graphen]] ohne*negativen Kantengewichte*
 - Wurde 1959 von Edsger W. Dijkstra entworfen
 - Verwendet eine [[../../Bäume/Heap|Prioritätswarteschlange]]
-	-> Ist eine [[../../Algorithmen/Muster/Greedy|Greedy]] Erweiterung der [[Tiefensuche]]
-- Entspricht dem [[A*]] ohne angegebene Heuristik und ist somit eine *uninformierte Suche*
+	→ Ist eine [[../../Algorithmen/Muster/Greedy|Greedy]] Erweiterung der [[Tiefensuche]]
+- Entspricht dem [[A-Stern]] ohne angegebene Heuristik und ist somit eine *uninformierte Suche*
 ^1658939201003
 
 ## Funktionsweise & Algorithmus: #fc

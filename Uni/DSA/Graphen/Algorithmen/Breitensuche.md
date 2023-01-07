@@ -1,15 +1,14 @@
 ---
 tags: uni dsa practical-cs graph algorithm
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Breitensuche
 linter-yaml-title-alias: Breitensuche
-date: 2022-07-23
+date-of-creation: 2022-07-23
 mod-date: 2022-09-08
 ---
 
 # Breitensuche
--> Wird auch mit breadth first search BFS abgekürzt
 
 ## Eigenschaften: #fc
 - ! Finden des kürzesten Weges bei ungewichteten Kanten
@@ -18,7 +17,7 @@ mod-date: 2022-09-08
 - Durch das Setzen einer zusätzlichen Referenz $\pi$ in jedem Knoten lässt sich ein [[../Spann- & Wurzelbaum|Spannbaum]]/ [[../Spann- & Wurzelbaum|Wurzelbaum]] erstellen
 - Speziell für [[../Gerichtete Graphen|gerichtete Graphen]] lassen sich mit Hilfe der BFS Entry Points bestimmen
 - Kann nur bei [[../Gewichteter Graph|ungewichteten Graphen]] zur Bestimmung des kürzesten Weges verwendet werden
-	-> Die Erweiterung für Gewichtete: Der [[Dijkstra]]
+	→ Die Erweiterung für Gewichtete: Der [[Dijkstra]]
 - Liegt im schlechtesten Fall in $\mathbfcal{O}(|V|+|E|)$
 ^1653921689772
 
@@ -29,10 +28,10 @@ mod-date: 2022-09-08
 	- Ein Knoten $u$ wird aus der Queue gepeekt
 	- Bei Suche: Wenn das entnommene Element dem Gesuchten entspricht, ist die Suche beendet
 	- Die Folgeknoten von Knoten $u$ werden, wenn sie noch nicht in der Queue sind, blau markiert, ihr Entfernungswert aktualisiert und auch in die Queue gelegt
-		-> Bei Spannbaum: Die Referenz $\pi$ des aktuellen Knotens wird zusätzlich auf die noch nicht blau markierten Knoten gesetzt
+		→ Bei Spannbaum: Die Referenz $\pi$ des aktuellen Knotens wird zusätzlich auf die noch nicht blau markierten Knoten gesetzt
 	- Der Knoten $u$ wird schwarz gefärbt und aus der Queue entfernt
 4. Wenn die Queue leer ist, liegt das gesuchte Element nicht in der [[../Zusammenhangskomponenten|schwachen Zusammenhangskomponente]]
-	-> Element nicht gefunden
+	→ Element nicht gefunden
 ^1653921378754
 
 ## Algorithmus:

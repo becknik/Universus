@@ -1,21 +1,21 @@
 ---
-tags: uni dsa practical-cs design_pattern
+tags: uni dsa practical-cs design-pattern
 cards-deck: Uni::Courses::DSA
-complete: true
+completed: true
 aliases: Backtracking
 linter-yaml-title-alias: Backtracking
-date: 2022-07-19
-mod-date: 2022-09-05
+date-of-creation: 2022-07-19
+mod-date: 2022-09-13
 ---
 
 # Backtracking
 
 ## Prinzip: #fc
 - Alle infrage kommenden Lösungswege werden *systematisch abgesucht*, getestet und so zu einer Gesamtlösung ausgebaut
-	-> "*Trail & Error*"
-	-> Falls eine Lösung existiert, wird sie gefunden
+	→ "*Trail & Error*"
+	→ Falls eine Lösung existiert, wird sie gefunden
 - Falls ein Weg nicht zu einer Lösung führt, werden die letzten Schritte zurückgenommen und der nächste Weg ausprobiert
-	-> Führt schrittweise zu einer global optimalen Gesamtlösung
+	→ Führt schrittweise zu einer global optimalen Gesamtlösung
 ```
 Methode BACKTRACK (K: konfiguration)
 …
@@ -37,12 +37,13 @@ fi
 
 ## Optimierungen: #fc
 Backtracking-Algorithmen werden meistens *rekursiv* implementiert
-	-> Weisen meistens eine *exponentielle* Laufzeit auf
+	→ Weisen meistens eine *exponentielle* Laufzeit auf
 - Abbruch nach der ersten gefundenen Lösung (wie bei der [[../../Graphen/Algorithmen/Tiefensuche|Tiefensuche]])
 - Vorgabe einer maximalen *Rukursionstiefe*
-	-> Zum Beispiel die Stellungen der Spielfiguren auf dem Schachbrett bei einem Schachprogrammen
-- *Branch-and-Bound*: Nur Zweige werden verfolgt, die eine Lösung versprechen
--> Latentes Problem: Mehrfaches Berechnen von gleicher Teilbäume -> [[Dynamische Programmierung|Dynamische Programmierung]]
+	→ Zum Beispiel die Stellungen der Spielfiguren auf dem Schachbrett bei einem Schachprogrammen
+- *Branch-and-Bound*: Nur Zweige werden verfolgt, die eine Lösung versprechen oder die am besten bewertet sind
+	→ Eine typische Variante für [[../../../Theo II/Problemklassen|Optimierungsfragen]]
+→ Latentes Problem: Mehrfaches Berechnen von gleicher Teilbäume → [[Dynamische Programmierung|Dynamische Programmierung]]
 ^1658939009980
 
 ## Anwendung: #fc
