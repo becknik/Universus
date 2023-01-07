@@ -1,11 +1,11 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases:
   - Circuit Value Problem
   - CVP
-date: 2022-08-12
+date-of-creation: 2022-08-12
 mod-date: 2022-08-18
 linter-yaml-title-alias: Circuit Value Problem
 ---
@@ -21,12 +21,12 @@ linter-yaml-title-alias: Circuit Value Problem
 		- $s(i)\in\{\wedge,\vee\}\Rightarrow$ Eingangsgrad von $i$ ist 2
 		- $s(i)=\neg\Rightarrow$ Eingangsgrad von $i$ ist 1
 		- $s(i)\in\{T,F\}\Rightarrow$ Eingangsgrad von $i$ ist 0
-	-> Jedem Knoten kann von hinten nach vorne ein boolescher Wert zugeordnet werden
+	→ Jedem Knoten kann von hinten nach vorne ein boolescher Wert zugeordnet werden
 - *Gesucht*: Ist der Output von $n$ der Wert T(RUE)
-	-> CVP und MCVP (=ohne Negationen) sind $\leq_{\log}-$vollständig für [[../Zeitklassen/P|P]] (-> [[../Logspace-Reduktion|Logspace-Reduktion]])
+	→ CVP und MCVP (=ohne Negationen) sind $\leq_{\log}-$vollständig für [[../Zeitklassen/P|P]] (→ [[../Logspace-Reduktion|Logspace-Reduktion]])
 ^1660857829772
 
 ## Unterschied Zu Formeln:
 - Jeder [[../../Logik/Aussagenlogik|Formel]] kann man einen Schaltkreis zuordnen
 - Jeden Schaltkreis kann man in eine exponentielle Formel umwandeln
-	-> Bei Schaltkreisen lassen sich Teilformeln ohne Aufblähung wiederverwenden
+	→ Bei Schaltkreisen lassen sich Teilformeln ohne Aufblähung wiederverwenden

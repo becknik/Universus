@@ -1,10 +1,10 @@
 ---
 tags: uni theo-2 theoretical-cs abstraction
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Theoreme
 linter-yaml-title-alias: Theoreme
-date: 2022-09-11
+date-of-creation: 2022-09-11
 mod-date: 2022-10-24
 ---
 

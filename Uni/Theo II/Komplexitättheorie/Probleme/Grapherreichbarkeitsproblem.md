@@ -1,11 +1,11 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases:
   - Grapherreichbarkeitsproblem
   - GAP
-date: 2022-07-10
+date-of-creation: 2022-07-10
 mod-date: 2022-08-18
 linter-yaml-title-alias: Grapherreichbarkeitsproblem
 ---
@@ -19,7 +19,7 @@ linter-yaml-title-alias: Grapherreichbarkeitsproblem
 ## Eigenschaften:
 - $GAP\in$ [[../Zeitklassen/P|P]]
 - $GAP\in$ [[../Platzklassen/NL|NL]]
-  -> [[Satz von Savitch]]: $GAP \in DSPACE(\mathcal{O}(\log^2 n))$
+  → [[Satz von Savitch]]: $GAP \in DSPACE(\mathcal{O}(\log^2 n))$
 
 ## Algorithmus:
 ```

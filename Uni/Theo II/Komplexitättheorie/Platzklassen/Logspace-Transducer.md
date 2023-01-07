@@ -1,12 +1,12 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases:
   - Logspace-Transducer
   - logspace-berechenbar
 linter-yaml-title-alias: Logspace-Transducer
-date: 2022-08-12
+date-of-creation: 2022-08-12
 mod-date: 2022-10-24
 ---
 
@@ -22,4 +22,4 @@ mod-date: 2022-10-24
 
 ### Logspace-Berechenbarkeit:
 - Die Funktion $f:\Sigma^.\rightarrow\Sigma^.$ ist *logspace-berechenbar*, wenn es einen Logspace-Transdurcer $M$ gibt, der $f$ auf dem Ausgabeband berechnet
-	-> [[../Logspace-Reduktion|Logspace-Reduktion]]
+	→ [[../Logspace-Reduktion|Logspace-Reduktion]]

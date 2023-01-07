@@ -1,10 +1,10 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Cantorsche Paarungsfunktion
 linter-yaml-title-alias: Cantorsche Paarungsfunktion
-date: 2022-08-08
+date-of-creation: 2022-08-08
 mod-date: 2022-10-19
 ---
 

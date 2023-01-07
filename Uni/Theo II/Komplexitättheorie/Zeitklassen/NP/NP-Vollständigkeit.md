@@ -1,15 +1,15 @@
 ---
 tags: uni theo-2 theoretical-cs complexity solvability
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: NP-Vollständigkeit
 linter-yaml-title-alias: NP-Vollständigkeit
-date: 2022-08-11
+date-of-creation: 2022-08-11
 mod-date: 2022-10-24
 ---
 
 # NP-Vollständigkeit
--> [[NP|NP]]
+→ [[NP|NP]]
 
 ## Definition: #fc
 - Eine Sprache $A$ heißt NP-vollständig, falls sie [[NP/NP-Härte|NP-hart]] ist und $A \in$ [[NP|NP]] gilt

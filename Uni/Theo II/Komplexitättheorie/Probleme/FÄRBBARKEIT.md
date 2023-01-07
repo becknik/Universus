@@ -1,9 +1,9 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: false
+completed: false
 aliases: FÄRBBARKEIT
-date: 2022-07-10
+date-of-creation: 2022-07-10
 mod-date: 2022-08-11
 linter-yaml-title-alias: FÄRBBARKEIT
 ---
@@ -13,7 +13,7 @@ linter-yaml-title-alias: FÄRBBARKEIT
 ## Definition
 - *Gegeben*: Ein ungerichteter Graph $G = (V,E)$ und $k \in \mathbb{N}$
 - *Gesucht*: Gibt es eine *zulässige Färbung* mit $k$ Farben in $G$?
-	-> Zulässige Färbung $\varphi: v \in V \rightarrow \{1,\dots,k\}$, $\forall (u,v) \in E: \varphi(u) \neq \varphi(v)$
+	→ Zulässige Färbung $\varphi: v \in V \rightarrow \{1,\dots,k\}$, $\forall (u,v) \in E: \varphi(u) \neq \varphi(v)$
 
 ## Eigenschaften:
 - $\text{FÄRBBARKEIT}\in\text{NP}:$

@@ -1,10 +1,10 @@
 ---
 tags: uni theo-2 theoretical-cs computability abstraction
 cards-deck: Uni::Courses::Theo-II
-complete: false
+completed: false
 aliases: Berechnungsmodelle
 linter-yaml-title-alias: Berechnungsmodelle
-date: 2022-09-11
+date-of-creation: 2022-09-11
 mod-date: 2022-09-26
 ---
 
@@ -29,8 +29,8 @@ mod-date: 2022-09-26
 	- [[Church-Turing-These|Church`sche These]]
 
 ## Ergänzung:
-- [[../../../Softwareentwicklung/Algorithmenparadigmen|Algorithmenparadigmen]]
-- [[../../../Softwareentwicklung/Algorithmenmodelle/Registermaschinen|Registermaschinen]]
-- [[../../../Softwareentwicklung/Algorithmenmodelle/Makov-Algorithmen|Makov-Algorithmen]]
+- [[../../Softwareentwicklung/Algorithmen/Algorithmenparadigmen|Algorithmenparadigmen]]
+- [[../../Softwareentwicklung/Algorithmen/Modelle/Registermaschinen|Registermaschinen]]
+- [[../../Softwareentwicklung/Algorithmen/Modelle/Makov-Algorithmen|Makov-Algorithmen]]
 
 [^1]:Saake, G., Sattler, K.: Algorithmen und Datenstrukturen: Eine Einführung mit Java. 6. Auflage dpunkt-Verlag, 2021. S.175

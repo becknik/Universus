@@ -1,10 +1,10 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Translationstechnik
 linter-yaml-title-alias: Translationstechnik
-date: 2022-08-13
+date-of-creation: 2022-08-13
 mod-date: 2022-10-24
 ---
 

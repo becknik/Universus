@@ -1,9 +1,9 @@
 ---
 tags: uni theo-2 theoretical-cs theorem
 cards-deck: Uni::Courses::Theo-II
-complete: false
+completed: false
 aliases: Gödelscher Unvollständigkeitssatz
-date: 2022-08-09
+date-of-creation: 2022-08-09
 mod-date: 2022-08-14
 linter-yaml-title-alias: Gödelscher Unvollständigkeitssatz
 ---
@@ -13,13 +13,13 @@ linter-yaml-title-alias: Gödelscher Unvollständigkeitssatz
 
 ## Definiton: #fc
 - Jedes (feste) [[Beweissysteme|Beweissystem]], das nur [[Wahre Arithmetische Formeln|wahre Formeln der Arithmetik]] beweist, muss *unvollständig* sein, wenn es korrekt ist
-	-> Für ein Beweissystem $(B,F), F(B)\subseteq WA: Bew(B,F)\subsetneq WA$
-	-> $Bew(B,F)=$ Bildmenge von $F$
-	-> Die nicht beweisbaren Formeln sind dafür in anderen Beweissystemen beweisbar
+	→ Für ein Beweissystem $(B,F), F(B)\subseteq WA: Bew(B,F)\subsetneq WA$
+	→ $Bew(B,F)=$ Bildmenge von $F$
+	→ Die nicht beweisbaren Formeln sind dafür in anderen Beweissystemen beweisbar
 - Jedes [[Modelle/WHILE|WHILE-Programm]] lässt sich über Formeln der ersten Stufe formulieren !!! Ist das wirklich so?
-	-> Es lässt sich nicht entscheiden, ob eine solche Formel wahr ist oder nicht
+	→ Es lässt sich nicht entscheiden, ob eine solche Formel wahr ist oder nicht
 - *Aussage*: Jedes Verhalten lässt sich als Formel beschreiben
-	-> Das Verhalten jedes Programm lässt sich als durch [[../Logik/Prädikatenlogik|Prädikatenlogik]] über der verwendeten Datentypen ($\mathbb{N}$, Strings…) beschreiben
+	→ Das Verhalten jedes Programm lässt sich als durch [[../Logik/Prädikatenlogik|Prädikatenlogik]] über der verwendeten Datentypen ($\mathbb{N}$, Strings…) beschreiben
 ^1660502744058
 
 ### Formal:

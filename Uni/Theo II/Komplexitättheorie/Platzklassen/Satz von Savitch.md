@@ -1,10 +1,10 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Satz Von Savitch
 linter-yaml-title-alias: Satz Von Savitch
-date: 2022-08-12
+date-of-creation: 2022-08-12
 mod-date: 2022-10-24
 ---
 
@@ -21,8 +21,8 @@ mod-date: 2022-10-24
 - $\text{Conf}(M,w):$ Die Menge aller Konfigurationen $\alpha$ der Größe $\leq s(|w|)$
 - $\text{Conf}(M,w)$ hat genau eine akzepierende Konfiguration $\alpha_f$
 - $Reach(\alpha,\beta,i)\Leftrightarrow\exists k\leq 2^i\text{ Schritten}$
-	-> Rekursive Berechnung: $Reach(\alpha,\beta,i)\Leftrightarrow\exists\gamma\in Conf(M,w):$$Reach(\alpha,\gamma,i-1)\wedge Reach(\gamma,\beta,i-1)$
--> $\gamma$ lässt sich nicht raten, daher müssen alle möglichen Gammas durchprobiert werden:
+	→ Rekursive Berechnung: $Reach(\alpha,\beta,i)\Leftrightarrow\exists\gamma\in Conf(M,w):$$Reach(\alpha,\gamma,i-1)\wedge Reach(\gamma,\beta,i-1)$
+→ $\gamma$ lässt sich nicht raten, daher müssen alle möglichen Gammas durchprobiert werden:
 ```
 FUNCTION Reach(α, β, i): BOOLEAN;
 	b := FALSE;
@@ -33,9 +33,9 @@ FUNCTION Reach(α, β, i): BOOLEAN;
 	RETURN b
 END FUNCTION
 ```
--> Der Gesamtplatzbedarf liegt in aufgrund der zwei rekursiven Aufrufe in $\mathcal{O}(s(|w|)^2)$
+→ Der Gesamtplatzbedarf liegt in aufgrund der zwei rekursiven Aufrufe in $\mathcal{O}(s(|w|)^2)$
 - Die Platzkonstruierbarkeit ist nicht notwendig, da man mit dem Reach-Prädikat in einem Vorab-Durchlauf testen kann, wie hoch der benötigte Platz ist
-	-> Hochzählen von $n$ und immer wieder prüfen, ob eine Konfiguration dieser Länge (mit $n=\text{Startkonfiguration}$) erreicht werden kann
+	→ Hochzählen von $n$ und immer wieder prüfen, ob eine Konfiguration dieser Länge (mit $n=\text{Startkonfiguration}$) erreicht werden kann
 
 ## Folgerungen: #fc
 - [[../Probleme/Grapherreichbarkeitsproblem|GAP]] $\in DSPACE(\log^2(n))$

@@ -1,12 +1,12 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases:
   - Satz von Immerman–Szelepcsényi
   - Komplementabschluss von NSPACE(s)
 linter-yaml-title-alias: Satz von Immerman–Szelepcsényi
-date: 2022-08-13
+date-of-creation: 2022-08-13
 mod-date: 2022-10-24
 ---
 
@@ -15,8 +15,8 @@ mod-date: 2022-10-24
 ## Definition: #fc
 - Sei $f\in\Omega(\log n),$ dann gilt: $$NSPACE(f)=coNSPACE(f)$$
 - *Aussage*: Bei [[SPACE|NSPACE]] kriegt man sowohl verlässliche JA-, als auch NEIN-Aussagen, bei [[../Zeitklassen/TIME|NTIME]] hingegen nicht
-	-> Bei [[../../../Theo I/Grundlegendes/Determinismus|Determinismus]] ist das viel einfacher, da man JA und NEIN vertauchen kann
-	-> Bei [[../../../Theo I/Grundlegendes/Nichtdeterminismus|Nichtdeterminismus]] kann es für eine NEIN-Aussage mehrere Berechnungspfade geben
+	→ Bei [[../../../Theo I/Grundlegendes/Determinismus|Determinismus]] ist das viel einfacher, da man JA und NEIN vertauchen kann
+	→ Bei [[../../../Theo I/Grundlegendes/Nichtdeterminismus|Nichtdeterminismus]] kann es für eine NEIN-Aussage mehrere Berechnungspfade geben
 ^1660502966505
 
 ## Folgerungen:

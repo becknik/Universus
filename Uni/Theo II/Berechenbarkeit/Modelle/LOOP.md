@@ -1,20 +1,20 @@
 ---
 tags: uni theo-2 theoretical-cs computability
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: LOOP
-date: 2022-07-03
+date-of-creation: 2022-07-03
 mod-date: 2022-08-20
 linter-yaml-title-alias: LOOP
 ---
 
 # LOOP
--> [[../LOOP-berechenbar|LOOP-berechenbar]]
+→ [[../LOOP-berechenbar|LOOP-berechenbar]]
 
 ## Syntax: #fc
 - Variablen: $x_{i\in\{1,\dots,k\}}$ tragen die Funktionsparameter der Funktion $f:\mathbb{N}^k\rightarrow\mathbb{N}$
-	-> Das Ergebnis der Berechnung befindet sich in $x_0$
-	-> $x_i = x_j\pm c \mid i,j,c\in\mathbb{N}$
+	→ Das Ergebnis der Berechnung befindet sich in $x_0$
+	→ $x_i = x_j\pm c \mid i,j,c\in\mathbb{N}$
 - Konstanten: $\in\mathbb{N}$
 - Trennsymbole: $;~:=$
 - Operationen: $+,\text{ (modifiziertes)}-$
@@ -44,5 +44,5 @@ linter-yaml-title-alias: LOOP
 - Für ein Programm $P:f_p(n) = \max\{\sum_{i \geq 0}~n_i' ~| \sum_{i \geq 0}~n_i \leq n\}$
 	- $n_i$ sind die Anfangswerte der Variable $x_i$
 	- $n_i'$ sind die Endwerte der Variable $x_i$ nach dem Ablauf von $P$
--> [[../Ackermann-Funktion|Ackermann-Funktion - Lemma E]]: $\forall\text{LOOP-Programme }P,\exists k,\text{sodass }\forall n: f_P(n)<a(k,n)$
+→ [[../Ackermann-Funktion|Ackermann-Funktion - Lemma E]]: $\forall\text{LOOP-Programme }P,\exists k,\text{sodass }\forall n: f_P(n)<a(k,n)$
 ^1660502741141

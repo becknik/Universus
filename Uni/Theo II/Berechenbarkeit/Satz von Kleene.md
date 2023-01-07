@@ -1,9 +1,9 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Satz von Kleene
-date: 2022-08-08
+date-of-creation: 2022-08-08
 mod-date: 2022-08-19
 linter-yaml-title-alias: Satz Von Kleene
 ---
@@ -18,7 +18,7 @@ linter-yaml-title-alias: Satz Von Kleene
 ## Eigenschaften: #fc
 - [[Modelle/WHILE|WHILE]] $=\text{μ-rekursiv}$
 - Sagt aus, dass *eine WHILE-Schleife* ausreicht, um intuitiv berechenbare Programme zu berechnen
-	-> [[Church-Turing-These|Church-Turing-These]]
+	→ [[Church-Turing-These|Church-Turing-These]]
 - [[Modelle/Applikativ/Primitive Rekursion|primitiv rekursiv]] $\subsetneq\mu-$rekursiv
 - Nicht jede $\mu-$rekursive Funktion ist total
 ^1664742637549

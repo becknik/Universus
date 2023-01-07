@@ -1,10 +1,10 @@
 ---
 tags: uni theo-2 theoretical-cs complexity solvability
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Guess and Check
 linter-yaml-title-alias: Guess and Check
-date: 2022-07-10
+date-of-creation: 2022-07-10
 mod-date: 2022-10-24
 ---
 
@@ -14,8 +14,8 @@ mod-date: 2022-10-24
 - Oft werden [[NP|NP-Probleme]] formuliert wie: "Gibt es ein $z$, so dass die Eigenschaft $E(x,z)$ gilt?"
 - Wenn die Länge von $z$ (in der Eingabelänge) polynomiell beschränkt und $E$ deterministisch in Polynomialzeit prüfbar ist, dann gilt: $E \in NP$
 - Es kann eine nichtdeterministischer Algorithmus entworfen werden, der $z$ rät und dann prüft, ob $E$ lösbar ist
-	-> Zum Beispiel: $z=$ erfüllende Belegung
-	-> Für die meisten [[NP-Vollständigkeit|NP-vollständigen]] Probleme erfolgt der Nachweis, ob $\in NP$ nach dieser Art
+	→ Zum Beispiel: $z=$ erfüllende Belegung
+	→ Für die meisten [[NP-Vollständigkeit|NP-vollständigen]] Probleme erfolgt der Nachweis, ob $\in NP$ nach dieser Art
 ^1660771469328
 
 ## Beispiele:

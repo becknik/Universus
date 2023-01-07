@@ -1,15 +1,15 @@
 ---
 tags: uni theo-2 theoretical-cs complexity abstraction chomsky formal-languages
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Komplexitätsklassen
 linter-yaml-title-alias: Komplexitätsklassen
-date: 2022-07-10
+date-of-creation: 2022-07-10
 mod-date: 2022-10-24
 ---
 
 # Komplexitätsklassen
--> [[Komplexitättheorie/Zeitkomplexität|Zeitkomplexität]], [[Komplexitättheorie/Platzkomplexität|Platzkomplexität]]
+→ [[Komplexitättheorie/Zeitkomplexität|Zeitkomplexität]], [[Komplexitättheorie/Platzkomplexität|Platzkomplexität]]
 
 ## Definition:
 - [[../Theo I/Formale Sprachen|Formale Sprachen]] entsprechen *Mengen von Problemen*
@@ -21,7 +21,7 @@ mod-date: 2022-10-24
 - *P-NP-Problem*: $\text{NP}=\text{P}?$
 
 ## Beziehungen: #fc
--> Von oben nach unten $\subseteq/\subsetneq$
+→ Von oben nach unten $\subseteq/\subsetneq$
 - [[../Theo I/Typ-0|Typ-0]] = $\text{R}=\text{RE}\cap co\text{RE}$
 - $\text{EXPTIME}$
 - [[Komplexitättheorie/Platzklassen/PSPACE|PSPACE]] $= \bigcup_{k \geq 1}\text{DSPACE}(n^k)=\bigcup_{k\geq 1} \text{NSPACE}(n^k)$

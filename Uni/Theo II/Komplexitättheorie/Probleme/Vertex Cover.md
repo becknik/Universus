@@ -1,9 +1,9 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Vertex Cover
-date: 2022-07-10
+date-of-creation: 2022-07-10
 mod-date: 2022-08-14
 linter-yaml-title-alias: Vertex Cover
 ---
@@ -17,8 +17,8 @@ linter-yaml-title-alias: Vertex Cover
 1. Entscheidungsvariante: Existiert eine Knotenüberdeckung $C$ mit $|C| \leq k$ in $G$?
 2. Berechnungsvariante: Berechne (falls vorhanden) die Knotenüberdeckung $C$ in $G$ mit $|C| \leq k$.
 3. Optimierungsvariante: Berechne die minimale Knotenüberdeckung $C$ in $G$
--> Wie bei [[Traveling Salesman Problem]]: Wenn Variante 1. in Polynomialzeit lösbar ist, dann auch die Optimierungsvariante
--> *Selbstreduzierbarkeit*
+→ Wie bei [[Traveling Salesman Problem]]: Wenn Variante 1. in Polynomialzeit lösbar ist, dann auch die Optimierungsvariante
+→ *Selbstreduzierbarkeit*
 
 ## Algorithmus:
 ```

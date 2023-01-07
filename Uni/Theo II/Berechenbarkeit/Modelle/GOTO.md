@@ -1,9 +1,9 @@
 ---
 tags: uni theo-2 theoretical-cs computability
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: GOTO
-date: 2022-08-06
+date-of-creation: 2022-08-06
 mod-date: 2022-08-19
 linter-yaml-title-alias: GOTO
 ---
@@ -12,7 +12,7 @@ linter-yaml-title-alias: GOTO
 
 ## Syntax: #fc
 - $x_i:=x_j\pm c$
-	-> Zuweisungen werden genauso wie in [[LOOP|LOOP]] behandelt, nur dass zusätzlich zu jeder durchgeführten Operation ein Programmzähler hochgezählt werden muss, um den "*Prozedur-Abschnitt*" $M_i$ anzuzeigen
+	→ Zuweisungen werden genauso wie in [[LOOP|LOOP]] behandelt, nur dass zusätzlich zu jeder durchgeführten Operation ein Programmzähler hochgezählt werden muss, um den "*Prozedur-Abschnitt*" $M_i$ anzuzeigen
 - $\text{GOTO }M_i$
 - $\text{HALT}$
 - $\text{IF }x_i=c\text{ THEN GOTO }M_j$
@@ -22,7 +22,7 @@ linter-yaml-title-alias: GOTO
 ## Eigenschaften: #fc
 - Jede [[../Turing-berechenbar|Turing-berechenbare]] Funktion ist GOTO-berechenbar (Beweis: V.9.2 ff.)
 - Jedes GOTO-Programm kann durch ein [[WHILE|WHILE-Programm]] simuliert werden, das nur *eine einzige WHILE-Schleife enthält*
-	-> Die WHILE-Schleife simuliert den *Programmzähler*
+	→ Die WHILE-Schleife simuliert den *Programmzähler*
 ```
 Wir simulieren M1 : A1; M2 : A2; ...; Mk : Ak durch:
 	count := 1;

@@ -1,23 +1,23 @@
 ---
 tags: uni theo-2 theoretical-cs logic 
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases:
   - Aussagenlogik
   - Formel
-date: 2022-08-05
+date-of-creation: 2022-08-05
 mod-date: 2022-08-11
 linter-yaml-title-alias: Aussagenlogik
 ---
 
 # Aussagenlogik
--> [[Ersetzbarkeitstheorem|Ersetzbarkeitstheorem]]
+→ [[Ersetzbarkeitstheorem|Ersetzbarkeitstheorem]]
 
 ## Syntaktische Definition: #fc
 - Atomare Formeln: $A_i, i = 1,2,3,\dots$
 - Die *Disjunktion* ($\vee$) und *Konjunktion* ($\wedge$) von zwei Formeln sind auch Formeln
 - Die *Negation* ($\neg$) einer Formel ist auch eine Formel
--> Jede Formel lässt sich ein [[../../DSA/Bäume|Baum]] umformen:
+→ Jede Formel lässt sich ein [[../../DSA/Bäume|Baum]] umformen:
 	- $A_i:$ Blattknoten
 	- $\neg B: \neg$ ist der Elternknoten von $B$
 	- $B \wedge B': \wedge$ ist der Elternknoten von $B$ und $B'$
@@ -41,4 +41,4 @@ linter-yaml-title-alias: Aussagenlogik
 
 ## Eigenschaften:
 - Kann $\forall, \exists$ oder Relationen nicht ausdrücken
-	-> Die [[Prädikatenlogik]] kann das hingegen
+	→ Die [[Prädikatenlogik]] kann das hingegen

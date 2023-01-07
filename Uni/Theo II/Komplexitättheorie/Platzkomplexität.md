@@ -1,10 +1,10 @@
 ---
 tags: uni theo-2 theoretical-cs complexity abstraction
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Platzkomplexität
 linter-yaml-title-alias: Platzkomplexität
-date: 2022-07-10
+date-of-creation: 2022-07-10
 mod-date: 2022-10-24
 ---
 
@@ -13,21 +13,21 @@ mod-date: 2022-10-24
 ## Definition: #fc
 - $space_M: \Sigma^{Stern}\rightarrow\mathbb{N}$ ordnet einer [[../../Theo I/Turingmaschinen|DTM]] $M$ die Anzahl der maximal verwendeten Bandelemente auf einem Arbeitsband zu
 - $A \in SPACE(f), f:\mathbb{N}\rightarrow\mathbb{N}$ bedeutet $$\exists T(M) = A \wedge \forall x: space_M(x) \leq f(|x|)$$
-	-> Häufig ist die Schranke ein Polynom
+	→ Häufig ist die Schranke ein Polynom
 - Bei *sub-linearen Platzklassen* geht man grundsätzlich von einem *separaten Eingabeband* aus, auf dem die Platzschranke nicht angewandt wird
-	-> [[Platzklassen/Logspace-Transducer|Logspace-Transducer]]
+	→ [[Platzklassen/Logspace-Transducer|Logspace-Transducer]]
 ^1660502877081
 
 ## Beziehungen
 
 ### Klassen: #fc
--> Von oben nach unten $\subseteq/\subsetneq$
+→ Von oben nach unten $\subseteq/\subsetneq$
 - [[Platzklassen/PSPACE|PSPACE]] = $\text{IP}$
-	-> [[Platzklassen/Satz von Savitch|Satz Von Savitch]]
+	→ [[Platzklassen/Satz von Savitch|Satz Von Savitch]]
 - [[Platzklassen/SPACE|NSPACE]] $=\text{CSL}=\text{LBA}$
 - [[Platzklassen/SPACE|DSPACE]]
 - $\bigcup_{1\leq k}DSPACE(\log^kn) = \bigcup_{1\leq k}NSPACE(\log^kn)$
-	-> [[Platzklassen/Satz von Savitch|Satz Von Savitch]]
+	→ [[Platzklassen/Satz von Savitch|Satz Von Savitch]]
 - [[Platzklassen/NL|NL]]
 - [[Platzklassen/L|L]]
 ^1660502877089

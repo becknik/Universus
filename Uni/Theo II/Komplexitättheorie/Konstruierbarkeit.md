@@ -1,7 +1,7 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases:
   - Konstruierbarkeit
   - Platzkonstruierbarkeit
@@ -9,7 +9,7 @@ aliases:
   - Zeitkonstruierbarkeit
   - zeitkonstruierbar
 linter-yaml-title-alias: Konstruierbarkeit
-date: 2022-10-24
+date-of-creation: 2022-10-24
 mod-date: 2022-10-24
 ---
 

@@ -1,13 +1,13 @@
 ---
 tags: uni theo-2 theoretical-cs
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases:
   - Hierarchiesätze
   - Zeithierarchiesatz
   - Platzhierarchiesatz
 linter-yaml-title-alias: Hierarchiesätze
-date: 2022-08-12
+date-of-creation: 2022-08-12
 mod-date: 2022-10-24
 ---
 
@@ -16,7 +16,7 @@ mod-date: 2022-10-24
 ## Aussage: #fc
 - Allgemein: "*Mehr kann mehr*"
 - Existieren es jeweils auch im Nichtdeterminismus
-	-> Bei $NTIME$ lassen sich die Forderungen allerdings weiter aufweichen
+	→ Bei $NTIME$ lassen sich die Forderungen allerdings weiter aufweichen
 ^1660502846781
 
 ## Platz
@@ -25,7 +25,7 @@ mod-date: 2022-10-24
 - Seien $s_1,s_2$ Funktionen mit $\mathbb{N}\rightarrow\mathbb{N}$ und $s_1\notin\Omega(s_2)\wedge s_2\in\Omega(\log(n))\wedge s_2$ ist [[Konstruierbarkeit|platzkonstruierbar]], dann gilt:
 $$DSPACE(s_2)\setminus DSPACE(s_1)\neq\emptyset$$
 - $\exists$Fälle, in denen $s_1\notin\Omega(s_2)$ (=$s_1$ aber nicht zwingend die kleinere Funktion sein muss) und $s_2\notin\Omega(s_1)$ gilt: $s_1\in \mathcal{o}(s_2)\Rightarrow s_1\notin\Omega(s_2)$
-	-> [[../../../DSA/Landau-Notationen|Landau-Notationen]]
+	→ [[../../Theo-III/Landau-Notationen|Landau-Notationen]]
 - Der [[Lückensatz von Borodin]] macht die Konstruierbarkeit notwendig
 ^1660733029827
 
