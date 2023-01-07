@@ -12,7 +12,7 @@ mod-date: 2022-10-27
 → Für Erweiterung: siehe [[../../../Theo II/Logik/Prädikatenlogik|Logik zweiter Stufe]]
 → [[Aussagenlogik]], [[Mengenlehre]]
 
-## Quantoren: #fc
+## Quantoren #fc
 - $\forall a\in A:P(a)$: Allquantor - Für alle $a\in A$ ist $P(a)$ erfüllt
 	→ $\neg(\forall a \in A: P(a))\Leftrightarrow\exists a\in A:\neg P(a)$
 - $\exists a\in A:P(a)$: Existenz-Quantor - Für mindestens ein $a\in A$ ist $P(a)$ erfüllt

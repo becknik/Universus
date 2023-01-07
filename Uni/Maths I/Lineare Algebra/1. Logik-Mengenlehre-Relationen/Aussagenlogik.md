@@ -11,7 +11,7 @@ mod-date: 2022-10-31
 # Aussagenlogik
 → [[../../../Theo II/Logik/Aussagenlogik|Theo: Aussagenlogik]]
 
-## Junktoren: #fc
+## Junktoren #fc
 - $\wedge$: Konjunktion
 - $\vee$: Disjunktion
 - $\Rightarrow$: Implikation: $(\neg p)\vee q\Leftrightarrow(\neg q)\Rightarrow(\neg p)$
@@ -20,7 +20,7 @@ mod-date: 2022-10-31
 	→ Zwei aussagenlogische Formeln liefern bei gleicher Belegung ihrerer Elementaussagen mit Wahrheitswerten stehts dieselben Wahrheitswert
 ^1666879111656
 
-## Fachtermini:
+## Fachtermini
 - *Allgemeingültigkeit*/ *Tautologie*: Eine aussagenlogische Formel, die unabhängig bon der Belegung immer wahr ist
 - *Widerspruch*/ *Kontradiktion*: Eine aussagenlogische Formel, die unabhängig von der Belegung immer falsch ist
 

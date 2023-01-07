@@ -10,7 +10,7 @@ mod-date: 2022-10-31
 
 # Kongruenz
 
-## Definition: #fc
+## Definition #fc
 - Seien $A=B=\mathbb{Z}$
 - Für ein festes $m\in\mathbb{N}$ definieren wir die [[Relationen|Relation]] $R_m:=\{(a,b)\in A\times B\mid a\pmod m=b\pmod m\}$
 	→ $a\sim b\Leftrightarrow a$ und $b$ haben denselben Rest bei ganzzahliger Division mit $m$

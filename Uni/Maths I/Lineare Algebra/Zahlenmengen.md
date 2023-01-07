@@ -12,8 +12,8 @@ mod-date: 2022-11-07
 
 ## Rationale Zahlen $\mathbb{Q}$
 
-### Konstruktion aus $\mathbb{Z}$ und $\mathbb{N}$: #fc
-- Sie $R$ eine [[Logik-Mengenlehre-Relationen/Äquivalenzrelationen|Äquivalenzrelation]] über $A$ mit $A=\mathbb{Z\times N}$  und $$R:=\{(n,m),(n',m')\in A\times A\mid nm'=n'm\}$$
+### Konstruktion aus $\mathbb{Z}$ und $\mathbb{N}$ #fc
+- Sie $R$ eine [[1. Logik-Mengenlehre-Relationen/Äquivalenzrelationen|Äquivalenzrelation]] über $A$ mit $A=\mathbb{Z\times N}$ und $$R:=\{(n,m),(n',m')\in A\times A\mid nm'=n'm\}$$
 - Anstelle von $\mathcal{K}((n,m),R)$ notiert man $a\in R$ als $n/m$ oder $\frac{n}{m}$
 - Definition eines *vollständig gekürztes Paar* als $(n,m)\in A,$ für das $\not\exists k\in\mathbb{N},k>1:\quad n\mid k\wedge m\mid k$ gilt
 	→ Sei $B:=\{(n,m)\in A\mid (n,m)\text{ ist vollständig gekürzt}\}$ das *Repräsentantensystem* von $R$
@@ -22,14 +22,14 @@ $$\mathbb{Q}:=\mathcal{K}(A,R)$$
 
 ## Komplexe Zahlen
 
-### Definition:
+### Definition
 - $\mathbb{C}:=\{a\pm ib\}$
 - Realteil $\Re((a,b))=a$
 - Imaginärteil $\Im((a,b))=b$
 - $1^2:=-1$
 
-### Konjungierte komplexe Zahl:
-- Zu jeder komplexen Zahl $z\in\mathbb{C}$ definiert man die zu $z$ komplex konjungierte Zahl   als $$\overline{z}:=(a,-b)=\Re(z)-i\Im(z)$$
+### Konjungierte komplexe Zahl
+- Zu jeder komplexen Zahl $z\in\mathbb{C}$ definiert man die zu $z$ komplex konjungierte Zahl als $$\overline{z}:=(a,-b)=\Re(z)-i\Im(z)$$
 
 ## Kontiuumshypothese #fc
 - Frage: Ist $\mathcal{P}(\mathbb{N})$ gleich mächtig zu $\mathbb{R}$?

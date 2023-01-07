@@ -10,7 +10,7 @@ mod-date: 2022-12-04
 
 # Linearkombinationen
 
-## Definition: #fc
+## Definition #fc
 - Sei $V$ ein [[Vektorräume|Vektorraum]] und $v_1,\dots,v_n$ endlich viele *Vektoren*, dann heißt jedes Element $$\lambda_1v_1+\dots+\lambda_nv_n$$ für die *Koeffizienten* $\lambda_1,\dots,\lambda_n\in K$ eine *Linearkombination* von $v_1,\dots,v_n$
 	→*Triviale Linearkombination*: Alle Koeffizienten $\lambda_1,\dots,\lambda_n=0$
 ^1670110948516

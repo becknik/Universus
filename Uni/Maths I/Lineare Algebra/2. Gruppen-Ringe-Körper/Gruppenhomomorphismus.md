@@ -13,14 +13,14 @@ mod-date: 2022-11-07
 # Gruppenhomomorphismus
 
 ## Definition #fc
-- Eine Abbildung auf zwei [[Gruppen]] $F,G$ durch die [[../Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $F:G\rightarrow H$ heißt *Gruppenhomomorphismus*, wenn $$\forall a,b\in G:\quad f(ab)=f(a)f(b)$$ gilt
+- Eine Abbildung auf zwei [[Gruppen]] $F,G$ durch die [[../1. Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $F:G\rightarrow H$ heißt *Gruppenhomomorphismus*, wenn $$\forall a,b\in G:\quad f(ab)=f(a)f(b)$$ gilt
 ^1667212708981
 
-### Kern: #fc
+### Kern #fc
 - Sei $f:G\rightarrow H$ ein *Gruppenhomomorphismus* und sei $e$ das neutrale Element in $H$, dann wird $$\text{ker}(f):=f^{-1}(\{e\})=\{g\in G\mid f(g)=e\}$$ als *Kern* von$f$ bezeichnet
 ^1667212712232
 
-## Eigenschaften: #fc
+## Eigenschaften #fc
 - Ein Gruppenhomomorphismus $f:G\rightarrow H$ bildet das neutrale Element von $G$ auf das neutrale Element von $H$ ab
 - $ker(f)$ und $Bild(f)$ sind [[Gruppen|Untergruppen]] von $G$ bzw. $H$
 ^1667213271239

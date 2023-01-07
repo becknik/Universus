@@ -2,8 +2,8 @@
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
 completed: true
-aliases: Russell'sche Antinomie
-linter-yaml-title-alias: Russell'sche Antinomie
+aliases: "Russell'sche Antinomie"
+linter-yaml-title-alias: "Russell'sche Antinomie"
 date-of-creation: 2022-10-27
 mod-date: 2022-10-31
 ---

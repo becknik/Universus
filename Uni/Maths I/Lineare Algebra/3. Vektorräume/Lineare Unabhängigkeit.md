@@ -20,12 +20,12 @@ mod-date: 2022-12-04
 	→ Es folgt: $\forall A\subseteq V,|A|=\{v\}:\quad A\text{ linear unabhängig}\Leftrightarrow v\neq0$
 ^1670172257009
 
-### Allgemeiner bezogen auf $M\subseteq V$: #fc
+### Allgemeiner bezogen auf $M\subseteq V$ #fc
 - Sei $V$ ein [[Vektorräume|Vektorraum]] und $M\subseteq V,$ dann heißt $M$ *linear unabhängig*, wenn $\forall A\subseteq M$ mit $A=\{v_1,\dots,v_n\},|A|<\infty$ die Vektoren $v_1,\dots,v_n$ *linear unabhängig* sind
 	→ Andernfalls ist $M$ *linear abhängig*
 ^1670172737106
 
-## Verhältnis zum Spann: #fc
+## Verhältnis zum Spann #fc
 - Seien $v_1,\dots,v_n$ Vektoren eines [[Vektorräume|Vektorraums]]
 - $v_1,\dots,v_n$ sind genau dann *linear unabhängig*, wenn $\forall s\in\text{span}(\{v_1,\dots,v_n\}):s$ lässt sich als [[Linearkombinationen]] von $v_1,\dots,v_n$ mit *eindeutig bestimmten* Koeffizienten schreiben
 - Formal:
@@ -36,7 +36,7 @@ $$\text{span}\{v_1,\dots,v_n\}=Kv_1\oplus\dots\oplus Kv_n$$
 - Sei $B\subseteq V$ *linear unabhängig*, $V$ ein [[Vektorräume|Vektorraum]] und $v\in V$ ein Vektor, dann gilt: $$B\cup\{v\}\text{ linear unabhängig}\quad\Leftrightarrow\quad v\notin\text{span}(B)$$
 ^1670182969002
 
-## Eigenschaften: #fc
+## Eigenschaften #fc
 - $\forall$ Teilmenge einer linear unabhängigen Menge $M$ eines [[Vektorräume|Vektorraums]] $V$ ist wieder *linear unabhängig*
 - $\emptyset$ ist linear unabhängig
 ^1670172960182

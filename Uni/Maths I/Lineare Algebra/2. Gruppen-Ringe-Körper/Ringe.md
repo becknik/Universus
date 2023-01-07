@@ -14,21 +14,21 @@ mod-date: 2022-11-13
 # Ringe
 
 ## Definition #fc
-- Sei $R$ eine [[Logik-Mengenlehre-Relationen/Mengenlehre|Menge]] mit den Verknüpfungen $+\text{ und }\cdot$ (Addition und Multiplikation) dann ist $(R,+,\cdot)$ einen *Ring*, wenn er folgende Eigenschaften erfüllt:
-	1. - 4. $R$ ist eine [[Gruppen-Ringe-Körper/Gruppen|abelsche Gruppe]] bezüglich der *Addition*
-	5. Die *Multiplikation* ist *assoziativ*: $(a\cdot b)\cdot c=a\cdot(b\cdot c)$
+- Sei $R$ eine [[../1. Logik-Mengenlehre-Relationen/Mengenlehre|Menge]] mit den Verknüpfungen $+\text{ und }\cdot$ (Addition und Multiplikation) dann ist $(R,+,\cdot)$ einen *Ring*, wenn er folgende Eigenschaften erfüllt:
+	1. - 4. $R$ ist eine [[Gruppen|abelsche Gruppe]] bezüglich der *Addition*
+	2. Die *Multiplikation* ist *assoziativ*: $(a\cdot b)\cdot c=a\cdot(b\cdot c)$
 	- Es gelten die *Distributivgesetze*:
-		6. $\forall a,b,c\in R:a\cdot(b+c)=a\cdot b+a\cdot c$
-		7. $\forall a,b,c\in R:(a+b)\cdot c=a\cdot c+b\cdot c$
+		1. $\forall a,b,c\in R:a\cdot(b+c)=a\cdot b+a\cdot c$
+		2. $\forall a,b,c\in R:(a+b)\cdot c=a\cdot c+b\cdot c$
 ^1667213744852
 
-### Varianten: #fc
+### Varianten #fc
 - *Unitärer Ring*/ Ring mit Eins:
 	- Es gibt zusätzliches ein *neutrales Element* (=*Eins-Element*) bezüglich der Multiplikation
 - Ist die *Multiplikation* zusätzlich *kommutativ*, so nennt man den Ring auch so
 ^1667213901851
 
-## Eigenschaften:
+## Eigenschaften
 - Im Allgemeinen existiert in einem Ring kein inverses Element bezüglich der Multiplikation
 - Für jeden Ring $R$ und $\forall x\in R$ gilt: $0\cdot x=x\cdot 0=0$
 
