@@ -1,10 +1,10 @@
 ---
 tags: uni theo-1 theoretical-cs automata abstraction
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases: Automaten
 linter-yaml-title-alias: Automaten
-date: 2022-09-20
+date-of-creation: 2022-09-20
 mod-date: 2022-10-02
 ---
 

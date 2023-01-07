@@ -1,10 +1,10 @@
 ---
 tags: uni theo-1 theoretical-cs abstraction chomsky
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases: Normalformen für Sprachklassen
 linter-yaml-title-alias: Normalformen für Sprachklassen
-date: 2022-09-22
+date-of-creation: 2022-09-22
 mod-date: 2022-09-22
 ---
 

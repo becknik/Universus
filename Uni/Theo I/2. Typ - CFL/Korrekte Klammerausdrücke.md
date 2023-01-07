@@ -1,12 +1,12 @@
 ---
 tags: uni theo-1 theoretical-cs chomsky
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases:
   - Korrekte Klammerausdrücke
   - Dyck-Wörter
 linter-yaml-title-alias: Korrekte Klammerausdrücke
-date: 2022-09-20
+date-of-creation: 2022-09-20
 mod-date: 2022-09-20
 ---
 

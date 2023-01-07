@@ -1,13 +1,13 @@
 ---
 tags: uni theoretical-cs practical-cs design-pattern 
-source: Algorithmen und Datenstrukturen
+sources: Algorithmen und Datenstrukturen
 cards-deck: Private::Books::Algorithmen und Datenstrukturen
-complete: true
+completed: true
 aliases:
   - Determinismus
   - deterministisch
 linter-yaml-title-alias: Determinismus
-date: 2022-09-03
+date-of-creation: 2022-09-03
 mod-date: 2022-09-23
 ---
 

@@ -1,21 +1,21 @@
 ---
 tags: uni theo-1 theoretical-cs theorem chomsky
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases:
   - Greibach-Normalform
   - GNF
 linter-yaml-title-alias: Greibach-Normalform
-date: 2022-09-20
+date-of-creation: 2022-09-20
 mod-date: 2022-09-21
 ---
 
 # Greibach-Normalform
--> [[Syntaxbäume]]
+→ [[Syntaxbäume]]
 
 ## Definition: #fc
 - Eine [[../Typ-2|Typ-2 Grammatik]] $G$ mit der Regelmenge $P$ ist in Greibach-Normalform, wenn $$\forall(u,v)\in P:u\in V\wedge v\in\Sigma V^{Stern}$$ gilt.
-	-> Jede Regel geht in *ein Terminal* und danach eine beliebige Anzahl an *Nicht-Terminalen* über
+	→ Jede Regel geht in *ein Terminal* und danach eine beliebige Anzahl an *Nicht-Terminalen* über
 ^1664631195388
 
 ## Satz: #fc
@@ -28,7 +28,7 @@ mod-date: 2022-09-21
 
 ## Algorithmen:
 - Algorithmus 1: Hat zum Zeil, dass $A_i\rightarrow A_j\beta$ nur für $i<j$ in $P$ vorkommen
-	-> Dabei sei $V=\{A_i,\dots,A_m\}$
+	→ Dabei sei $V=\{A_i,\dots,A_m\}$
 ```
 FOR i := 1 TO m DO
 	FOR j := 1 TO i-1 DO

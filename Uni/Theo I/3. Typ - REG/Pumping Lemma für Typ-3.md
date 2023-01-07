@@ -1,14 +1,14 @@
 ---
 tags: uni theo-1 theoretical-cs theorem formal-languages
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases:
   - Pumping Lemma für Typ-3
   - Lemma von Bar-Hillel
   - Iterationslemma
   - uvw-Lemma
 linter-yaml-title-alias: Pumping Lemma für Typ-3
-date: 2022-09-20
+date-of-creation: 2022-09-20
 mod-date: 2022-09-20
 ---
 
@@ -31,6 +31,6 @@ mod-date: 2022-09-20
 ## Eigenschaften: #fc
 - Wird auch als *Iterationslemma*, $uvw$-Lemma oder *Lemma von Bar-Hillel* bezeichnet
 - $\exists L\in\overline{\text{Typ-3}},$ deren *Nicht-Zugehörigkeit* nicht durch das *Pumping Lemma* beweisen werden kann…
-	-> Jede Typ-3 Sprache erfüllt die Bedingungen des Pumping Lemma, aber $\exists L\in\text{Typ-3},$ die trotzdem die Aussage des Pumping Lemmas erfüllen
-	-> Das Pumping-Lemma stellt also keine Charakterisierung von [[../Typ-3|REG]] dar
+	→ Jede Typ-3 Sprache erfüllt die Bedingungen des Pumping Lemma, aber $\exists L\in\text{Typ-3},$ die trotzdem die Aussage des Pumping Lemmas erfüllen
+	→ Das Pumping-Lemma stellt also keine Charakterisierung von [[../Typ-3|REG]] dar
 ^1664737200587

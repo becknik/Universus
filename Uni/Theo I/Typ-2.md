@@ -1,7 +1,7 @@
 ---
 tags: uni theo-1 theoretical-cs chomsky formal-languages
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases:
   - Typ-2
   - Typ-2 Grammatik
@@ -11,7 +11,7 @@ aliases:
   - kontextfreie Sprache
   - kontextfreie Grammatik
 linter-yaml-title-alias: Typ-2
-date: 2022-09-15
+date-of-creation: 2022-09-15
 mod-date: 2022-09-25
 ---
 
@@ -27,7 +27,7 @@ mod-date: 2022-09-25
 - Alle Typ-2 Sprachen über $|\Sigma|=1$ sind bereits [[Typ-3|regulär]]
 - [[2. Typ - CFL/Pumping Lemma für Typ-2|Pumping Lemma für Typ-2]]
 - Für jede Typ-2 Grammatik $G~\exists$ [[2. Typ - CFL/Kellerautomat|PDA]] $M$ mit $L(G)=N(M)$
-	-> $O.B.d.A:\{L\mid \varepsilon\notin L\}$ (V.19 F.37.1)
+	→ $O.B.d.A:\{L\mid \varepsilon\notin L\}$ (V.19 F.37.1)
 - [[2. Typ - CFL/Deterministische Kellerautomaten|DPDA]] $\Rightarrow\text{DCFL}\subsetneq\text{CFL}$
 - Das [[Wortproblem|Wortproblem]] für Typ-2 lässt sich effizient durch den [[2. Typ - CFL/CYK-Algorithmus|CYK-Algorithmus]] entscheiden
 ^1664630497671

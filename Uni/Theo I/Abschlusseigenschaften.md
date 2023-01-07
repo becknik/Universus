@@ -1,10 +1,10 @@
 ---
 tags: uni theo-1 theoretical-cs chomsky abstraction formal-languages
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases: Abschlusseigenschaften
 linter-yaml-title-alias: Abschlusseigenschaften
-date: 2022-09-20
+date-of-creation: 2022-09-20
 mod-date: 2022-09-22
 ---
 

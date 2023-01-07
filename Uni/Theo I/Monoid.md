@@ -1,12 +1,12 @@
 ---
 tags: uni theo-1 theoretical-cs formal-languages
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases:
   - Monoid
   - freies Monoid
 linter-yaml-title-alias: Monoid
-date: 2022-09-13
+date-of-creation: 2022-09-13
 mod-date: 2022-10-31
 ---
 
@@ -17,12 +17,12 @@ mod-date: 2022-10-31
 - Formalisiert: Ein Tripel, bestehend aus der *Menge* $M,$ einer *binären Verknüpfungs-Funktion* $M\times M\rightarrow M,(m,n)\mapsto m\circ n$ und einem *neutralen Element* $e$ bilden ein Monoid $(M,\circ,e)$, wenn sie folgende Eigenschaften besitzt:
 	1. *Assoziativität*: $(n\circ m)\circ k=n\circ(m\circ k),\forall m,n,k\in M$
 	2. Eigenschaft des neutralem Elements: $e\circ m=m\circ e=m,\forall m\in M$
--> Aus der binären Verknüpfungsfunktion folgt, dass $\forall m,n\in M:m\circ n\in M$ gelten muss
+→ Aus der binären Verknüpfungsfunktion folgt, dass $\forall m,n\in M:m\circ n\in M$ gelten muss
 ^1664630602391
 
 ### Das freie Monoid über $\Sigma$: #fc
 - Die Menge der endlichen Zeichenketten, deren Zeichen $\in\Sigma$ sind, bilden mit der *Konkatenation* ein freies Monid $\Sigma^{Stern}$
-	-> $\Sigma^{Stern}$ ist *abzählbar unendlich*
+	→ $\Sigma^{Stern}$ ist *abzählbar unendlich*
 - Neurales Element: das [[Grundlegendes/Leeres Wort|leere Wort]] $\varepsilon$
 ^1664630602394
 

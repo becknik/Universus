@@ -1,12 +1,12 @@
 ---
 tags: uni theo-1 theoretical-cs design-pattern
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases:
   - Nichtdeterminismus
   - nichtdeterministisch
 linter-yaml-title-alias: Nichtdeterminismus
-date: 2022-09-03
+date-of-creation: 2022-09-03
 mod-date: 2022-09-15
 ---
 

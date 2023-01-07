@@ -1,12 +1,12 @@
 ---
 tags: uni theo-1 theoretical-cs theorem chomsky
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases:
   - Pumping Lemma für Typ-2
   - uvwxy-Theorem
 linter-yaml-title-alias: Pumping Lemma für Typ-2
-date: 2022-09-21
+date-of-creation: 2022-09-21
 mod-date: 2022-10-31
 ---
 
@@ -17,8 +17,8 @@ mod-date: 2022-10-31
 	1. $|vx|\geq1\Rightarrow vw\neq\varepsilon$
 	2. $|vwx|\leq n$
 	3. $\forall i\geq0:uv^iwx^iy\in L$
-- Wird wie das [[../3. Typ - REG/Pumping Lemma für Typ-3|Pumping Lemma für Typ-3]] für Wiederspruchsbeweise (Z.z.: $L\notin$ [[../Typ-2|CFL]]) eingesetzt
-	-> "Angenommen, $L\in\text{CFL},$ dann $\exists n$, sodass jedes $z\in L$ mit $|z|\geq n$ die obigen Bedingungen erfüllt"
+- Wird wie das [[../3. Typ - REG/Pumping Lemma für Typ-3|Pumping Lemma für Typ-3]] für Widerspruchsbeweise (Z.z.: $L\notin$ [[../Typ-2|CFL]]) eingesetzt
+	→ "Angenommen, $L\in\text{CFL},$ dann $\exists n$, sodass jedes $z\in L$ mit $|z|\geq n$ die obigen Bedingungen erfüllt"
 ^1664631275785
 
 ## Negation: #fc
@@ -32,7 +32,7 @@ mod-date: 2022-10-31
 
 ## Beweis-Schema: #fc
 - Gegeben sei eine Grammatik $G$ in [[Chomsky-Normalform|CNF]] und der Ableitungsbaum für ein langes Wort
-	-> Für eine genügend große Länge des Worts müssen sich Variablen auf mindestens einem Pfad im Baum wiederholen
+	→ Für eine genügend große Länge des Worts müssen sich Variablen auf mindestens einem Pfad im Baum wiederholen
 ^1664737163713
 
 ## Beispiele:

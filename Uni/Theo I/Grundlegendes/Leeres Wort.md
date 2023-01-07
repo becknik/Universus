@@ -1,12 +1,12 @@
 ---
 tags: uni theo-1 theoretical-cs formal-languages
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases:
   - Leeres Wort
   - epsilon
 linter-yaml-title-alias: Leeres Wort
-date: 2022-09-13
+date-of-creation: 2022-09-13
 mod-date: 2022-09-23
 ---
 
@@ -15,6 +15,6 @@ mod-date: 2022-09-23
 ## Eigenschaften: #fc
 - $|\varepsilon|=0$
 - $w\cdot\varepsilon=w$
-	-> Kommt in jedem Wort an jeder Stelle vor
+	→ Kommt in jedem Wort an jeder Stelle vor
  - Wird manchmal auch $\lambda$ bezeichnet
 ^1664633804161

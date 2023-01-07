@@ -1,10 +1,10 @@
 ---
 tags: uni theo-1 theoretical-cs chomsky formal-languages decision-problem abstraction
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases: Entscheidbarkeitsprobleme für Sprachklassen
 linter-yaml-title-alias: Entscheidbarkeitsprobleme für Sprachklassen
-date: 2022-09-20
+date-of-creation: 2022-09-20
 mod-date: 2022-10-02
 ---
 
@@ -40,4 +40,4 @@ mod-date: 2022-10-02
 ### Gleichheit mit $L\in$ [[Typ-3|REG]]:
 - *Gegeben*: $L\in$ [[2. Typ - CFL/Deterministische Kellerautomaten|DCFL]], $L'\in\text{REG}$
 - *Frage*: $L=L'?$
--> Umformung: $L=L'\Leftrightarrow L\subseteq L'\vee L'\subseteq L\Leftrightarrow L\cap\overline{L'}=\emptyset\wedge L'\cap\overline{L}=\emptyset$
+→ Umformung: $L=L'\Leftrightarrow L\subseteq L'\vee L'\subseteq L\Leftrightarrow L\cap\overline{L'}=\emptyset\wedge L'\cap\overline{L}=\emptyset$

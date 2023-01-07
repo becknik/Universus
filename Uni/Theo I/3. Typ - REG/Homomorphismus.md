@@ -1,10 +1,10 @@
 ---
 tags: uni theo-1 theoretical-cs
 cards-deck: Uni::Courses::Theo-I
-complete: true
+completed: true
 aliases: Homomorphismus
 linter-yaml-title-alias: Homomorphismus
-date: 2022-09-25
+date-of-creation: 2022-09-25
 mod-date: 2022-09-25
 ---
 
