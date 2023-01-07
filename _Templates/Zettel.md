@@ -1,5 +1,4 @@
 ---
 tags: zettel 
-source: 
-cards-deck: Private::
----
+sources: 
+cards-deck: Private::Zettel
