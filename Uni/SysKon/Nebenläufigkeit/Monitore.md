@@ -12,7 +12,7 @@ mod-date: 2023-01-04
 
 ## Funktionsweise #fc
 - Manipulation der gemeinsamen Daten (=des Zustands) des *Monitor-Objekts* *ausschließlich* über Methodenaufrufe
-	-> [[OOP]]-Ansatz
-	-> Nur ein Thread kann zu einem Zeitpunkt eine Methode des Monitor-Objekts aufrufen
+	→ [[OOP]]-Ansatz
+	→ Nur ein Thread kann zu einem Zeitpunkt eine Methode des Monitor-Objekts aufrufen
 - Weitere Threads werden [[../Korrektheitskriterien|fair]] in einer [[../../DSA/Datenstrukturen/Queue|Queue]] blockiert
 ^1670108796413

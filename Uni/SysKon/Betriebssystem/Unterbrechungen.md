@@ -56,38 +56,38 @@ mod-date: 2023-01-02
 - Der Prozessor überprüft nach jeder Ausführung von atomaren Befehlen, ob eine UBR vorliegt
 	- Wenn UBR deaktiviert sind oder keine UBR vorliegt, wird direkt der nächste Befehl ausgeführt
  ---
-- … -> I/O-Controller -> UBR-Controller -> UBR -> I/O über Systembus -> …
-	-> Ermöglichen Systemsoftware auf Hardwareebene Kontrolle über Ressourcen:
+- … → I/O-Controller → UBR-Controller → UBR → I/O über Systembus → …
+	→ Ermöglichen Systemsoftware auf Hardwareebene Kontrolle über Ressourcen:
 ^1667815867540
 
 ## Behandlung #fc
 1. Beende *Ausführungszyklus*: Aktueller Befehl wird zu Ende ausgeführt
 2. Speichere [[Prozess|Zustand]] des Prozesses ([[../../Ro I/RISC-V/Problem Counter|Problem Counter]], CPU-Status-Word) auf dem [[../../Ro I/OS & Environment/Stack|OS-Stack]]
-	 -> Sperrung des Empfangs von Interrupts
+	 → Sperrung des Empfangs von Interrupts
 3. Speichere notwendige [[../../Ro I/RISC-V/Register|CPU-Register]] auf dem Stack
-	 -> Funktioniert bis hier mit Hilfe von Hardware-Unterstützung
+	 → Funktioniert bis hier mit Hilfe von Hardware-Unterstützung
 4. Führe OS-intern spezifizierte UBR-Routine aus
 5. Stelle CPU-Register wieder her
 6. Führe *Return from Interrupt* Assembly Instruktion `RETI` aus, um den *PC* und *CSW* wiederherzustellen
-	-> Detektierung von Interrupts ist nun wieder möglich
+	→ Detektierung von Interrupts ist nun wieder möglich
 7. Setze den Prozess fort
 ^1668277642748
 
 ## Vermeidung #fc
 - Polling-Modus: Ein *Protokoll*, durch das die CPU in einem festgelegten Intervall einer Menge von Geräte auf eine *Ready-Bit* überprüft[^1]
-	-> Wenn das *Ready-Bits* gesetzt ist, stellt die CPU dem Gerät ein Dienst bereit
-	-> Verschwendet CPU-Zyklen
+	→ Wenn das *Ready-Bits* gesetzt ist, stellt die CPU dem Gerät ein Dienst bereit
+	→ Verschwendet CPU-Zyklen
 - Um Prozesse abarbeiten zu können, werden Interrupts temporär abgestellt
 - Da UBRs im Speziellen aufgrund der immer notwendigen *Zustands-Sicherung* des [[Prozess|Prozesses]] sehr problematisch werden können, deaktiviert man UBRs dort
-	-> Beispiel: Echtzeitkritische Embends
+	→ Beispiel: Echtzeitkritische Embends
 ^1668277742875
 
 ## Eigenschaften #fc
 - Die Überprüfung eine UBR erfolg über eine Leitung auf dem Mainboard mit Lo/Hi Kodierung
-	-> Der Prozessor hat bei Detektion keine Ahnung woher die UBR kommt
+	→ Der Prozessor hat bei Detektion keine Ahnung woher die UBR kommt
 - Das OS darf aufgrund von Privilegien maskierbare UBRs maskieren (=deaktivieren) oder demaskieren
-	-> `CLI` - *clear interrupt*, `STI` - *set interrupts*
-	-> Das gilt nicht für alle UBRs wie z.B. Hardware-Resets oder Speicherparitätsfehler
+	→ `CLI` - *clear interrupt*, `STI` - *set interrupts*
+	→ Das gilt nicht für alle UBRs wie z.B. Hardware-Resets oder Speicherparitätsfehler
 ^1668277742872
 
 ## Beispiel: UBR auf Arduino-Microcontroller

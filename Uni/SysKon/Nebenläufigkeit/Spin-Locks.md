@@ -15,19 +15,19 @@ mod-date: 2023-01-04
 # Spin-Locks
 
 ## Voraussetzungen #fc
-- [[../Sequenzielle Konsistenz|Sequenzielle Konsistenz]] beim Speicherzugriffen
-	-> *Acquire/Release-Semantik* ist ausreichend
+- [[../Synchronisation/Sequenzielle Konsistenz|Sequenzielle Konsistenz]] beim Speicherzugriffen
+	→ *Acquire/Release-Semantik* ist ausreichend
 - Die [[../../Ro I/CPU/Befehlssatz Architektur|ISA]] bietet Instruktionen an, die die
-	-> Ausführung von *Lese-*, *Schreiboperation* und *Modifikation* auf speziellen primitiven Variablen in einem atomaren Schritt
+	→ Ausführung von *Lese-*, *Schreiboperation* und *Modifikation* auf speziellen primitiven Variablen in einem atomaren Schritt
 - Ein [[../Korrektheitskriterien|schwach fairer]] Scheduler
 ^1670104820552
 
 ## Funktionsweise #fc
 - Im *Präprotokoll* des [[../Kritischer Abschnitt|kritischen Abschnitts]] verhängt genau ein [[../Betriebssystem/Prozesse/Threads|Thread]] eine *Sperre* (`lock.aquire()`)
-	-> Nur genau ein Thread kann die Sperre halten
+	→ Nur genau ein Thread kann die Sperre halten
 - Der sperrende Thread gibt die Sperre im *Postprotokoll* wieder frei (`lock.release()`)
-	-> Die übrigen Threads warten "*spinning*" per Bussy-Waiting
-	-> Unterschied zu [[Semaphore|Generelles Semaphor]]: Nur ein Thread kann die Sperre wieder freigeben
+	→ Die übrigen Threads warten "*spinning*" per Bussy-Waiting
+	→ Unterschied zu [[Semaphore|Generelles Semaphor]]: Nur ein Thread kann die Sperre wieder freigeben
 ^1670086229729
 
 ## Vorteile #fc
@@ -54,7 +54,7 @@ int test_and_set (int *i) {
 }
 ```
 - Schwache Lösung von [[../Kritischer Abschnitt|Critical Section Problem]]
-	-> Aushungern eines [[../Betriebssystem/Prozesse/Threads|Threads]], der immer zur falschen Zeitpunkt reserviert, möglich
+	→ Aushungern eines [[../Betriebssystem/Prozesse/Threads|Threads]], der immer zur falschen Zeitpunkt reserviert, möglich
 ^1670086229723
 
 ### Compare & Swap #fc
@@ -70,39 +70,36 @@ bool cmpswp (int *i, int erwartet, int neu) {
 }
 ```
 - Schwache Lösung von [[../Kritischer Abschnitt|Critical Section Problem]]
-	-> Aushungern eines [[../Betriebssystem/Prozesse/Threads|Threads]], der immer zur falschen Zeitpunkt reserviert, möglich
+	→ Aushungern eines [[../Betriebssystem/Prozesse/Threads|Threads]], der immer zur falschen Zeitpunkt reserviert, möglich
 ^1670086235417
 
-### Fetch & Add
-
-#### Prinzip #fc
+### Fetch & Add #fc
 ```
 int fetchadd (int *i, int value) {
 --- Atomare Ausführung
 	int oldvalue = *i;
-	*i = *i + value;
+	*i += value;
 	return oldvalue;
 }
 ```
-->
 ^1670088793642
 
 ## Implementierung von Ticket-Locks #fc
--> Ähneln den [[Bakery-Algorithmus]]
+→ Ähneln den [[Bakery-Algorithmus]]
 1. Threads ziehen eine eindeutige, streng monoton steigende Nummer
-	 -> Das Ziehen von Nummern kann durch keinen anderen Thread dauerhaft verhindert werden
+	 → Das Ziehen von Nummern kann durch keinen anderen Thread dauerhaft verhindert werden
 2. Threads treten *in Reihenfolge der Ticket Nummer* in den [[../Kritischer Abschnitt|kritischen Abschnitt]] ein
 ^1670089433640
 
 ## Aushungern bei Prioritäten-[[../Betriebssystem/Scheduling|Scheduling]] #fc
 - Annahmen: Threads T(hread)H(igh) & T(hread)L(ow); *quasi-parallele Ausführung*
 1. TH ist im *nicht-kritischen* Abschnitt & führt I/O durch
-	 -> TH $\to$ Blocked; TL $\to$ Ready
+	 → TH $\to$ Blocked; TL $\to$ Ready
 2. TL betritt *kritischen Abschnitt*
-	 -> Keine Contention
+	 → Keine Contention
 3. TH wird nach beendeter I/O ausführungsbereit
-	 -> [[../Betriebssystem/Scheduling|Scheduler]] unterbricht TL für TH
+	 → [[../Betriebssystem/Scheduling|Scheduler]] unterbricht TL für TH
 4. TH will den *kritischen Abschnitt* betreten und ist daher *spinning on Lock*
-	 -> Das OS sieht TH als ständig ausführungsbereit
-	 -> TL führt aufgrund der höheren Priorität von TH nicht aus
+	 → Das OS sieht TH als ständig ausführungsbereit
+	 → TL führt aufgrund der höheren Priorität von TH nicht aus
 ^1670089158172

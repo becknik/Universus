@@ -1,10 +1,10 @@
 ---
 tags: uni practical-cs syskon
 cards-deck: Uni::Courses::SysKon
-complete: true
+completed: true
 aliases: Nebenläufigkeit
 linter-yaml-title-alias: Nebenläufigkeit
-date: 2022-10-24
+date-of-creation: 2022-10-24
 mod-date: 2022-10-31
 ---
 
@@ -12,23 +12,23 @@ mod-date: 2022-10-31
 
 ## Definitionen
 - Die Eigenschaften eines Systems verschiedene Aktivitäten gleichzeitig ausführen zu können
-	-> Keine kausale Abhängigkeiten zwischen Aktivitäten
+	→ Keine kausale Abhängigkeiten zwischen Aktivitäten
 - *Nebenläufiges Programm* ::: Eine Menge sequenzieller Programme, die parallel ausgeführt werden können ^1667421522470
 - *Parallelität*: Echt parallel
-- *Nebenläufig*: [[Hardware/Systemarchitekturen|Quasi-Parallelität]]
-  -> Nützliche Abstraktion
+- *Nebenläufig*: [[Systemarchitekturen|Quasi-Parallelität]]
+	→ Nützliche Abstraktion
 
-## Vorteile:
+## Vorteile
 - *Verbesserter Durchsatz*: Die potentielle gesamte Kapazität kann genutzt werden
-	-> Auch bei Einprozessorsystemen lässt sich durch [[Hardware/Systemarchitekturen|quasi-Parallelität]] der Durchsatz erhöhen
+	→ Auch bei Einprozessorsystemen lässt sich durch [[Systemarchitekturen|quasi-Parallelität]] der Durchsatz erhöhen
 
 ## Herausforderungen #fc
 - Eine fehlerfreie Kommunikation und Synchronisation zwischen Prozessen
-	-> "Kinokarten-Problem"
+	→ "Kinokarten-Problem"
 - Entstandene Probleme sind oft situations- und zeitabhängig und daher schwer zu reproduzieren
 ^1666630985565
 
-### Race Conditions: #fc
+### Race Conditions #fc
 - Bei gleichzeitigen Starten von $p,q$ hängt das Ergebnis einer Berechnung vom zeitlichen Verhalten der Operationen ab
 ```
 Procedure p:
@@ -40,7 +40,7 @@ Procedure q:
 ```
 ^1666631339162
 
-### Deadlocks: #fc
+### Deadlocks #fc
 - Eine Menge von Prozessoren blockieren sich zyklisch gegenseitig
 ```
 Procedure p:
@@ -58,9 +58,9 @@ Procedure q:
 ```
 ^1666631339165
 
-### Lost-Update-Problem: #fc
+### Lost-Update-Problem #fc
 - Mehrere Prozesse schreiben "gleichzeitig" ein Update in einen Zustandsspeicher
-  -> Das Update des zufällig letzten Prozesses bestehen bleibt bestehen, das andere geht verloren
+	→ Das Update des zufällig letzten Prozesses bestehen bleibt bestehen, das andere geht verloren
 ^1667421610647
 
 ## Lösungen
@@ -68,5 +68,5 @@ Procedure q:
 ### Atomic Road Modify Unit Method #fc
 - Es wird direkt nach der *Lese-Bestätigung* geschrieben
 - Man verlässt sich auf (Hardware-beschleunigte) atomare Schreib-Operationen
-	-> Die Platform-Unabhängigkeit ist nicht garantiert
+	→ Die Platform-Unabhängigkeit ist nicht garantiert
 ^1666630985567

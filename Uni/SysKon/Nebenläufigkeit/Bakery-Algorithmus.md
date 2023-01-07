@@ -15,7 +15,7 @@ mod-date: 2023-01-03
 
 ## Annahmen #fc
 - [[../Atomizität|Atomizität]] im Schreiben auf gemeinsame primitive Variablen
-- [[../Sequenzielle Konsistenz|Sequenzielle Konsistenz]] bei Speicherzugriffen
+- [[../Synchronisation/Sequenzielle Konsistenz|Sequenzielle Konsistenz]] bei Speicherzugriffen
 - [[../Korrektheitskriterien|Schwach faires]] [[../Betriebssystem/Scheduling|Scheduling]]
 ^1670104818394
 
@@ -36,5 +36,5 @@ loop:
 	number[i] ← 0
 ```
 - Wenn `number[i] ← 1 + max(number);` nicht atomar ausgeführt wird, ist $p_i\neq p_j:number[i]=number[j]$ (nur *monoton-steigende* Folge) möglich
-	-> Totale Ordnung (*strenge Monotonie*) durch Zuweisung nach Thread-ID des [[../OS|OSes]] aus dem TCB
+	→ Totale Ordnung (*strenge Monotonie*) durch Zuweisung nach Thread-ID des [[../OS|OSes]] aus dem TCB
 ^1670083636222

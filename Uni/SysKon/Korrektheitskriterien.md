@@ -1,7 +1,7 @@
 ---
 tags: uni practical-cs syskon
 cards-deck: Uni::Courses::SysKon
-complete: true
+completed: true
 aliases:
   - Korrektheitskriterien
   - Fairness
@@ -10,28 +10,28 @@ aliases:
   - Sicherheit
   - Lebendigkeit
 linter-yaml-title-alias: Korrektheitskriterien
-date: 2022-11-07
+date-of-creation: 2022-11-07
 mod-date: 2022-11-10
 ---
 
 # Korrektheitskriterien
 
-## Sicherheit: #fc
+## Sicherheit #fc
 - Im Sinne von "Es muss immer/ darf niemals gelten"
 - Für eine *Sicherheitseigenschaft* eines Programms gilt:
 	- Sie muss in **jeden** möglichen *Ausführungszustands* des Programms **immer** gelten
-	-> Das Programm ist korrekt oder nicht
+	→ Das Programm ist korrekt oder nicht
 ^1667836898083
 
-## Lebendigkeit: #fc
+## Lebendigkeit #fc
 - Für eine *Lebendigkeitseigenschaft* gilt:
 	- *Für jeden Zustand* eines Programms gibt es eine *Ausführungs-Fortsetzung,* in der die Eigenschaft in *endlich vielen Schritten* erfüllt wird
-	-> Lebendigkeit definiert keine obere Zeitschranke
+	→ Lebendigkeit definiert keine obere Zeitschranke
 - Voraussetzung: jeder Befehl wird endlich ausgeführt
-	-> Lebendigkeit benötigt immer Fairness
+	→ Lebendigkeit benötigt immer Fairness
 ^1667836898088
 
-## Beispiel:
+## Beispiel
 - Gegeben: Ein Programm mit zwei nebenläufigen Prozessen $p,q$, die jeweils 50 Mal eine globale Variable hochzählen und sie dann ausgeben
 - Sicherheit:
 	- Druche nur Zahlen $\in[1\dots100]$
@@ -39,18 +39,18 @@ mod-date: 2022-11-10
 - Lebendigkeit:
 	- Jede Zahl $\in[1\dots100]$ wird schließlich ausgegeben
 
-## Analyse:
+## Analyse
 - Es ist nicht nötig, sämtliche Zustände zu betrachten
-	-> Es reicht etwas geschicktes hinzuschreiben
+	→ Es reicht etwas geschicktes hinzuschreiben
 
 ## Fairness
 
-### Schwach: #fc
+### Schwach #fc
 - Jeder *ständig ausführ-bereite Befehl* eines schwach-fair ausgeführten Prozesses wird vom System schließlich ausgeführt
-  -> Die Ausführung von Befehlen, die nicht ständig ausführ-bereit sind (wie zum Beispiel das Verarbeiten von Anfragen), wird nicht garantiert
+	→ Die Ausführung von Befehlen, die nicht ständig ausführ-bereit sind (wie zum Beispiel das Verarbeiten von Anfragen), wird nicht garantiert
 ^1668079035538
 
-### Stark: #fc
+### Stark #fc
 - Jeder nicht notwendigerweise ständig, aber unendlich oft ausführ-bereite Befehl eines stark-fair ausgeführten Prozesses wird unendlich oft ausgeführt
-  -> Da Betriebssysteme Gedächtnislose Prozesse sind, ist es schwer zu implementieren
+	→ Da Betriebssysteme Gedächtnislose Prozesse sind, ist es schwer zu implementieren
 ^1668079035541

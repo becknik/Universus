@@ -12,11 +12,11 @@ mod-date: 2023-01-04
 ---
 
 # Semaphore
--> [[../../DSA/Nebenläufige Abläufe/Semaphor|DSA: Semaphor]]
+→ [[../../DSA/Nebenläufige Abläufe/Semaphor|DSA: Semaphor]]
 
 ## Anforderungen #fc
 - [[../OS|OS]] kann [[../Korrektheitskriterien|faire]] [[Spin-Locks]] (wie [[Spin-Locks|Ticket-Locks]]) nutzten
-	-> Für die konsistente nebenläufige Aktualisierung der Semaphor-Zustandsvariablen notwendig
+	→ Für die konsistente nebenläufige Aktualisierung der Semaphor-Zustandsvariablen notwendig
 - [[../Korrektheitskriterien|Fairness]] (=FIFO) in der [[../../DSA/Datenstrukturen/Queue|Queue]]
 	- Queues können auch als Mengen ohne Garantie der Fairness oder als Heap (unfair) implementiert werden
 - Fairness im [[../Betriebssystem/Scheduling|Scheduling]]
@@ -25,7 +25,7 @@ mod-date: 2023-01-04
 ## Funktionsweise #fc
 - Eine Datenstruktur bestehend aus dem *Passier-Integer $k\geq0$ & [[../../DSA/Datenstrukturen/Queue|Queue]] `queue`$=\emptyset$*
 - Die beiden Zustandsvariable werden atomar vom [[../OS|OS]] verwaltet
-	-> Zugriff über [[../Betriebssystem/Funktionen/System Calls|System Calls]]
+	→ Zugriff über [[../Betriebssystem/Funktionen/System Calls|System Calls]]
 - SysCall `wait()`:
 	- Dekrementiert `value`
 	- Wenn `value`$\leq0$ gilt,wird der [[../Betriebssystem/Prozesse/Threads|Thread]] *blockiert* und in `queue` eingereiht
@@ -61,4 +61,4 @@ integer sem_wait(Semaphore S)
 	S.lock.release();
 }
 ```
--> [[Spin-Locks#Implementierung von Ticket-Locks fc|Spin-Locks: Ticket Locks]]
+→ [[Spin-Locks#Implementierung von Ticket-Locks fc|Spin-Locks: Ticket Locks]]

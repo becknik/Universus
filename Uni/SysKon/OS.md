@@ -21,14 +21,14 @@ mod-date: 2023-01-03
 ## Aufgaben
 - Auswertung von [[Betriebssystem/Funktionen/System Calls|System Calls]]
 - [[Scheduling]]
-	-> ([[Betriebssystem/Echtzeitfähigkeit|Echtzeitfähigkeit]])
+	→ ([[Betriebssystem/Echtzeitfähigkeit|Echtzeitfähigkeit]])
 - [[Betriebssystem/Prozesse/Prozesswechsel|Prozesswechsel]]
 - Speicherverwaltung
 - …
 
 ## Eigenschaften des Kernels #fc
 - Beinhaltet die am meisten verwendeten OS-Funktionalitäten
-	-> Befindet sich im Hauptspeicher
+	→ Befindet sich im Hauptspeicher
 - Enthält die zentralsten Funktionen:
 	- Hardware-Schnittstelle
 	- [[Betriebssystem/Prozess|Prozess]]-[[Betriebssystem/Scheduling|Scheduling]]
@@ -41,17 +41,17 @@ mod-date: 2023-01-03
 - Ring 1
 - Ring 2: Hier können Treiber laufen
 - Ring 3: Anwendungen
-	-> Kommunizieren über [[Betriebssystem/Funktionen/System Calls|System Calls]]
+	→ Kommunizieren über [[Betriebssystem/Funktionen/System Calls|System Calls]]
 ^1668285780152
 
 ## Organisation
 
 ### Monolithisch #fc
--> Die heute vorherrschende [[../OS|Kernel]]-Typ
+→ Die heute vorherrschende [[../OS|Kernel]]-Typ
 - Zusammengesetzt aus einer Menge von Prozeduren, die sich gegenseitig aufrufen können
 - Teilfunktion sind in Kernel-Module ausgelagert
-	-> Bessere Wartbarkeit, Erweiterbarkeit, kleiner Kern & Konfiguration zur Laufzeit
-	-> Module führen im Kernel-Modus/ *Ring-0* aus
+	→ Bessere Wartbarkeit, Erweiterbarkeit, kleiner Kern & Konfiguration zur Laufzeit
+	→ Module führen im Kernel-Modus/ *Ring-0* aus
 ^1668285780154
 
 ### Micro Kernel #fc
@@ -60,9 +60,9 @@ mod-date: 2023-01-03
 	- …I/O- und [[Unterbrechungen|UBR]]-Verwaltung
 	- …[[Scheduling]]
 	- …Einfaches Speicher Management
--> [[../OS|Kernel]] lässt sich gut verifizieren, da er wenig Code umfasst
+→ [[../OS|Kernel]] lässt sich gut verifizieren, da er wenig Code umfasst
 - Viele essentielle Dienste laufen im Anwendungs-Modus (Ring-3)
-	-> Gerätetreiber, Dateisysteme, Virtueller Speicher, Window Manager, Sicherheitsdienste
+	→ Gerätetreiber, Dateisysteme, Virtueller Speicher, Window Manager, Sicherheitsdienste
 - Prinzip hat sich (z.B. durch die Auslagerung von Grafikkarten-Treibern in Ring-2) auch auf monolitische Kernels übertragen
 ^1668285770227
 
@@ -76,8 +76,8 @@ mod-date: 2023-01-03
 
 ### User Mode #fc
 - Kein direkter Zugriff auf *Hardware* und *unbefugte Adressräume* möglich
-	-> Für den Zugriff auf Hardware ist ein Schnittstelle zwischen Anwendung und OS nötig
+	→ Für den Zugriff auf Hardware ist ein Schnittstelle zwischen Anwendung und OS nötig
 - Speicherschutz ist aktiv, der jeden [[Prozess]] einen privaten Adressraum zusichert
-	-> Bei unerlaubten Zugriffen:
+	→ Bei unerlaubten Zugriffen:
 	Memory Protection/ Management Unit $\to$ [[OS]] $\to$ Segmentation Fault [[Unterbrechungen|Interrupt]] $\to$ Prozess terminiert
 ^1672676940799

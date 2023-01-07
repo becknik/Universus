@@ -9,17 +9,17 @@ mod-date: 2023-01-03
 ---
 
 # Dekkers Algorithmus
--> [[../Kritischer Abschnitt|Kritischer Abschnitt]]
+→ [[../Kritischer Abschnitt|Kritischer Abschnitt]]
 
 ## Annahmen
 - [[../Atomizität|Atomizität]] im Schreiben auf gemeinsame Variablen
-- [[../Sequenzielle Konsistenz|Sequenzielle Konsistenz]] bei Speicherzugriffen
+- [[../Synchronisation/Sequenzielle Konsistenz|Sequenzielle Konsistenz]] bei Speicherzugriffen
 - [[../Korrektheitskriterien|Schwach fairer]] [[../Betriebssystem/Scheduling|Scheduler]]
 
 ## Eigenschaften
 - Die erste bekannte Lösung des [[../Kritischer Abschnitt|Critical Section Problems]]
 - Funktioniert nur für 2 [[../Betriebssystem/Prozesse/Threads|Threads]]
-- Unter dem Einsatz von [[../Sequenzielle Konsistenz|Memory Order Models]] nicht mehr korrekt
+- Unter dem Einsatz von [[../Synchronisation/Sequenzielle Konsistenz|Memory Order Models]] nicht mehr korrekt
 - Einfachere Alternative: Pettersons Algorithmus !!!
 
 ## Algorithmus #fc
@@ -60,11 +60,11 @@ loop:
 
 ### Wechselseitiger Ausschluss
 - Übergänge zu dem imaginären [[../Betriebssystem/Prozess|Prozesszustand]], in dem sich `p` & `q` im [[../Kritischer Abschnitt|KA]] befinden ist nicht möglich
-	-> `want_p`/`want_q` verhindert den Austritt aus der `while`-Schleife
+	→ `want_p`/`want_q` verhindert den Austritt aus der `while`-Schleife
 
 ### Keine Verklemmungen
 1. Verklemmung bei `await (process_turn = = 1)` und `await (process_turn = = 2)`
-	 -> 2. Invariante: Keine Veränderung von `process_turn` im [[../Kritischer Abschnitt|Präprotokoll]]
+	 → 2. Invariante: Keine Veränderung von `process_turn` im [[../Kritischer Abschnitt|Präprotokoll]]
 2. Verklemmung in den `while`-Schleifen an den `wantp` und `wantq` Bedingungen
 
 ### Kein Aushungern

@@ -14,11 +14,11 @@ mod-date: 2023-01-02
 
 ## Prozessabbild mit PCB #fc
 - *Prozesskontrollblock*
-	-> Zugriff nur in [[../../OS|Ring-0]] möglich
-	-> Der wesentliche *Zustand eines Betriebssystems* besteht aus Kontrollblöcken
+	→ Zugriff nur in [[../../OS|Ring-0]] möglich
+	→ Der wesentliche *Zustand eines Betriebssystems* besteht aus Kontrollblöcken
 - User-Stack
 - [[../../../Ro I/OS & Environment/Speicherorganisation|Rechnerorganisation I/Speicherorganisation]]:
-	-> Bilden den *privaten Adressraum des Prozesses*
+	→ Bilden den *privaten Adressraum des Prozesses*
 - Gemeinsamer Adressraum
 ^1668288356125
 
