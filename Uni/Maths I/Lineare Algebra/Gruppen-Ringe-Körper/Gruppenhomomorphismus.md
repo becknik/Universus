@@ -1,12 +1,12 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases:
   - Gruppenhomomorphismus
   - Kern
 linter-yaml-title-alias: Gruppenhomomorphismus
-date: 2022-10-31
+date-of-creation: 2022-10-31
 mod-date: 2022-11-07
 ---
 

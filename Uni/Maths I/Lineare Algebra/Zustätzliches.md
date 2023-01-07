@@ -1,10 +1,10 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases: Zusätzliches
 linter-yaml-title-alias: Zusätzliches
-date: 2022-11-02
+date-of-creation: 2022-11-02
 mod-date: 2022-11-13
 ---
 
@@ -12,7 +12,7 @@ mod-date: 2022-11-13
 
 ## Dreierregel: #fc
 - Ist eine beliebige Zahl $m\in\mathbb{Z}$ durch drei teilbar, so ist auch ihre Quersumme durch 3 Teilbar
-	-> $\hat{m}\not\mid3\Rightarrow m\not\mid3$
+	→ $\hat{m}\not\mid3\Rightarrow m\not\mid3$
 ^1668374953816
 
 ## Collatz-Problem: #fc

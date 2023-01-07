@@ -1,12 +1,12 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases:
   - Lineare Unabhängigkeit
   - linear unabhängig
 linter-yaml-title-alias: Lineare Unabhängigkeit
-date: 2022-12-04
+date-of-creation: 2022-12-04
 mod-date: 2022-12-04
 ---
 
@@ -15,14 +15,14 @@ mod-date: 2022-12-04
 ## Definition #fc
 - Gegeben seinen die Vektoren $v_1,\dots,v_n$ des [[Vektorräume|Vektorraums]] $V$
 - $v_1,\dots,v_n$ heißen *linear abhängig*, wenn sich der *Nullvektor* als (nicht-triviale) [[Linearkombinationen|Linearkombination]] der Vektoren darstellen lässt
-	-> Aus der Menge der *Koeffizienten* $\lambda_1,\dots,\lambda_n$ muss es also mindestens einen Koeffizient $\lambda_j\neq0,$ sodass $\lambda_1v_1,\dots,\lambda_nv_n=0$ gefüllt ist
+	→ Aus der Menge der *Koeffizienten* $\lambda_1,\dots,\lambda_n$ muss es also mindestens einen Koeffizient $\lambda_j\neq0,$ sodass $\lambda_1v_1,\dots,\lambda_nv_n=0$ gefüllt ist
 - Ansonsten sind $v_1,\dots,v_n$ *linear abhängig*
-	-> Es folgt: $\forall A\subseteq V,|A|=\{v\}:\quad A\text{ linear unabhängig}\Leftrightarrow v\neq0$
+	→ Es folgt: $\forall A\subseteq V,|A|=\{v\}:\quad A\text{ linear unabhängig}\Leftrightarrow v\neq0$
 ^1670172257009
 
 ### Allgemeiner bezogen auf $M\subseteq V$: #fc
 - Sei $V$ ein [[Vektorräume|Vektorraum]] und $M\subseteq V,$ dann heißt $M$ *linear unabhängig*, wenn $\forall A\subseteq M$ mit $A=\{v_1,\dots,v_n\},|A|<\infty$ die Vektoren $v_1,\dots,v_n$ *linear unabhängig* sind
-	-> Andernfalls ist $M$ *linear abhängig*
+	→ Andernfalls ist $M$ *linear abhängig*
 ^1670172737106
 
 ## Verhältnis zum Spann: #fc

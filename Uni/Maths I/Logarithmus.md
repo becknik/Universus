@@ -1,10 +1,10 @@
 ---
 tags: uni theoretical-cs maths
 cards-deck: Uni::Courses::Theo-II
-complete: true
+completed: true
 aliases: Logarithmus
 linter-yaml-title-alias: Logarithmus
-date: 2022-08-20
+date-of-creation: 2022-08-20
 mod-date: 2022-10-20
 ---
 

@@ -1,10 +1,10 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases: Russell'sche Antinomie
 linter-yaml-title-alias: Russell'sche Antinomie
-date: 2022-10-27
+date-of-creation: 2022-10-27
 mod-date: 2022-10-31
 ---
 
@@ -13,8 +13,8 @@ mod-date: 2022-10-31
 ## "Formal" #fc
 - Sei $M$ die [[Mengenlehre|Menge]] aller Mengen mit $M=\{X\mid X\text{ Menge}\}$, dann müsste $M\in M$ gelten
 - Definiere die Teilmenge aller Mengen als $R=\{X\in M\mid X\notin X\}$
-	-> Aus $R\in R\Rightarrow R\notin R~\large{\unicode{x21af}}$
-	-> Die Gesamtheit aller Mengen ist selbst keine wohldefinierte Menge
+	→ Aus $R\in R\Rightarrow R\notin R~\large{\unicode{x21af}}$
+	→ Die Gesamtheit aller Mengen ist selbst keine wohldefinierte Menge
 ^1666210834927
 
 ## Umgangssprachlich #fc

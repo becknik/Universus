@@ -1,17 +1,17 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases:
   - Untervektorräume
   - Untervektorraum
 linter-yaml-title-alias: Untervektorräume
-date: 2022-11-13
+date-of-creation: 2022-11-13
 mod-date: 2022-12-04
 ---
 
 # Untervektorräume
--> [[Vektorräume]]
+→ [[Vektorräume]]
 
 ## Definition: #fc
 - Sei $V$ ein $K$-[[Vektorräume|Vektorraum]], dann ist $U\subseteq V,U\neq\emptyset$ ein *Untervektorraum* von $V$, wenn folgende *Abgeschlossenheiten* gelten:
@@ -22,9 +22,9 @@ mod-date: 2022-12-04
 ## Eigenschaften #fc
 - $U$ ist ein Vektorraum $\Leftrightarrow$ $U$ ist ein [[Vektorräume|Vektorraum]] mit auf die Teilmenge eingeschränkter *Vektoraddition* und *Skalarmultiplikation*
 - $\{0\}\subseteq V$ ist der kleinste Untervektorraum für jeden Vektorraum $V$
-	-> Bei $V:=\{v\}$ durch die zweite Eigenschaft von Untervektorräumen $v\cdot0=0$ gelten muss
+	→ Bei $V:=\{v\}$ durch die zweite Eigenschaft von Untervektorräumen $v\cdot0=0$ gelten muss
 - Die Vereinigung von Untervektorräumen ist im Allgemeinen kein Untervektorraum
-	-> Gegenbeispiel: Die $x$- und $y$-Achse von $\mathbb{R}^2:(1,0),(0,1)\in (x-\text{Achse}\cup y-\text{Achse}),$ $(1,0)+(0,1)\notin"$
+	→ Gegenbeispiel: Die $x$- und $y$-Achse von $\mathbb{R}^2:(1,0),(0,1)\in (x-\text{Achse}\cup y-\text{Achse}),$ $(1,0)+(0,1)\notin"$
 ^1668378881394
 
 ### Schnittmenge: #fc
@@ -33,7 +33,7 @@ mod-date: 2022-12-04
 
 ## Beispiele:
 - Für $V:=\mathbb{R}^3$ ist die $xy$-Ebene $U:=\{(x,y,0)\mid x,y\in\mathbb{R}\}$ ein Unterraum
-	-> Ist nicht-leer und abgeschlossen unter Addition und Multiplikation mit beliebigen Skalaren
+	→ Ist nicht-leer und abgeschlossen unter Addition und Multiplikation mit beliebigen Skalaren
 - Für $V:=\mathbb{R}^2$ ist jede Gerade, die durch den Ursprung verläuft ein Unterraum
 
 ## Summe
@@ -46,7 +46,7 @@ mod-date: 2022-12-04
 
 #### Definition: #fc
 - Seien $U_1,U_2,\dots,U_k$ [[Untervektorräume]] vom [[Vektorräume|Vektorraum]] $V,$ dann heißt ein Untervektorraum $U$ *direkte Summe* von $U_1,U_2,\dots,U_k,$ wenn sich jeder Vektor auf *genau eine* Weise als Summe $$u_1+u_2+\dots+u_n,\quad u_1\in U_1,u_2\in U_2,\dots,u_n\in U_n$$ darstellen lässt
-	-> Dann schreibt man $U=U_1\oplus U_2\oplus\dots\oplus U_k$
+	→ Dann schreibt man $U=U_1\oplus U_2\oplus\dots\oplus U_k$
 ^1670171232260
 
 #### Eigenschaften für Direktheit der Summe: #fc

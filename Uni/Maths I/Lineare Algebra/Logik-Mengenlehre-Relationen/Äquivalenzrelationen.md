@@ -1,17 +1,17 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases:
   - Äquivalenzrelationen
   - Äquivalenzklassen
 linter-yaml-title-alias: Äquivalenzrelationen
-date: 2022-10-19
+date-of-creation: 2022-10-19
 mod-date: 2022-11-02
 ---
 
 # Äquivalenzrelationen
--> [[Logik-Mengenlehre-Relationen/Relationen]]
+→ [[Logik-Mengenlehre-Relationen/Relationen]]
 
 ## Definition #fc
 - Eine [[Logik-Mengenlehre-Relationen/Relationen|Relation]] $R$ auf $M\times M$ über der Menge $M$ heißt *Äquivalenzrelation*, wenn folgende Eigenschaften für sie erfüllt sind:
@@ -22,10 +22,10 @@ mod-date: 2022-11-02
 
 ### Umkehrung: #fc
 - Sei $\{M_j\mid j\in J\}$ eine *disjunkte* Zerlegung der Menge $M$, so ist durch $$x\sim y\quad\Leftrightarrow\quad\exists j\in J:x,y\in M_j$$ eine Äquivalenzrelation auf $M$ definiert
--> *Disjunkt*: $\forall k\neq j:M_j\cap M_k=\emptyset\wedge M=\bigcup_{j\in J}M_j$
+→ *Disjunkt*: $\forall k\neq j:M_j\cap M_k=\emptyset\wedge M=\bigcup_{j\in J}M_j$
 ^1666213723276
 
 ### Ordnungsrelation: #fc
 - Ist eine [[Relationen]] $R$ *reflexiv*, *anti-symmetrisch* und *transitiv*, so ist $R$ eine *Ordnungrelation*
-	-> *Anti-Symmetrie*: Für $a,b\in M,R\subseteq R\times R$ gilt: $a\sim b\wedge b\sim a\Rightarrow a=b$
+	→ *Anti-Symmetrie*: Für $a,b\in M,R\subseteq R\times R$ gilt: $a\sim b\wedge b\sim a\Rightarrow a=b$
 ^1666882337830

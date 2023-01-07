@@ -1,13 +1,13 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: false
+completed: false
 aliases:
   - Vektorräume
   - Vektorraum
   - Vektorraumaxiome
 linter-yaml-title-alias: Vektorräume
-date: 2022-11-13
+date-of-creation: 2022-11-13
 mod-date: 2022-12-04
 ---
 
@@ -18,7 +18,7 @@ mod-date: 2022-12-04
 	- … Menge von *Vektoren* $V$ zusammen mit einer *Addition* $+,$ …
 	- … sodass $(V,+)$ eine [[../Gruppen-Ringe-Körper/Gruppen|abelsche Gruppe]] bildet, …
 	- zusammen mit einer "*Skalarmultiplikation*" genannten [[../Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $$K\times V\rightarrow V,\quad(\lambda,v)\mapsto\lambda\cdot v$$
-	-> Elemente aus $K$ werden *Skalare* genannt
+	→ Elemente aus $K$ werden *Skalare* genannt
 ^1668377830921
 
 ### Verktorraumaxiome auf $(\lambda,v)\mapsto\lambda\cdot v$: #fc
@@ -32,7 +32,7 @@ mod-date: 2022-12-04
 - Für $v\in V$ gilt: $c\cdot0=0$
 - $\forall\lambda\in K,v\in V$ gilt: $(−\lambda)v=−(\lambda v)=\lambda(−v)$
 - Jeder Vektorraum besitzt ein [[Erzeugendensystem|Basis]]
-	-> Beweis über das [[Zornsche Lemma]] oder das [[Auswahlaxiom]] !!!
+	→ Beweis über das [[Zornsche Lemma]] oder das [[Auswahlaxiom]] !!!
 ^1668377840944
 
 ## Beispiele
@@ -43,5 +43,5 @@ mod-date: 2022-12-04
 
 ### Reelle Funktionen: #fc
 - Sei $V:=\{f:\mathbb{R}\rightarrow\mathbb{R}\}$ die Menge aller reellen Abbildungen, $(f+g)(t):=f(t)+g(t)$ die Addition und $(\lambda\cdot f)(t):=\lambda f(t)$ die Skalarmultiplikation auf dieser
-	-> Betrachte beispielsweise die [[Untervektorräume]] von $f:\mathbb{R}\times\mathbb{R}$ aller stetig wachsender oder aller differenzierbaren Funktionen in $\mathbb{R}$
+	→ Betrachte beispielsweise die [[Untervektorräume]] von $f:\mathbb{R}\times\mathbb{R}$ aller stetig wachsender oder aller differenzierbaren Funktionen in $\mathbb{R}$
 ^1670110927886

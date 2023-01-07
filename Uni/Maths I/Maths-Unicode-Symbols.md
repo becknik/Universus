@@ -1,7 +1,7 @@
 ---
 tags: encoding
 cards-deck: 
-complete: true
+completed: true
 aliases:
   - Maths-Unicode-Symbols
   - Unicode Maths
@@ -9,7 +9,7 @@ aliases:
   - Unicode Chars
   - Greek Alphabet
 linter-yaml-title-alias: Maths-Unicode-Symbols
-date: 2022-09-03
+date-of-creation: 2022-09-03
 mod-date: 2022-11-16
 ---
 

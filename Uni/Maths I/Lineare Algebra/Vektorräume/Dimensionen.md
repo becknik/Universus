@@ -1,10 +1,10 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases: Dimensionen
 linter-yaml-title-alias: Dimensionen
-date: 2022-12-04
+date-of-creation: 2022-12-04
 mod-date: 2022-12-04
 ---
 
@@ -12,8 +12,8 @@ mod-date: 2022-12-04
 
 ## Definition: #fc
 - Besitzt ein [[Vektorräume|Vektorraum]] $V$ ein [[Erzeugendensystem|Basis]] $B,|B|<\infty,$ dann wird $|B|$ als Dimension $\text{dim}(V)$ des Vektorraums bezeichnet
-	-> Wenn der Vektorraum keine Basis $B<\infty$ besitzt, gilt $\text{dim}(V)=\infty$
-	-> Aufgrund der [[Erzeugendensystem|Standardbasis/ kanonischen Basis]] $e_1,\dots,e_n:\quad\text{dim}(K^n)=n$
+	→ Wenn der Vektorraum keine Basis $B<\infty$ besitzt, gilt $\text{dim}(V)=\infty$
+	→ Aufgrund der [[Erzeugendensystem|Standardbasis/ kanonischen Basis]] $e_1,\dots,e_n:\quad\text{dim}(K^n)=n$
 ^1670184241827
 
 ## Formel für [[Untervektorräume]]: #fc
@@ -30,7 +30,7 @@ mod-date: 2022-12-04
 $$\mathbb{R}\to\mathbb{R},~t\mapsto a_nt^n+a_{n-1}t^{n-1}+\dots+a_1t+a_0$$
 - Ein *unendlich-dimensionaler* [[Vektorräume|Vektorraum]]:
 - Die *Monome* $\{t\mapsto t^k\mid k\in\mathbb{N}_0\}$ bilden eine [[Lineare Unabhängigkeit|linear unabhängige]] Teilmenge
-	-> Die einzige [[Linearkombinationen|Linearkombination]] von *Monomen*, die die 0-Funktion ergeben, ist die triviale
-	-> Mit dem [[Erzeugendensystem|Satz 3.6.4: Allgemeinaussagen über Basen]] folgt daraus, dass es in diesem Vektorraum keine endlichen Basen geben kann
-	-> Es folgt, dass $\mathbb{R}\rightarrow\mathbb{R}$ *unendlich-dimensional* ist
+	→ Die einzige [[Linearkombinationen|Linearkombination]] von *Monomen*, die die 0-Funktion ergeben, ist die triviale
+	→ Mit dem [[Erzeugendensystem|Satz 3.6.4: Allgemeinaussagen über Basen]] folgt daraus, dass es in diesem Vektorraum keine endlichen Basen geben kann
+	→ Es folgt, dass $\mathbb{R}\rightarrow\mathbb{R}$ *unendlich-dimensional* ist
  ^1670184254979

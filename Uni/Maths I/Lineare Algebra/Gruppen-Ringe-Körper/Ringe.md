@@ -1,13 +1,13 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases:
   - Ringe
   - unärere Ring
   - kommutativer Ring
 linter-yaml-title-alias: Ringe
-date: 2022-10-31
+date-of-creation: 2022-10-31
 mod-date: 2022-11-13
 ---
 
@@ -35,4 +35,4 @@ mod-date: 2022-11-13
 ## Beispiel: Polynome mit reellen Koeffizienten
 - Polynome mit *reellen Koeffizienten* (Ausdrücke der Form $a_n\cdot t^n+a_{n-1}\cdot t^{n-1}+\dots+a_1t^1+a_0$) bilden mit gewöhnlicher paarweiser Addition und Multiplikation einen kommutativen Ring mit Eins
 - *Grad* des Polynoms: Das höchste $a_n\neq0$
-	-> Der Grad der Nullpolynome ist $-\infty$
+	→ Der Grad der Nullpolynome ist $-\infty$

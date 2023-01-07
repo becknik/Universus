@@ -1,14 +1,14 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases:
   - Erzeugendensystem
   - Basis
   - Standardbasis
   - kanonische Basis
 linter-yaml-title-alias: Erzeugendensystem
-date: 2022-12-04
+date-of-creation: 2022-12-04
 mod-date: 2022-12-04
 ---
 
@@ -25,14 +25,14 @@ mod-date: 2022-12-04
 ### Äquivalenzen: #fc
 1. $B\subseteq V$ ist eine *Basis* von $V$
 2. $B$ ist ein *minimales Erzeugendensystem* von $V$
-	 -> $\forall v\in B:\quad B\setminus\{v\}$ ist kein Erzeugendensystem von $V$ mehr
+	 → $\forall v\in B:\quad B\setminus\{v\}$ ist kein Erzeugendensystem von $V$ mehr
 3. $B$ ist eine *maximal [[Lineare Unabhängigkeit|linear unabhängige]]* Teilmenge von $V$
-	 -> $B$ ist *linear unabhängig* & $\forall v\in V\setminus B:\quad B\cup\{v\}$ ist *nicht* linear unabhängig
+	 → $B$ ist *linear unabhängig* & $\forall v\in V\setminus B:\quad B\cup\{v\}$ ist *nicht* linear unabhängig
 ^1670181684382
 
 ## Standardbasis/ Kanonische Basis: #fc
 - Die *Standardbasis/ kanonische Basis* von $K^n$ besteht aus der Menge von Elementen $e_1,\dots,e_n\in K^n$ (= [[../Gruppen-Ringe-Körper/Matrizen|Spaltenvektor]]):$$e_1=\begin{pmatrix}1\\0\\0\\\vdots\\0\end{pmatrix},e_2=\begin{pmatrix}0\\1\\0\\\vdots\\0\end{pmatrix},\dots,e_n=\begin{pmatrix}0\\0\\0\\\vdots\\1\end{pmatrix}$$
-	-> Jeder Vektor $v\in K^n$ lässt sich als [[Linearkombinationen]] $$e_1=\begin{pmatrix}\lambda_1\\\vdots\\\lambda_n\end{pmatrix}=\lambda_1e_1+\dots+\lambda_ne_n$$ darstellen
+	→ Jeder Vektor $v\in K^n$ lässt sich als [[Linearkombinationen]] $$e_1=\begin{pmatrix}\lambda_1\\\vdots\\\lambda_n\end{pmatrix}=\lambda_1e_1+\dots+\lambda_ne_n$$ darstellen
 ^1670181183885
 
 ## Lemmata
@@ -57,5 +57,5 @@ mod-date: 2022-12-04
 	1. Jedes $A\subseteq V,|A|\geqslant n+1$ ist [[Lineare Unabhängigkeit|linear abhängig]]
 	2. Jedes [[Erzeugendensystem]] von $V$ enthält mindestens $n$ Elemente
 	3. Jede Basis von $V$ besteht aus $n$ Elementen
--> Folgerung: [[Untervektorräume]] von [[Dimensionen|endlich-dimensionalen]] [[Vektorräume|Vektorräumen]] sind selbst wieder *endlich-dimensional*
+→ Folgerung: [[Untervektorräume]] von [[Dimensionen|endlich-dimensionalen]] [[Vektorräume|Vektorräumen]] sind selbst wieder *endlich-dimensional*
 ^1670184569001

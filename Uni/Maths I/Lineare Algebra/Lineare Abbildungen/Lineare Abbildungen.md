@@ -1,12 +1,12 @@
 ---
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
-complete: true
+completed: true
 aliases:
   - Lineare Abbildungen
   - lineare Abbildung
 linter-yaml-title-alias: Lineare Abbildungen
-date: 2022-12-04
+date-of-creation: 2022-12-04
 mod-date: 2022-12-04
 ---
 
@@ -17,7 +17,7 @@ mod-date: 2022-12-04
 - Eine [[../Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $f:V\to W$ heißt *linear*, wenn folgendes gilt:
 	1. *Addititvität*: $\forall v_1,v_2\in V:\quad f(v_1+v_2)=f(v_1)+f(v_2)$
 	2. "Verträglichkeit mit der Skalarmultiplikation": $\forall v\in V,\lambda\in K:\quad f(\lambda v)=\lambda f(v)$
--> Zusammengefasst: $$\forall v_1,v_2\in V,\lambda_1,\lambda_2\in K:\quad f(\lambda_1v_1+\lambda_2v_2)=\lambda_1f(v_1)+\lambda_2f(v_2)$$
+→ Zusammengefasst: $$\forall v_1,v_2\in V,\lambda_1,\lambda_2\in K:\quad f(\lambda_1v_1+\lambda_2v_2)=\lambda_1f(v_1)+\lambda_2f(v_2)$$
 ^1670185338428
 
 ## Übliche Sprechweisen
@@ -36,7 +36,7 @@ mod-date: 2022-12-04
 
 ### [[../Vektorräume/Vektorräume|Vektorraum]][[../../../Theo I/3. Typ - REG/Homomorphismus|isomorphismus]]/ linearer Isomorphismus: #fc
 - Für eine [[Lineare Abbildungen|lineare Abbildung]] $f:V\to W,$ die sich [[../Logik-Mengenlehre-Relationen/Abbildungen|bijektive]] verhält
-	-> Wenn ein *Vektorraumisomorphismus* zwischen zwei $K$-[[../Vektorräume/Vektorräume|Vektorräumen]] $V$ und $W$ existiert, sagt man die beiden Vektorräume sind *isomorph* ($V\cong W$)
+	→ Wenn ein *Vektorraumisomorphismus* zwischen zwei $K$-[[../Vektorräume/Vektorräume|Vektorräumen]] $V$ und $W$ existiert, sagt man die beiden Vektorräume sind *isomorph* ($V\cong W$)
 ^1670186676063
 
 ### [[../Vektorräume/Vektorräume|Vektorraum]][[../../../Theo I/3. Typ - REG/Homomorphismus|endomorphismus]]/ linearer Endomorphismus: #fc
@@ -53,7 +53,7 @@ mod-date: 2022-12-04
 ## Kern #fc
 - Sei $f:V\to W$ eine *lineare* [[../Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]]
 $$f^{-1}(\{0\})=\{v\in V\mid f(v)=0\}$$ besteht aus allen Vektoren, die auf den *Nullvektor* abgebildet werden
-	-> Stellt den [[../Gruppen-Ringe-Körper/Gruppenhomomorphismus|Kern]] von $f$ dar und wird als $\text{ker}(f)$ notiert
+	→ Stellt den [[../Gruppen-Ringe-Körper/Gruppenhomomorphismus|Kern]] von $f$ dar und wird als $\text{ker}(f)$ notiert
 ^1670190701413
 
 ### Beziehung zu [[../Vektorräume/Vektorräume|Vektorräumen]]: #fc
@@ -69,8 +69,8 @@ $$f^{-1}(\{0\})=\{v\in V\mid f(v)=0\}$$ besteht aus allen Vektoren, die auf den 
 
 ### [[../Gruppen-Ringe-Körper/Matrizen|Spaltenvektoren]]: #fc
 - $f:K^n\to K^m$ ist *linear*
-	-> *Additivität* folgt aus dem *Distributivgesetz*
-	-> *Verträglichkeit mit der Skalarmultiplikation* folgt aus der Definition der *Matrixmultiplikation*
+	→ *Additivität* folgt aus dem *Distributivgesetz*
+	→ *Verträglichkeit mit der Skalarmultiplikation* folgt aus der Definition der *Matrixmultiplikation*
 ^1670186696099
 
 ### Differentiation: $f\mapsto f'$: #fc
