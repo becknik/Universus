@@ -32,7 +32,10 @@ I think this way of writing summaries offers many benefits which overcome the dr
 - [ ] How to provide people with up to date Anki card decks, which are generated from this vault?
 > AnkiWeb as best-so-far solution. Somtimes I forgett to commit & push or update cards on AnkiWeb. Automation of publication & pulling would be nice.
 > AnkiWeb pulished decks are available 24h after publishing, which is REALLY annoying
+> AnkiWeb seems to automatically remove some lesser downloaded decks. wtf...
 - [ ] How to coordinate a gaint summary during the writing phase?
+> Linters (custom RegEx) feature seams a good solution regarding formatting
+> I just realized that this project seems to be a one-man-thing. Seems like there is no reason for anybody reading through my extended docs to understand how this is working - guess my over-motivation tricked me here...
 ---
 
 ## Getting Started
@@ -55,11 +58,11 @@ One great element of the subset of Obsidian [community plugins](./Recommendation
 
 #### Shared decks:
 > When the linked deck is currently not available, this is due to I uploaded a new version (and AnkiWeb being shitty). Come back within `24h`, then it should be definitively available.
-- [Datenstrukturen & Algorithmen](https://ankiweb.net/shared/info/1023735405)
+- [Datenstrukturen & Algorithmen](https://ankiweb.net/shared/info/1023735405) (AnkiWeb decided to remove it without any notification :) )
 - [Systemkonzepte & Programmierung](https://ankiweb.net/shared/info/1702498575) *(IN PROGRESS)*
 - [Mathe 1 für Inf,SWT & MSV](https://ankiweb.net/shared/info/2089618036) *(IN PROGRESS)*
 - [Theoretische Informatik I](https://ankiweb.net/shared/info/1096330501)
-- [Theoretische Informatik II](https://ankiweb.net/shared/info/729716890) **(WORK & LOTS OF LOVE NEEDED)**
+- [Theoretische Informatik II](https://ankiweb.net/shared/info/729716890) **(WORK & LOTS OF LOVE NEEDED)** (AnkiWeb decided to remove it without any notification :) )
 
 ### How to Contribute
 
