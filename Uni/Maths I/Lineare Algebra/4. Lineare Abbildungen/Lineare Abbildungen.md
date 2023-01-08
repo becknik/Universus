@@ -5,9 +5,13 @@ completed: true
 aliases:
   - Lineare Abbildungen
   - lineare Abbildung
+  - linear
+  - Kern einer linearen Abbildung
+  - Basis einer linearen Abbildung
+  - Rang einer linearen Abbildung
 linter-yaml-title-alias: Lineare Abbildungen
 date-of-creation: 2022-12-04
-mod-date: 2022-12-04
+mod-date: 2023-01-08
 ---
 
 # Lineare Abbildungen
@@ -15,57 +19,60 @@ mod-date: 2022-12-04
 ## Definition #fc
 - Seien $V,W$ [[../3. Vektorräume/Vektorräume|Vektorräume]] über demselben [[../2. Gruppen-Ringe-Körper/Körper|Körper]] $K$
 - Eine [[../1. Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $f:V\to W$ heißt *linear*, wenn folgendes gilt:
-	1. *Addititvität*: $\forall v_1,v_2\in V:\quad f(v_1+v_2)=f(v_1)+f(v_2)$
-	2. "Verträglichkeit mit der Skalarmultiplikation": $\forall v\in V,\lambda\in K:\quad f(\lambda v)=\lambda f(v)$
-→ Zusammengefasst: $$\forall v_1,v_2\in V,\lambda_1,\lambda_2\in K:\quad f(\lambda_1v_1+\lambda_2v_2)=\lambda_1f(v_1)+\lambda_2f(v_2)$$
+	1. *Addititvität*: $\forall v_1,v_2\in V:\quad f(v_1+v_2)=f(v_1)+f(v_2)=w\in W$
+	2. "Verträglichkeit mit der Skalarmultiplikation": $\forall v\in V,\lambda\in K:$$f(\lambda v)=\lambda f(v)\in W$
+- Zusammengefasst muss also gelten: $$\forall v_1,v_2\in V,\lambda_1,\lambda_2\in K:\quad f(\lambda_1v_1+\lambda_2v_2)=\lambda_1f(v_1)+\lambda_2f(v_2)$$
 ^1670185338428
 
-## Übliche Sprechweisen
+### Rang #fc
+- Als *Rang* einer [[Lineare Abbildungen#Definition fc|lineare Abbildung]] bezeichnet man die [[../3. Vektorräume/Dimensionen#Definition fc|Dimension]] ihres [[../1. Logik-Mengenlehre-Relationen/Abbildungen#Fachtermini|Bildes]]
+	$$rk(f):=\text{dim}(\text{Bild}(f))$$
+^1673207850516
 
-### [[../3. Vektorräume/Vektorräume|Vektorraum]][[../../../Theo I/3. Typ - REG/Homomorphismus|homomorphismus]]/ linearer Homomorphismus #fc
-- Für eine [[Lineare Abbildungen|lineare Abbildung]] $f:V\to W$
-^1670186676053
-
-### [[../3. Vektorräume/Vektorräume|Vektorraum]][[../../../Theo I/3. Typ - REG/Homomorphismus|monomorphismus]]/ linearer Monomorphismus #fc
-- Für eine [[Lineare Abbildungen|lineare Abbildung]] $f:V\to W,$ die sich [[../1. Logik-Mengenlehre-Relationen/Abbildungen|injektiv]] verhält
-^1670186676057
-
-### [[../3. Vektorräume/Vektorräume|Vektorraum]][[../../../Theo I/3. Typ - REG/Homomorphismus|epimorphismus]]/ linearer Epimorphismus #fc
-- Für eine [[Lineare Abbildungen|lineare Abbildung]] $f:V\to W,$ die sich [[../1. Logik-Mengenlehre-Relationen/Abbildungen|surjektiv]] verhält
-^1670186676060
-
-### [[../3. Vektorräume/Vektorräume|Vektorraum]][[../../../Theo I/3. Typ - REG/Homomorphismus|isomorphismus]]/ linearer Isomorphismus #fc
-- Für eine [[Lineare Abbildungen|lineare Abbildung]] $f:V\to W,$ die sich [[../1. Logik-Mengenlehre-Relationen/Abbildungen|bijektive]] verhält
-	→ Wenn ein *Vektorraumisomorphismus* zwischen zwei $K$-[[../3. Vektorräume/Vektorräume|Vektorräumen]] $V$ und $W$ existiert, sagt man die beiden Vektorräume sind *isomorph* ($V\cong W$)
-^1670186676063
-
-### [[../3. Vektorräume/Vektorräume|Vektorraum]][[../../../Theo I/3. Typ - REG/Homomorphismus|endomorphismus]]/ linearer Endomorphismus #fc
-- Für eine [[Lineare Abbildungen|lineare Abbildung]] $f:V\to V$
-^1670186970619
-
-### [[../3. Vektorräume/Vektorräume|Vektorraum]][[../../../Theo I/3. Typ - REG/Homomorphismus|automorphismus]]/ linearer Automorphismus #fc
-- Für eine [[Lineare Abbildungen|lineare Abbildung]] $f:V\to V,$ die sich [[../1. Logik-Mengenlehre-Relationen/Abbildungen|bijektiv]] verhält
-^1670186973053
+## Typen von [[Lineare Abbildungen#Definition fc|Linearen]]/ [[../3. Vektorräume/Vektorräume#Definition fc|Vektorraum]]-\*Morphismen (6) #fc
+- Für $f:V\to W:$ linearer/ Vektorraum-…
+	- *Homo*morphismus: Eine lineare Abbildung
+	- *Mono*morphismus: Eine [[../1. Logik-Mengenlehre-Relationen/Abbildungen#Injektivität fc|injektive]] lineare Abbildung
+	- *Epi*morphismus: Eine [[../1. Logik-Mengenlehre-Relationen/Abbildungen#Surjektivität fc|surjektive]] lineare Abbildung
+	- *Iso*morphismus: Eine *bijektive* lineare Abbildung
+		→ Man nennt $V$ und $W$ dann *isomorph* und schreibt $V\cong W$
+	- *Endo*morphismus: Eine lineare Abbildung $f:V\to V$
+	- *Auto*morphismus: Eine *bejktive* lineare Abbildung $f:V\to V$
+^1673124789875
 
 ## Hilfssatz 4.1.5
-- Seien $V,W$ [[../3. Vektorräume/Vektorräume|Vektorräume]] und $f:V\to W$ ein *Vektorraumhomomorphismus*, dann ist $f^{-1}:W\to V$ *linear* und ein Vektorraumhomomorphismus
+- Seien $V,W$ [[../3. Vektorräume/Vektorräume|Vektorräume]] und $f:V\to W$ ein [[#Typen von Lineare Abbildungen Definition fc Linearen / ../3. Vektorräume/Vektorräume Definition fc Vektorraum - *Morphismen fc|Vektorraumisomorphismus]], dann ist $f^{-1}:W\to V$ [[Lineare Abbildungen#Definition fc|linear]] und ein Vektorraum*iso*morphismus
 
-## Kern #fc
-- Sei $f:V\to W$ eine *lineare* [[../1. Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]]
-$$f^{-1}(\{0\})=\{v\in V\mid f(v)=0\}$$ besteht aus allen Vektoren, die auf den *Nullvektor* abgebildet werden
-	→ Stellt den [[../2. Gruppen-Ringe-Körper/Gruppenhomomorphismus|Kern]] von $f$ dar und wird als $\text{ker}(f)$ notiert
+## Kern
+
+### Definition #fc
+- Sei $f:V\to W$ eine [[Lineare Abbildungen#Definition fc|lineare Abbildung]], dann definiert \$$$f^{-1}(\{0\})=\{v\in V\mid f(v)=0\}$$ den [[../2. Gruppen-Ringe-Körper/Gruppenhomomorphismus|Kern]] dieser Abbildung
+→ Der Kern besteht aus allen Vektoren, die auf den *Nullvektor* abgebildet werden
+- Der Kern der linearen Abbildung $f$ wird als $\text{ker}(f)$ notiert
 ^1670190701413
 
-### Beziehung zu [[../3. Vektorräume/Vektorräume|Vektorräumen]] #fc
-- Der *Kern* einer *linearen* [[../1. Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $f:V\to W$ bildet einen [[../3. Vektorräume/Untervektorräume|Untervektorraum]] von $V$
-- Das [[../1. Logik-Mengenlehre-Relationen/Abbildungen|Bild]] von $f$ ist ein *Untervektorraum* von $W$
-^1670190701416
-
-### Eigenschaften #fc
-- Eine *lineare Abbildung* ist genau dann [[../1. Logik-Mengenlehre-Relationen/Abbildungen|injektiv]], wenn der *Kern* nur aus dem *0-Vektor* bsteht
+### Eigenschaften (3) #fc
+- Der *Kern* einer [[Lineare Abbildungen#Definition fc|lineare Abbildung]] $f:V\to W$ bildet einen [[../3. Vektorräume/Untervektorräume|Untervektorraum]] von $V$
+- Das [[../1. Logik-Mengenlehre-Relationen/Abbildungen|Bild]] einer *lineare Abbildung* $f:V\to W$ stellt ein *Untervektorraum* von $W$ dar
+- Eine *lineare Abbildung* ist genau dann [[../1. Logik-Mengenlehre-Relationen/Abbildungen|injektiv]], wenn der *Kern* nur aus dem *0-Vektor* besteht
 ^1670190701419
 
+## Dimensionsformel #fc
+- Sei $f:V\to W$ eine [[Lineare Abbildungen#Definition fc|lineare Abbildung]] und $\text{dim}(V)<\infty,$ dann gilt: \$$$\text{dim}(V)=rk(f)+\text{dim}(\text{ker}(f))$$
+	→ $rk=$ [[#Rang fc|Rang]] und $\text{ker}=$ [[#Kern]]
+^1673207850521
+
+### Satz 4.3.5
+- Seien $f,g$ [[Lineare Abbildungen#Definition fc|lineare Abbildungen]] mit $g:V\to W,f:W\to X$ und gewählter [[../3. Vektorräume/Erzeugendensystem#Basis fc|Basis]]
+- Seien $A,B$ jeweils die *darstellenden Matrizen* von $f$ und $g,$ dann ist das Matrizenprodukt $A\cdot B$ die *darstellende Matrix* von $f\circ g$
+
+### Folgerung
+- Sei $f:V\to W$ eine [[Lineare Abbildungen#Definition fc|lineare Abbildung]] und $\text{dim}(V)=\text{dim}(W)<\infty$ dann gilt, dass die *Abbildung* von $f$ genau dann [[../1. Logik-Mengenlehre-Relationen/Abbildungen|surjektiv]] ist, wenn sie [[../1. Logik-Mengenlehre-Relationen/Abbildungen|injektiv]] ist
+
 ## Beispiele
+- $f:\mathbb{R}^2\to\mathbb{R},f(x,y)=2x-y$ ist eine [[Lineare Abbildungen#Definition fc|lineare Abbildung]]:
+	- *Additvität*: $f((x_1,y_1)+(x_2,y_2))=f(x_1+x_2,y_1+y_2)=2x_1+2x_2-y_1-y_2=f(x_1,y_1)+f(x_2,y_2)$
+	- "Verträglichkeit mit dem *Skalarprodukt*": $f(\lambda x,\lambda y)=2\lambda x−\lambda y=\lambda f(x,y)$
 
 ### [[../2. Gruppen-Ringe-Körper/Matrizen|Spaltenvektoren]] #fc
 - $f:K^n\to K^m$ ist *linear*

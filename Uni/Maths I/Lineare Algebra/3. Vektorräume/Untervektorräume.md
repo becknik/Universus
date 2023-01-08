@@ -5,22 +5,24 @@ completed: true
 aliases:
   - Untervektorräume
   - Untervektorraum
+  - Unterraum
 linter-yaml-title-alias: Untervektorräume
 date-of-creation: 2022-11-13
-mod-date: 2022-12-04
+mod-date: 2023-01-08
 ---
 
 # Untervektorräume
 → [[Vektorräume]]
 
 ## Definition #fc
-- Sei $V$ ein $K$-[[Vektorräume|Vektorraum]], dann ist $U\subseteq V,U\neq\emptyset$ ein *Untervektorraum* von $V$, wenn folgende *Abgeschlossenheiten* gelten:
-	1. *Addition*: $\forall$ *Vektoren* $u,v\in U:u+v\in U$
-	2. *Multiplikation*: $\forall v\in U\wedge\forall$ *Körperelemente* $\lambda\in K:\lambda u\in U$
+- Sei $V$ ein $K$-[[Vektorräume#Definition fc|Vektorraum]], dann ist $U\neq\emptyset,U\subseteq V$ ein *Untervektorraum* von $V$, wenn für $\forall u\in U$ die *Abgeschlossenheit* unter der Addition $+$ und Skalarmultiplikation $K\times U\to U$ gelten:
+	1. *Addition*: $\forall u,v\in U:u+v\in U$
+	2. *Skalarmultiplikation*: $\forall v\in U\wedge\forall$ *Körperelemente* $\lambda\in K:\lambda u\in U$
+→ Elemente $u\in U$ werden auch wieder als *Vektoren* bezeichnet
 ^1668378392544
 
 ## Eigenschaften #fc
-- $U$ ist ein Vektorraum $\Leftrightarrow$ $U$ ist ein [[Vektorräume|Vektorraum]] mit auf die Teilmenge eingeschränkter *Vektoraddition* und *Skalarmultiplikation*
+- $U$ ist ein Vektorraum $\Leftrightarrow$ $U$ ist ein [[Vektorräume#Definition fc|Vektorraum]] mit auf die Teilmenge eingeschränkter *Vektoraddition* und *Skalarmultiplikation*
 - $\{0\}\subseteq V$ ist der kleinste Untervektorraum für jeden Vektorraum $V$
 	→ Bei $V:=\{v\}$ durch die zweite Eigenschaft von Untervektorräumen $v\cdot0=0$ gelten muss
 - Die Vereinigung von Untervektorräumen ist im Allgemeinen kein Untervektorraum
@@ -28,7 +30,7 @@ mod-date: 2022-12-04
 ^1668378881394
 
 ### Schnittmenge #fc
-- Sei $V$ ein [[Vektorräume|Vektorraum]] und $\{U_j\mid j\in J\}$ eine Menge von *Untervektorräumen* von $V$, dann ist $$\bigcap_{j\in J}U_j$$ wieder ein Untervektorraum von $V$
+- Sei $V$ ein [[Vektorräume#Definition fc|Vektorraum]] und $\{U_j\mid j\in J\}$ eine Menge von *Untervektorräumen* von $V$, dann ist $$\bigcap_{j\in J}U_j$$ wieder ein Untervektorraum von $V$
 ^1668379061495
 
 ## Beispiele
@@ -39,7 +41,7 @@ mod-date: 2022-12-04
 ## Summe
 
 ### Definition #fc
-- Seien $U_1,U_2,\dots,U_k$ [[Untervektorräume]] von $V,$ dann heißt der Untervektorraum $$\sum_{i=1}^kU_i:=\text{span}(\bigcup_{i=1}^kU_i)$$ *die Summe* der gegebenen Untervektorräume
+- Seien $U_1,U_2,\dots,U_k$ [[Untervektorräume#Definition fc|Untervektorräume]] von $V,$ dann heißt der Untervektorraum $$\sum_{i=1}^kU_i:=\text{span}(\bigcup_{i=1}^kU_i)$$ *die Summe* der gegebenen Untervektorräume
 ^1670170794931
 
 ### Direkte Summe
@@ -50,7 +52,7 @@ mod-date: 2022-12-04
 ^1670171232260
 
 #### Eigenschaften für Direktheit der Summe #fc
-- Seien $U_1,U_2$ [[Untervektorräume]] von $V$
+- Seien $U_1,U_2$ [[Untervektorräume#Definition fc|Untervektorräume]] von $V$
 - Die Summe $U_1+U_2=U$ ist genau dann direkt, wenn für $U$ gilt
 	1. $U=U_1+U_2$
 	2. $U_1\cap U_2=\{0\}$

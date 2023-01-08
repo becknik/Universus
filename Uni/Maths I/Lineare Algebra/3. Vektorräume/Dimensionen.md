@@ -2,10 +2,13 @@
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
 completed: true
-aliases: Dimensionen
+aliases:
+  - Dimensionen
+  - Dimension
+  - Monom
 linter-yaml-title-alias: Dimensionen
 date-of-creation: 2022-12-04
-mod-date: 2022-12-04
+mod-date: 2023-01-08
 ---
 
 # Dimensionen
@@ -29,7 +32,7 @@ mod-date: 2022-12-04
 ### Menge der reelen Polynome #fc
 $$\mathbb{R}\to\mathbb{R},~t\mapsto a_nt^n+a_{n-1}t^{n-1}+\dots+a_1t+a_0$$
 - Ein *unendlich-dimensionaler* [[Vektorräume|Vektorraum]]:
-- Die *Monome* $\{t\mapsto t^k\mid k\in\mathbb{N}_0\}$ bilden eine [[Lineare Unabhängigkeit|linear unabhängige]] Teilmenge
+- Die [[Monome]] $\{t\mapsto t^k\mid k\in\mathbb{N}_0\}$ bilden eine [[Lineare Unabhängigkeit|linear unabhängige]] Teilmenge
 	→ Die einzige [[Linearkombinationen|Linearkombination]] von *Monomen*, die die 0-Funktion ergeben, ist die triviale
 	→ Mit dem [[Erzeugendensystem|Satz 3.6.4: Allgemeinaussagen über Basen]] folgt daraus, dass es in diesem Vektorraum keine endlichen Basen geben kann
 	→ Es folgt, dass $\mathbb{R}\rightarrow\mathbb{R}$ *unendlich-dimensional* ist

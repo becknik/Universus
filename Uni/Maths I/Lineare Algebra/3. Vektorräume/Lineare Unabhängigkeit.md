@@ -7,21 +7,20 @@ aliases:
   - linear unabhängig
 linter-yaml-title-alias: Lineare Unabhängigkeit
 date-of-creation: 2022-12-04
-mod-date: 2022-12-04
+mod-date: 2023-01-08
 ---
 
 # Lineare Unabhängigkeit
 
 ## Definition #fc
 - Gegeben seinen die Vektoren $v_1,\dots,v_n$ des [[Vektorräume|Vektorraums]] $V$
-- $v_1,\dots,v_n$ heißen *linear abhängig*, wenn sich der *Nullvektor* als (nicht-triviale) [[Linearkombinationen|Linearkombination]] der Vektoren darstellen lässt
+- Die Vektoren $v_1,\dots,v_n$ heißen *linear abhängig*, wenn sich der *Nullvektor* als nicht-triviale [[Linearkombinationen|Linearkombination]] der Vektoren $v_1,\dots,v_n$ darstellen lässt
 	→ Aus der Menge der *Koeffizienten* $\lambda_1,\dots,\lambda_n$ muss es also mindestens einen Koeffizient $\lambda_j\neq0,$ sodass $\lambda_1v_1,\dots,\lambda_nv_n=0$ gefüllt ist
 - Ansonsten sind $v_1,\dots,v_n$ *linear abhängig*
-	→ Es folgt: $\forall A\subseteq V,|A|=\{v\}:\quad A\text{ linear unabhängig}\Leftrightarrow v\neq0$
 ^1670172257009
 
 ### Allgemeiner bezogen auf $M\subseteq V$ #fc
-- Sei $V$ ein [[Vektorräume|Vektorraum]] und $M\subseteq V,$ dann heißt $M$ *linear unabhängig*, wenn $\forall A\subseteq M$ mit $A=\{v_1,\dots,v_n\},|A|<\infty$ die Vektoren $v_1,\dots,v_n$ *linear unabhängig* sind
+- Sei $V$ ein [[Vektorräume|Vektorraum]] und $M\subseteq V,$ dann heißt $M$ *linear unabhängig*, wenn $\forall A\subseteq M$ mit $|A|<\infty,A=\{v_1,\dots,v_n\}$ die Vektoren $v_1,\dots,v_n$ *linear unabhängig* sind
 	→ Andernfalls ist $M$ *linear abhängig*
 ^1670172737106
 
@@ -37,6 +36,7 @@ $$\text{span}\{v_1,\dots,v_n\}=Kv_1\oplus\dots\oplus Kv_n$$
 ^1670182969002
 
 ## Eigenschaften #fc
+Aus der [[#Definition fc|Definition]] folgt: $\forall A\subseteq V,|A|=1,A=\{v\}:\quad v\neq0\Leftrightarrow A\text{ linear unabhängig}$
 - $\forall$ Teilmenge einer linear unabhängigen Menge $M$ eines [[Vektorräume|Vektorraums]] $V$ ist wieder *linear unabhängig*
 - $\emptyset$ ist linear unabhängig
 ^1670172960182

@@ -4,7 +4,10 @@ cards-deck: Uni::Courses::Maths-I
 completed: true
 aliases:
   - Matrizen
+  - Matrix
   - Spaltenvektoren
+  - Matrixmultiplikation
+  - Matrizenmultiplikation
 linter-yaml-title-alias: Matrizen
 date-of-creation: 2022-10-31
 mod-date: 2022-12-04
