@@ -279,6 +279,16 @@
       "find": "(\\(( )*\\?+( )*\\))|(\\?\\?+)",
       "replace": "#TODO",
       "flags": "gm"
+    },
+    {
+      "find": "(\t)( )+",
+      "replace": "\t",
+      "flags": "gm"
+    },
+    {
+      "find": "\\rightarrow",
+      "replace": "\\to",
+      "flags": "gm"
     }
   ],
   "commonStyles": {
