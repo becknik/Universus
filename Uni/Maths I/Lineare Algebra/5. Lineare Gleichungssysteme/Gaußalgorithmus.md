@@ -10,11 +10,12 @@ mod-date: 2023-01-09
 
 # Gaußalgorithmus
 
-## Elementare Zeilenumformungen
+## Elementare Zeilenumformungen #fc
 - Die folgenden *elementaren Zeilenumformungen* sind Äquivalenzumformungen auf einer [[../2. Gruppen-Ringe-Körper/Matrizen#Definition fc|Matrix]] $A\in M_{m,n}(K):$
 1. Vertauschen von zwei Zeilen
 2. Die Skalarmultiplikation mit Skalaren $\neq0$
 3. Das Addieren des $\lambda$-fachen einer Zeile auf eine Andere
+^1673223378081
 
 ## Zeilenstufenform #fc
 - Eine [[../2. Gruppen-Ringe-Körper/Matrizen#Definition fc|Matrix]] $A\in M_{m,n}(K)$ ist in *Zeilenstufenform*, wenn für eine aufsteigende Folge von Indizes $1\leq j_1<j_2<j_r\leq n$ das Folgende gilt:
@@ -24,4 +25,3 @@ mod-date: 2023-01-09
 	3. Die untersten $m-r$ Zeilen sind Nullzeilen
 ^1673222028405
 > Schaubild texen #TODO
-

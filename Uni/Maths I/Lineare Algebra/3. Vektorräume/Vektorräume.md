@@ -8,7 +8,7 @@ aliases:
   - Vektorraumaxiome
 linter-yaml-title-alias: Vektorräume
 date-of-creation: 2022-11-13
-mod-date: 2023-01-08
+mod-date: 2023-01-09
 ---
 
 # Vektorräume
@@ -16,7 +16,7 @@ mod-date: 2023-01-08
 ## Definition #fc
 - Sei $K$ ein [[../2. Gruppen-Ringe-Körper/Körper|Körper]], dann ist der *Vektorraum* über $K$ (*$K$-Vektorraum*) definiert als eine
 	- … Menge $V$ aus *Vektoren*, sodass $(V,+)$ eine [[../2. Gruppen-Ringe-Körper/Gruppen|abelsche Gruppe]] bildet,
-	- … zusammen mit einer [[../1. Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $$K\times V\rightarrow V,\quad(\lambda,v)\mapsto\lambda\cdot v$$ (=*Skalarmultiplikation*)
+	- … zusammen mit einer [[../1. Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] \$$$K\times V\rightarrow V,\quad(\lambda,v)\mapsto\lambda\cdot v$$ (= *Skalarmultiplikation*)
 	→ Für die *Skalarmultiplikation* müssen die [[#Verktorraumaxiome auf $( lambda,v) mapsto lambda cdot v$ fc|Verktorraumaxiome]] gelten
 	→ Elemente aus $K$ werden *Skalare* genannt
 ^1668377830921
@@ -38,7 +38,7 @@ mod-date: 2023-01-08
 ## Wichtige Beispiele
 
 ### $K^n:$ #fc
-- $V$ (=Menge der *Vektoren*) $=K^n$ (=$n$-Tupel) bildet eine [[Vektorräume|Vektorraum]] mit der
+- Sei Menge der *Vektoren* $V=K^n$ (=$n$-Tupel), dann bildet sie einen [[Vektorräume|Vektorraum]] mit der
 	- … *komponentenweisen Addition* und der
 	- … Instanz der Skalarmultiplikation: $\lambda\cdot(x_1,\dots,x_n):=(\lambda x_1,\dots,\lambda x_n),\lambda\in K$
 - Die Skalarmultiplikation entspricht der *zentrischen Streckung* eines Vektors/ Tupels $v\in V$ um den Faktor $\lambda$

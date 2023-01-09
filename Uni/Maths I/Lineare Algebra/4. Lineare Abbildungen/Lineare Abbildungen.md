@@ -11,7 +11,7 @@ aliases:
   - Rang einer linearen Abbildung
 linter-yaml-title-alias: Lineare Abbildungen
 date-of-creation: 2022-12-04
-mod-date: 2023-01-08
+mod-date: 2023-01-09
 ---
 
 # Lineare Abbildungen
@@ -19,9 +19,9 @@ mod-date: 2023-01-08
 ## Definition #fc
 - Seien $V,W$ [[../3. Vektorräume/Vektorräume|Vektorräume]] über demselben [[../2. Gruppen-Ringe-Körper/Körper|Körper]] $K$
 - Eine [[../1. Logik-Mengenlehre-Relationen/Abbildungen|Abbildung]] $f:V\to W$ heißt *linear*, wenn folgendes gilt:
-	1. *Addititvität*: $\forall v_1,v_2\in V:\quad f(v_1+v_2)=f(v_1)+f(v_2)=w\in W$
-	2. "Verträglichkeit mit der Skalarmultiplikation": $\forall v\in V,\lambda\in K:$$f(\lambda v)=\lambda f(v)\in W$
-- Zusammengefasst muss also gelten: $$\forall v_1,v_2\in V,\lambda_1,\lambda_2\in K:\quad f(\lambda_1v_1+\lambda_2v_2)=\lambda_1f(v_1)+\lambda_2f(v_2)$$
+	1. *Addititvität*: $$\forall v_1,v_2\in V:\quad f(v_1+v_2)=f(v_1)+f(v_2)=w\in W$$
+	2. "Verträglichkeit mit der Skalarmultiplikation": $$\forall v\in V,\lambda\in K:\quad f(\lambda v)=\lambda f(v)\in W$$
+- Zusammengefasst muss also gelten: \$$$\forall v_1,v_2\in V,\lambda_1,\lambda_2\in K:\quad f(\lambda_1v_1+\lambda_2v_2)=\lambda_1f(v_1)+\lambda_2f(v_2)$$
 ^1670185338428
 
 ### Rang #fc
