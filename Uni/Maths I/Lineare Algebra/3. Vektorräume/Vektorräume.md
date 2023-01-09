@@ -21,7 +21,9 @@ mod-date: 2023-01-09
 	→ Elemente aus $K$ werden *Skalare* genannt
 ^1668377830921
 
-### Verktorraumaxiome auf $(\lambda,v)\mapsto\lambda\cdot v$ #fc
+## Verktorraumaxiome
+
+### Definition ($(\lambda,v)\mapsto\lambda\cdot v$) #fc
 1. Assoziativität: $\forall\lambda,\mu\in K,\forall v\in V:\quad(\lambda\cdot\mu)\cdot v=\lambda\cdot(\mu\cdot v)$
 2. Distributivität: $\forall\lambda,\mu\in K,\forall v\in V:\quad(\lambda+\mu)\cdot v=\mu\cdot v+\lambda\cdot v$
 3. Distributivität: $\forall\lambda\in K,\forall v,u\in V:\quad\lambda\cdot(v+u)=\lambda\cdot v+\lambda\cdot u$
@@ -29,9 +31,9 @@ mod-date: 2023-01-09
 ^1668377830931
 
 ## Eigenschaften #fc
-- Für $v\in V$ gilt: $c\cdot0=0$
+- Für $v\in V$ gilt: $v\cdot0=0$
 - $\forall\lambda\in K,v\in V$ gilt: $(−\lambda)v=−(\lambda v)=\lambda(−v)$
-- Jeder Vektorraum besitzt ein [[Erzeugendensystem|Basis]]
+- Jeder Vektorraum besitzt ein [[Erzeugendensysteme|Basis]]
 	→ Beweis über das [[Zornsche Lemma]] oder das [[Auswahlaxiom]] #TODO
 ^1668377840944
 

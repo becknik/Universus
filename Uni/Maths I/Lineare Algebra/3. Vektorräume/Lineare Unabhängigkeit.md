@@ -19,21 +19,21 @@ mod-date: 2023-01-08
 - Ansonsten sind $v_1,\dots,v_n$ *linear abhängig*
 ^1670172257009
 
-### Allgemeiner bezogen auf $M\subseteq V$ #fc
+### Verallgemeinerung auf $M\subseteq V$ #fc
 - Sei $V$ ein [[Vektorräume|Vektorraum]] und $M\subseteq V,$ dann heißt $M$ *linear unabhängig*, wenn $\forall A\subseteq M$ mit $|A|<\infty,A=\{v_1,\dots,v_n\}$ die Vektoren $v_1,\dots,v_n$ *linear unabhängig* sind
 	→ Andernfalls ist $M$ *linear abhängig*
 ^1670172737106
 
 ## Verhältnis zum Spann #fc
 - Seien $v_1,\dots,v_n$ Vektoren eines [[Vektorräume|Vektorraums]]
-- $v_1,\dots,v_n$ sind genau dann *linear unabhängig*, wenn $\forall s\in\text{span}(\{v_1,\dots,v_n\}):s$ lässt sich als [[Linearkombinationen]] von $v_1,\dots,v_n$ mit *eindeutig bestimmten* Koeffizienten schreiben
-- Formal:
+- $v_1,\dots,v_n$ sind genau dann *linear unabhängig*, wenn $\forall s\in\text{span}(\{v_1,\dots,v_n\})$ gilt:
+	- $s$ lässt sich als [[Linearkombinationen]] von $v_1,\dots,v_n$ mit *eindeutig bestimmten* Koeffizienten schreiben
+	- Formal:
 $$\text{span}\{v_1,\dots,v_n\}=Kv_1\oplus\dots\oplus Kv_n$$
 ^1670173439381
 
-## Hilfssatz 3.5.5 zu Linearität einer linear unabhängigen Teilmenge $B$ #fc
+## Hilfssatz 3.5.5 zu Linearität einer linear unabhängigen Teilmenge $B$
 - Sei $B\subseteq V$ *linear unabhängig*, $V$ ein [[Vektorräume|Vektorraum]] und $v\in V$ ein Vektor, dann gilt: $$B\cup\{v\}\text{ linear unabhängig}\quad\Leftrightarrow\quad v\notin\text{span}(B)$$
-^1670182969002
 
 ## Eigenschaften #fc
 Aus der [[#Definition fc|Definition]] folgt: $\forall A\subseteq V,|A|=1,A=\{v\}:\quad v\neq0\Leftrightarrow A\text{ linear unabhängig}$

@@ -2,18 +2,21 @@
 tags: uni maths maths-1
 cards-deck: Uni::Courses::Maths-I
 completed: true
-aliases: Spann
+aliases:
+  - Spann
+  - Aufspann
 linter-yaml-title-alias: Spann
 date-of-creation: 2022-12-04
-mod-date: 2023-01-08
+mod-date: 2023-01-09
 ---
 
 # Spann
 
 ## Definition #fc
-- Sei $V$ ein [[Vektorräume#Definition fc|Vektorraum]] und $M\subseteq V$
-- Der *Spann* oder *Aufspann* von $M$ ($span(M)$ geschrieben) sei definiert als die Schnittmenge aller [[Untervektorräume#Definition fc|Untervektorräume]], die $M$ enthalten
-	→ Der Spann $A$ von $M$ ist also der kleinste Untervektorraum von $V,$ für den $M\subseteq A$ gilt
+- Sei $V$ ein [[Vektorräume#Definition fc|Vektorraum]] und $M\subseteq V$ eine Teilmenge
+- Der *Spann* oder *Aufspann* von $M$ ($span(M)$ geschrieben) sei definiert als die Schnittmenge aller [[Untervektorräume#Definition fc|Untervektorräume]] von $V$, die $M$ enthalten
+	→ Der Spann von $M\subseteq V$ ist also der kleinste Untervektorraum von $V,$ der die Teilmenge $M$ enthält
+	→ Es gilt stehts $M\subseteq\text{span}(M)$
 ^1670110880364
 
 ## Zusammensetzung aus [[Linearkombinationen#Definition fc|Linearkombinationen]] #fc
