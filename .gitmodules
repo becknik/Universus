@@ -1,3 +1,3 @@
 [submodule "Uni"]
-	path = ./
-	url = https://github.com/becknik/Universus-Uni
+	path = ./Uni
+	url = https://github.com/becknik/Universus-Uni.git
