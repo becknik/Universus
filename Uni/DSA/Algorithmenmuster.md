@@ -10,9 +10,9 @@ mod-date: 2022-09-05
 
 # Algorithmenmuster
 → [[Algorithmen]]
-→ [[../../Softwareentwicklung/Algorithmen/Algorithmenparadigmen|Algorithmenparadigmen]]
+→ [[../../Informatik/Softwareentwicklung/Algorithmen/Algorithmenparadigmen|Algorithmenparadigmen]]
 
-## Varianten: #fc
+## Varianten #fc
 - [[Algorithmen/Muster/Inkrementelles Vorgehen|Inkrementelles Vorgehen]]
 - [[Algorithmen/Muster/Greedy|Greedy-Algorithmen]]
 - [[Algorithmen/Muster/Divide And Conquer|Divide And Conquer]]

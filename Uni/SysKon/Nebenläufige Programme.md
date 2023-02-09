@@ -38,7 +38,7 @@ mod-date: 2022-11-07
 ### Multiprozessoren #fc
 - Zwei Sequenzen von Zustandsübergängen führen in einem nebenläufigen Programm bei Ausführung auf [[Systemarchitekturen|Multikernprozesooren]] zum selben Endzustand, wenn folgende Eigenschaften erfüllt werden:
 	1. Die sequenzielle Ordnung der Befehle bleibt erhalten
-		 → Dieselbe Ausführungsordnung beim Zugriff auf lokale Ressourcen
+		→ Dieselbe Ausführungsordnung beim Zugriff auf lokale Ressourcen
 	2. Die Ausführungsordnung von Befehlen auf atomar veränderbaren gemeinsamen Ressourcen bleibt erhalten
 	→ Betrachte für jeden Zustand nur eine repräsentative Ausführungssequenz, welche die Eigenschaften 1 und 2 erfüllt.
 ^1667832897093

@@ -14,7 +14,7 @@ mod-date: 2022-10-13
 # Reguläre Ausdrücke
 → [[../../Theo I/3. Typ - REG/Deterministischer Endlicher Automat|DFA]]
 
-## DSA Syntax: #fc
+## DSA Syntax #fc
 - Kennzeichnung des String/Zeilen-Starts *\^* und -Endes *?*
 - *Konkatenationen*
 - *Gruppierungen*, auf die später zugegriffen werden kann: *(ab)*
@@ -25,16 +25,16 @@ mod-date: 2022-10-13
 - *Wildcards*: *.*
 ^1656411674779
 
-## POSIX Extended Syntax: #fc
+## POSIX Extended Syntax #fc
 → DSA Syntax $\cup\dots$
 - "Anti-Auswahl" *[\^ab]* $\equiv\Sigma\setminus\{a,b\}$
 - \\n, $n\in[unterschiedlich]$: Eine definierte *Capture Gruppe* (wie zum Beispiel lateinische Buchstaben)
 ^1663103650554
 
-## Perl & Co. Syntax:
+## Perl & Co. Syntax
 → [Rust regex crate](https://docs.rs/regex/latest/regex/)
 
-## Einsatzgebiete:
+## Einsatzgebiete
 - [[../Text|Textsuche]]
 - Festlegung von Datenformaten für Programmeingaben
-- Suchmasken für [[../../../Softwareentwicklung/Programmiersprachen|Programmiersprachen]]
+- Suchmasken für [[../../../Informatik/Softwareentwicklung/Programmiersprachen|Programmiersprachen]]

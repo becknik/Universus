@@ -13,8 +13,9 @@ mod-date: 2023-01-07
 # SMTP
 
 ## Eigenschaften
-- Definition des Standards & Formats in *RFC 821* & *RFC 822*
+- Definition des Standards & Formats in *RFC 821* & *822*
 - Wird zum Upload von zu versendenden Mails verwendet
+- Plain Text Protocol
 
 ## Aufbau
 - Envelope (für Message Transfer Server)

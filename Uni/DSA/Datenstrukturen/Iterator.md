@@ -10,14 +10,14 @@ mod-date: 2022-09-10
 
 # Iterator
 
-## Eigenschaften:
+## Eigenschaften
 - Ähnelt einem Cursor, der eine Datenstruktur durchwandert
 → Ähnelt dem Kopf einer [[../../Theo I/Turingmaschinen|Turingmaschine]]
 
-## Spezifikation: #fc
+## Spezifikation #fc
 - `next()`
 	→ *CPP*: *Gibt das aktuelle Element* zurück und setzt den Zeiger daraufhin auf das nächste Element
-	→ [[../../../Softwareentwicklung/ProgLangs/Java|Java]]: Verrückt die Referenz vom Head-Node aus startend auf das nächste Element und *gibt dann* dessen *Wert zurück*
+	→ [[../../../Informatik/Softwareentwicklung/ProgLangs/Java|Java]]: Verrückt die Referenz vom Head-Node aus startend auf das nächste Element und *gibt dann* dessen *Wert zurück*
 - `begin()`/ `end()`
 - `hasNext()`
 - `remove()`

@@ -13,7 +13,7 @@ mod-date: 2022-09-13
 ## Eigenschaften:
 - Mehrere kommunizierende Automaten werden in Form von Prozessen *koordiniert*
 - Kommen bei verteilten oder mehrkernigen Systemen zum Einsatz
-	→ [[../../Softwareentwicklung/ProgLangs/Java/Parallel/Threads|Java-Threads]]
+	→ [[../../Informatik/Softwareentwicklung/ProgLangs/Java/Parallel/Threads|Java-Threads]]
 
 ## Zustände von Prozessen: #fc
 - *Initialisiert* $\Rightarrow$ *Bereit* $\Leftrightarrow$ *Aktiv* $\Rightarrow$ *Terminiert*

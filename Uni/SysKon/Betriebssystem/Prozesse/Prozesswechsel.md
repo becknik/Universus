@@ -17,7 +17,7 @@ mod-date: 2023-01-02
 
 ## Funktionsweise von Kontextwechsel (5) #fc
 1. Sichere den Zustand (=Befehlszähler, Register, PSW, etc.) des aktiven [[Prozess|Prozesses]] $P_\text{cur}$ in [[Prozesskontrollblock|PCB]]$(P_\text{cur})$
-	 → Modifikation des Prozess-Statuses
+	→ Modifikation des Prozess-Statuses
 	→ Die Zustandssicherungen eines Prozesses (inklusive Stack-Verwaltung) funktionieren vollständig in Hardware
 2. Verschiebe $PCB(P_\text{cur})$ in die *Blocked*-Queue
 3. Wähle (durch ein [[../Scheduling|Scheduler]]) den nächsten Prozess $P_\text{next}$ & entnehme sein *PCB* aus der Bereit-Queue
@@ -40,7 +40,7 @@ mod-date: 2023-01-02
 ### Freiwillig Abgabe (3) #fc
 - Der [[../Prozess|Prozess]] wartet auf benötigte I/O Ressourcen
 - Der Prozess wartet auf durch andere Prozesse gesetzte Sperre
-	→ [[../../Synchronisation/Kritischer Abschnitt|Wechselseitiger Ausschluss]]
+	→ [[Wechselseitiger Ausschluss]]
 - Der Prozess ruft den [[../Funktionen/System Calls|System Call]] `sleep` auf
 ^1668289114276
 
@@ -57,9 +57,9 @@ mod-date: 2023-01-02
 1. Timer-Interrupt
 2. Beende *Ausführungszyklus* durch *zu-Ende-Ausführen* des aktuellen Befehls von [[../Prozess|Prozess]] $A$
 3. Speichere *[[../../../Ro I/RISC-V/Problem Counter|Problem Counter]] & Process-Status-Word* auf dem Stack
-	 → *Sperre [[../Unterbrechungen|Interrupts]]*
+	→ *Sperre [[../Unterbrechungen|Interrupts]]*
 4. Lade *Interrupt-Service-Routine*-Adresse aus dem [[../Unterbrechungen|UBR]]-Vektor in den PC
-	 → *Moduswechsel* durch Aufrufen der ISR im *Kernel-Space*
+	→ *Moduswechsel* durch Aufrufen der ISR im *Kernel-Space*
 5. Lade *PC & PSW von Stack* und sichere sie in [[../Prozesse/Prozesskontrollblock|PCB]]$(A)$
 6. Sichere weitere notwendige CPU-[[../../../Ro I/RISC-V/Register|Register]] in $PCB(A)$
 7. Setze den *Zustand* in $PCB(A)$ auf "bereit“ & reihe Prozess $A$ in die *Ready-[[../../../DSA/Datenstrukturen/Queue|Queue]]* ein
@@ -80,7 +80,7 @@ mod-date: 2023-01-02
 	→ *Moduswechsel* in den Kernel-Mode
 3. Der Kernel sendet einen *read-Request* an eine Festplatte
 4. Kernel setzt [[Prozesskontrollblock|PCB]]$(A)$ auf "blockiert" und reiht $A$ in die passende *Event-[[../../../../DSA/Datenstrukturen/Queue|Queue]]* ein
-	 → Freiwillige Abgabe der CPU
+	→ Freiwillige Abgabe der CPU
 5. Der Kernel wählt einen *anderen bereiten* Prozess $B$ aus *Ready-Queue*
 6. Kernel stellt Zustand von $B$ wieder her, setzt PCB$(B)$ auf aktiv und übergibt die CPU an $B$
 7. Die Festplatte schließt schließlich die I/O-Operation ab und sendet [[../Unterbrechungen|Hardware-Interrupt]]

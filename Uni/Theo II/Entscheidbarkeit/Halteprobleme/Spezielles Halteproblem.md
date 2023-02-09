@@ -17,7 +17,7 @@ mod-date: 2022-10-02
 ## Definition #fc
 $$K = \{w \in \{0, 1\}^{Stern}\mid M_w\text{ hält auf der Eingabe }w\}$$
 - **Aussage**: *Hält ein Algorithmus in endlicher Zeit, wenn man ihm seinen eigenen Text übergibt?*
-	→ Ein Compiler in [[../../../../Softwareentwicklung/ProgLangs/Java|Java]] kann auch selber in Java programmiert sein
+	→ Ein Compiler in [[../../../../Informatik/Softwareentwicklung/ProgLangs/Java|Java]] kann auch selber in Java programmiert sein
 ^1660502831481
 
 ### Beweis: $K$ ist nicht entscheidbar #fc
@@ -54,9 +54,9 @@ $\Uparrow$ Anschauliche Darstellung S.191[^1]
 	→ Aufgrund der Definition $\forall x\in A^*:g(x)\neq\varphi_x(x)$
 	→ Da $g$ berechenbar ist, $\exists$ Algorithmus $y\in A^*$, der $g$ berechnet ($\equiv g=\varphi_y$)
 $$\Rightarrow\varphi_y(y)=g(y)\neq\varphi_y(y)$$
-- Dieser *Widerspruch* lässt sich nur lösen, indem man die Annahme aufgibt, dass $h$ berechenbar sei (was ein Diagonalbeweis (?) ist)
+- Dieser *Widerspruch* lässt sich nur lösen, indem man die Annahme aufgibt, dass $h$ berechenbar sei (was ein Diagonalbeweis #TODO ist)
 
-## Eigenschaften:
+## Eigenschaften
 - Wird auch als "*Selbstanwendungsproblem*" bezeichnet
 
 [^1]:Saake, G., Sattler, K.: Algorithmen und Datenstrukturen: Eine Einführung mit Java. 6. Auflage dpunkt-Verlag, 2021.

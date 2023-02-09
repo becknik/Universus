@@ -10,25 +10,25 @@ mod-date: 2022-09-13
 
 # Algorithmen
 
-## Definition: #fc
+## Definition #fc
 - Algorithmen sind eine *eindeutig* und *präzise Beschreibung* durch eine (formale) Sprache
 - Bestehen aus mehreren *elementaren Schritten*
 - Müssen nach *endlicher Zeit* terminieren
 - *Treiben* ein *allgemeinen* Bearbeitungs- oder Berechnungsvorgang *voran*
 	→ In der Informatik handelt es sich eher um Berechnungen
-- Lassen sich auf *[[../../Softwareentwicklung/Algorithmen/Modelle/Abstrakte Maschinen|abstrakten Maschinen]]* ausführen
+- Lassen sich auf *[[../../Informatik/Softwareentwicklung/Algorithmen/Modelle/Abstrakte Maschinen|abstrakten Maschinen]]* ausführen
 ^1649750932424
 
-## Intuitiver Algorithmus-Begriff:
+## Intuitiver Algorithmus-Begriff
 - Ein Algorithmus ist eine *präzise*, *endliche Beschreibung* eines *allgemeinen Verfahrens* unter Verwendung *ausführbarer elementarer Bearbeitungsschritte*
 
-## Begriffsherkunft: #fc
+## Begriffsherkunft #fc
 - Der Begriff "Algorithmus" kommt aus einer Konkatenation
 	- des "Al"s aus Namens des persisch-arabischen Mathematikers *Muhammed ibn Musa abu Djafar alChoresmi*, der 800 n.Chr. eine Aufgabensammlung für Kaufleute und Testamentsvollstrecker veröffentlichte, welches später als *Liber Algorithmi* ins Lateinische übersetzt wird…
 	- und des griechischen "arithmos" für Zahl[^1]
 ^1662235629954
 
-## Varianten:
+## Varianten
 → [[Algorithmenmuster|Algorithmenmuster]]
 - [[Suchverfahren|Suchverfahren]]
 - [[Sortierverfahren]]
@@ -36,7 +36,7 @@ mod-date: 2022-09-13
 - [[Text-Such-Algorithmem|Textalgorithmem]]
 - [[Hashfunktionen|Hashfunktionen]]
 
-## Andere:
+## Andere
 - [[Algorithmen/Euklidischer Algorithmus|Euklidischer Algorithmus]]
 - [[Probleme/Rucksackproblem]]
 - [[Probleme/Maximum Subarray Problem|Maximum Subarray Problem]]

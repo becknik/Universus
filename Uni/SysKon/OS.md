@@ -37,7 +37,7 @@ mod-date: 2023-01-03
 ^1668081294563
 
 ## Hierarchie #fc
-- Ring 0: [[../OS|OS-Kernel]]
+- Ring 0: [[#Kernel Mode (3) fc|OS-Kernel]]
 - Ring 1
 - Ring 2: Hier können Treiber laufen
 - Ring 3: Anwendungen
@@ -47,7 +47,7 @@ mod-date: 2023-01-03
 ## Organisation
 
 ### Monolithisch #fc
-→ Die heute vorherrschende [[../OS|Kernel]]-Typ
+→ Die heute vorherrschende [[#Kernel Mode (3) fc|OS-Kernel]]-Typ
 - Zusammengesetzt aus einer Menge von Prozeduren, die sich gegenseitig aufrufen können
 - Teilfunktion sind in Kernel-Module ausgelagert
 	→ Bessere Wartbarkeit, Erweiterbarkeit, kleiner Kern & Konfiguration zur Laufzeit
@@ -60,7 +60,7 @@ mod-date: 2023-01-03
 	- …I/O- und [[Unterbrechungen|UBR]]-Verwaltung
 	- …[[Scheduling]]
 	- …Einfaches Speicher Management
-→ [[../OS|Kernel]] lässt sich gut verifizieren, da er wenig Code umfasst
+→[[#Kernel Mode (3) fc|OS-Kernel]] lässt sich gut verifizieren, da er wenig Code umfasst
 - Viele essentielle Dienste laufen im Anwendungs-Modus (Ring-3)
 	→ Gerätetreiber, Dateisysteme, Virtueller Speicher, Window Manager, Sicherheitsdienste
 - Prinzip hat sich (z.B. durch die Auslagerung von Grafikkarten-Treibern in Ring-2) auch auf monolitische Kernels übertragen
