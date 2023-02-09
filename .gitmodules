@@ -1,3 +1,4 @@
 [submodule "Uni"]
 	path = Uni
 	url = https://github.com/becknik/Universus-Uni.git
+	branch = main
