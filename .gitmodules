@@ -2,3 +2,8 @@
 	path = Uni
 	url = https://github.com/becknik/Universus-Uni.git
 	branch = main
+
+[submodule "Prog"]
+	path = Prog
+	url = https://github.com/becknik/Universus-Prog.git
+	branch = main
